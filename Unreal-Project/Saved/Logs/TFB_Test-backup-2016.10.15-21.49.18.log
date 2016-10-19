@@ -1,0 +1,1532 @@
+﻿Log file open, 10/15/16 00:27:33
+LogInit:Display: Running engine for game: TFB_Test
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-506620668) SRandInit(-506620666).
+LogTaskGraph: Started task graph with 4 named threads and 7 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.072373
+OCULUS: Info: [CAPI] LibOVR module is located at C:\Program Files\Oculus\Support\oculus-runtime\LibOVRRT64_1.dll
+OCULUS: Debug: Connected to the server running version (prod = 1).1.9.0(build = 292703) feature version = 0. Client runs version (prod = 1).1.9.0(build = 292703) feature version = 0
+LogInit: Version: 4.12.5-3039270+++UE4+Release-4.12
+LogInit: API Version: 2992821
+LogInit: Net Version: 3039270
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 3
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 2
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 6
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 2
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 0
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Jul  6 2016 09:09:46
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.12
+LogInit: Command line:  
+LogInit: Base directory: Z:/Z Program Files/Epic Games/4.12/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Using libcurl 7.41.0
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2016.10.15-04.27.33:509][  0]LogInit: Selected Device Profile: [Windows]
+[2016.10.15-04.27.33:509][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.10.15-04.27.33:542][  0]LogInit: Computer: ZACH-PC
+[2016.10.15-04.27.33:542][  0]LogInit: User: Zack
+[2016.10.15-04.27.33:542][  0]LogInit: CPU Page size=65536, Cores=4
+[2016.10.15-04.27.33:542][  0]LogInit: High frequency timer resolution =3.222684 MHz
+[2016.10.15-04.27.33:542][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2016.10.15-04.27.33:542][  0]LogMemory: Platform Memory Stats for Windows
+[2016.10.15-04.27.33:542][  0]LogMemory: Process Physical Memory: 197.88 MB used, 197.88 MB peak
+[2016.10.15-04.27.33:542][  0]LogMemory: Process Virtual Memory: 201.29 MB used, 201.29 MB peak
+[2016.10.15-04.27.33:542][  0]LogMemory: Physical Memory: 4455.14 MB used, 8155.50 MB total
+[2016.10.15-04.27.33:542][  0]LogMemory: Virtual Memory: 601.01 MB used, 134217728.00 MB total
+[2016.10.15-04.27.33:611][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.10.15-04.27.33:934][  0]LogD3D11RHI: D3D11 adapters:
+[2016.10.15-04.27.34:120][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 680' (Feature Level 11_0)
+[2016.10.15-04.27.34:120][  0]LogD3D11RHI:       2017/0/4077 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2016.10.15-04.27.34:124][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2016.10.15-04.27.34:124][  0]LogD3D11RHI:       0/0/4077 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2016.10.15-04.27.34:124][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.10.15-04.27.34:127][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.10.15-04.27.34:128][  0]LogD3D11RHI:     GPU DeviceId: 0x1180 (for the marketing name, search the web for "GPU Device Id")
+[2016.10.15-04.27.34:128][  0]LogWindows: EnumDisplayDevices:
+[2016.10.15-04.27.34:128][  0]LogWindows:    0. 'NVIDIA GeForce GTX 680' (P:1 D:1)
+[2016.10.15-04.27.34:128][  0]LogWindows:    1. 'NVIDIA GeForce GTX 680' (P:0 D:0)
+[2016.10.15-04.27.34:128][  0]LogWindows:    2. 'NVIDIA GeForce GTX 680' (P:0 D:0)
+[2016.10.15-04.27.34:128][  0]LogWindows:    3. 'NVIDIA GeForce GTX 680' (P:0 D:0)
+[2016.10.15-04.27.34:128][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2016.10.15-04.27.34:128][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 680
+[2016.10.15-04.27.34:128][  0]LogD3D11RHI:   Driver Version: 372.70 (internal:21.21.13.7270, unified:372.70)
+[2016.10.15-04.27.34:128][  0]LogD3D11RHI:      Driver Date: 8-25-2016
+[2016.10.15-04.27.34:128][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.10.15-04.27.34:292][  0]LogD3D11RHI: Async texture creation enabled
+[2016.10.15-04.27.34:379][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2016.10.15-04.27.34:379][  0]LogShaderCompilers: Guid format shader working directory is -10 characters bigger than the processId version (../../../../../../Z Documents/Unreal Projects/TFB_Test/Intermediate/Shaders/WorkingDirectory/11464/).
+[2016.10.15-04.27.34:379][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Zack/AppData/Local/Temp/UnrealShaderWorkingDir/C9618412492651C1CDC44D89CE228419/'.
+[2016.10.15-04.27.34:379][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.10.15-04.27.35:818][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.10.15-04.27.35:834][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.10.15-04.27.35:845][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.10.15-04.27.35:856][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.10.15-04.27.35:868][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.10.15-04.27.35:881][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.10.15-04.27.35:894][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.10.15-04.27.35:906][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.10.15-04.27.35:917][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.10.15-04.27.35:929][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.10.15-04.27.35:941][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.10.15-04.27.35:964][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.10.15-04.27.35:964][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.10.15-04.27.35:969][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.10.15-04.27.36:235][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.10.15-04.27.36:244][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.10.15-04.27.36:254][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.10.15-04.27.36:315][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.10.15-04.27.36:329][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.10.15-04.27.36:329][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.10.15-04.27.36:684][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.10.15-04.27.37:520][  0]LogDerivedDataCache: Loaded boot cache 0.83s 48MB C:/Users/Zack/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2016.10.15-04.27.37:520][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Zack/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc
+[2016.10.15-04.27.37:521][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Z Documents/Unreal Projects/TFB_Test/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.10.15-04.27.37:521][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.10.15-04.27.37:521][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Z Documents/Unreal Projects/TFB_Test/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.10.15-04.27.37:521][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.10.15-04.27.37:553][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.10.15-04.27.37:565][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Zack/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.10.15-04.27.38:528][  0]LogInit: Selected Device Profile: [Windows]
+[2016.10.15-04.27.38:538][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.10.15-04.27.38:928][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.10.15-04.27.38:928][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.10.15-04.27.38:928][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.10.15-04.27.39:402][  0]LogAssetRegistry: FAssetRegistry took 0.0228 seconds to start up
+[2016.10.15-04.27.39:481][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.072469 seconds
+[2016.10.15-04.27.39:487][  0]LogUObjectArray: 28739 objects as part of root set at end of initial load.
+[2016.10.15-04.27.39:487][  0]LogUObjectAllocator: 5855624 out of 0 bytes used by permanent object pool.
+[2016.10.15-04.27.39:488][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.10.15-04.27.39:498][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.10.15-04.27.40:418][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.10.15-04.27.40:418][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.10.15-04.27.43:133][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.10.15-04.27.43:547][  0]SourceControl: Info Source control is disabled
+[2016.10.15-04.27.43:548][  0]SourceControl: Info Source control is disabled
+[2016.10.15-04.27.43:592][  0]SourceControl: Info Source control is disabled
+[2016.10.15-04.27.43:613][  0]SourceControl: Info Source control is disabled
+[2016.10.15-04.27.44:030][  0]LogEngine: Initializing Engine...
+[2016.10.15-04.27.44:059][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.10.15-04.27.44:060][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.10.15-04.27.44:064][  0]LogHMD: Oculus plugin initialized. Version: 4.12.5-3039270+++UE4+Release-4.12, LibOVR: 1.9.0, SDK: 1.3.2, built Jul  6 2016, 09:11:15
+[2016.10.15-04.27.44:243][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.10.15-04.27.44:280][  0]LogInit: XAudio2 using 'Speakers (Logitech Wireless Headset)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.10.15-04.27.44:303][  0]LogInit: FAudioDevice initialized.
+[2016.10.15-04.27.44:339][  0]LogDerivedDataCache: Saved boot cache 0.04s 48MB C:/Users/Zack/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2016.10.15-04.27.44:346][  0]LogInit: Texture streaming: Enabled
+[2016.10.15-04.27.44:404][  0]LogInit: Transaction tracking system initialized
+[2016.10.15-04.27.44:483][  0]BlueprintLog: New page: Editor Load
+[2016.10.15-04.27.44:923][  0]LocalizationService: Info Localization service is disabled
+[2016.10.15-04.27.45:129][  0]LogConsoleResponse:Display: 
+[2016.10.15-04.27.45:357][  0]LogFileCache: Scanning file cache for directory 'Z:/Z Documents/Unreal Projects/TFB_Test/Content/' took 0.01s
+[2016.10.15-04.27.45:357][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2016.10.15-04.27.45:357][  0]LogCook:Display: Mobile HDR setting 1
+[2016.10.15-04.27.45:691][  0]SourceControl: Info Source control is disabled
+[2016.10.15-04.27.45:695][  0]Cmd: MAP LOAD FILE="../../../../../../Z Documents/Unreal Projects/TFB_Test/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.10.15-04.27.45:712][  0]LightingResults: New page: Lighting Build
+[2016.10.15-04.27.45:723][  0]MapCheck: New page: Map Check
+[2016.10.15-04.27.45:723][  0]LightingResults: New page: Lighting Build
+[2016.10.15-04.27.47:486][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.10.15-04.27.47:566][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.10.15-04.27.47:569][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.10.15-04.27.47:652][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 83.583ms to complete.
+[2016.10.15-04.27.47:652][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 1.958
+[2016.10.15-04.27.47:992][  0]LogCollectionManager: Loaded 0 collections in 0.001332 seconds
+[2016.10.15-04.27.48:052][  0]LogFileCache: Scanning file cache for directory 'Z:/Z Documents/Unreal Projects/TFB_Test/Saved/Collections/' took 0.01s
+[2016.10.15-04.27.48:052][  0]LogFileCache: Scanning file cache for directory 'Z:/Z Documents/Unreal Projects/TFB_Test/Content/Developers/Zack/Collections/' took 0.01s
+[2016.10.15-04.27.48:052][  0]LogFileCache: Scanning file cache for directory 'Z:/Z Documents/Unreal Projects/TFB_Test/Content/Collections/' took 0.01s
+[2016.10.15-04.27.48:052][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2016.10.15-04.27.48:067][  0]LogContentBrowser: Native class hierarchy populated in 0.0099 seconds. Added 2047 classes and 369 folders.
+[2016.10.15-04.27.48:079][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.001 s
+[2016.10.15-04.27.48:080][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.10.15-04.27.48:082][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0007 seconds. Added 12 classes and 0 folders.
+[2016.10.15-04.27.48:087][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.10.15-04.27.48:256][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.10.15-04.27.48:267][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2016.10.15-04.27.48:396][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.10.15-04.27.48:417][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.10.15-04.27.48:461][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2016.10.15-04.27.48:461][  0]LogLoad: Full Startup: 16.42 seconds (BP compile: 0.14 seconds)
+[2016.10.15-04.27.48:461][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2016.10.15-04.27.48:830][  0]LogOcInput: OculusInput pre-init called
+[2016.10.15-04.27.48:842][  0]LogOcInput: OculusInput is initialized. Init status 0. Runtime version: 1.9.0
+[2016.10.15-04.27.49:151][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.10.15-04.27.49:349][  0]LogRenderer: Reallocating scene render targets to support 1020x464 (Frame:2).
+[2016.10.15-04.27.49:476][  1]LogAssetRegistry: Asset discovery search completed in 10.0977 seconds
+[2016.10.15-04.27.49:477][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.10.15-04.27.49:477][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000417 seconds (updated 0 objects)
+[2016.10.15-04.46.00:029][824]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Z Documents/Class/Knife1.FBX)
+[2016.10.15-04.46.00:151][824]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2016.10.15-04.46.00:151][824]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2016.10.15-04.46.00:151][824]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2016.10.15-04.46.00:151][824]LogFbx: ItemName: Model, ItemCount : 1
+[2016.10.15-04.46.00:151][824]LogFbx: ItemName: Geometry, ItemCount : 1
+[2016.10.15-04.46.00:151][824]LogFbx: ItemName: Material, ItemCount : 1
+[2016.10.15-04.46.00:151][824]LogFbx: ItemName: AnimationCurve, ItemCount : 3
+[2016.10.15-04.46.00:151][824]LogFbx: ItemName: AnimationCurveNode, ItemCount : 1
+[2016.10.15-04.46.00:161][824]LogFbx: Loading FBX Scene from ../../../../../../Z Documents/Class/Knife1.FBX
+[2016.10.15-04.46.00:179][824]LogFbx: FBX Scene Loaded Succesfully
+[2016.10.15-04.46.18:378][824]LogFbx: Loading FBX Scene from ../../../../../../Z Documents/Class/Knife1.FBX
+[2016.10.15-04.46.18:384][824]LogFbx: FBX Scene Loaded Succesfully
+[2016.10.15-04.46.18:388][824]LogFbx:Warning: Triangulating static mesh Cube
+[2016.10.15-04.46.18:455][824]LogStaticMesh: Building static mesh Knife1...
+[2016.10.15-04.46.18:470][824]LogStaticMesh: Built static mesh [0.02s] /Game/Items/Knife1.Knife1
+[2016.10.15-04.46.20:020][987]LogActorFactory: Actor Factory created Knife1
+[2016.10.15-04.46.20:794][ 79]LogActorFactory: Actor Factory created Knife1
+[2016.10.15-04.46.24:863][488]LogSavePackage: Save=220.36ms
+[2016.10.15-04.46.24:864][488]LogSavePackage: Moving '../../../../../../Z Documents/Unreal Projects/TFB_Test/Saved/ThirdPersonExampleMap_Auto1CC9DAFD2413CDE61244E959DC6A7814B.tmp' to '../../../../../../Z Documents/Unreal Projects/TFB_Test/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto1.umap'
+[2016.10.15-04.46.24:867][488]LogSavePackage:Display: Finished SavePackage ../../../../../../Z Documents/Unreal Projects/TFB_Test/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto1.umap
+[2016.10.15-04.46.24:869][488]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.331
+[2016.10.15-04.46.24:869][488]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.331
+[2016.10.15-04.46.24:870][488]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Items/Knife1] ([1] browsable assets)...
+[2016.10.15-04.46.24:883][488]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Items/Knife1.Knife1]
+[2016.10.15-04.46.24:883][488]OBJ SavePackage: Finished generating thumbnails for package [/Game/Items/Knife1]
+[2016.10.15-04.46.24:883][488]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Items/Knife1" FILE="../../../../../../Z Documents/Unreal Projects/TFB_Test/Saved/Autosaves/Game/Items/Knife1_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2016.10.15-04.46.24:894][488]LogSavePackage: Save=9.49ms
+[2016.10.15-04.46.24:894][488]LogSavePackage: Moving '../../../../../../Z Documents/Unreal Projects/TFB_Test/Saved/Knife1_Auto129C231ED40669B6E2BA2E78C3BF34DBB.tmp' to '../../../../../../Z Documents/Unreal Projects/TFB_Test/Saved/Autosaves/Game/Items/Knife1_Auto1.uasset'
+[2016.10.15-04.46.24:895][488]LogSavePackage:Display: Finished SavePackage ../../../../../../Z Documents/Unreal Projects/TFB_Test/Saved/Autosaves/Game/Items/Knife1_Auto1.uasset
+[2016.10.15-04.46.24:895][488]LogFileHelpers: Auto-saving content packages took 0.026
+[2016.10.15-04.47.09:286][474]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Z Documents/Class/Bat1.FBX)
+[2016.10.15-04.47.09:338][474]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2016.10.15-04.47.09:338][474]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2016.10.15-04.47.09:338][474]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2016.10.15-04.47.09:338][474]LogFbx: ItemName: Model, ItemCount : 1
+[2016.10.15-04.47.09:338][474]LogFbx: ItemName: Geometry, ItemCount : 1
+[2016.10.15-04.47.09:338][474]LogFbx: ItemName: Material, ItemCount : 1
+[2016.10.15-04.47.09:338][474]LogFbx: ItemName: AnimationCurve, ItemCount : 3
+[2016.10.15-04.47.09:338][474]LogFbx: ItemName: AnimationCurveNode, ItemCount : 1
+[2016.10.15-04.47.09:342][474]LogFbx: Loading FBX Scene from ../../../../../../Z Documents/Class/Bat1.FBX
+[2016.10.15-04.47.09:357][474]LogFbx: FBX Scene Loaded Succesfully
+[2016.10.15-04.47.12:563][474]LogFbx: Loading FBX Scene from ../../../../../../Z Documents/Class/Bat1.FBX
+[2016.10.15-04.47.12:569][474]LogFbx: FBX Scene Loaded Succesfully
+[2016.10.15-04.47.12:571][474]LogFbx:Warning: Triangulating static mesh Cylinder
+[2016.10.15-04.47.12:706][474]LogStaticMesh: Building static mesh Bat1...
+[2016.10.15-04.47.12:723][474]LogStaticMesh: Built static mesh [0.02s] /Game/Items/Bat1.Bat1
+[2016.10.15-04.47.14:083][618]LogActorFactory: Actor Factory created Bat1
+[2016.10.15-04.47.15:360][770]LogActorFactory: Actor Factory created Bat1
+[2016.10.15-04.47.58:353][838]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Z Documents/Class/Knife1/Knife1_01 - Default_M.png)
+[2016.10.15-04.47.58:681][838]LogTexture:Display: Building textures: Knife1_01_-_Default_M (AutoDXT)
+[2016.10.15-04.48.03:432][985]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Z Documents/Class/Knife1/Knife1_01 - Default_D.png)
+[2016.10.15-04.48.03:623][985]LogTexture:Display: Building textures: Knife1_01_-_Default_D (AutoDXT)
+[2016.10.15-04.48.04:684][985]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Z Documents/Class/Knife1/Knife1_01 - Default_NM.png)
+[2016.10.15-04.48.05:073][985]LogTexture:Display: Building textures: Knife1_01_-_Default_NM (BC5)
+[2016.10.15-04.48.09:976][497]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Knife1)
+[2016.10.15-04.48.11:265][637]Cmd: DUPLICATE
+[2016.10.15-04.48.11:265][637]Cmd: ACTOR DUPLICATE
+[2016.10.15-04.48.13:065][838]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bat1)
+[2016.10.15-04.48.18:140][427]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Knife1)
+[2016.10.15-04.48.21:990][861]LogMaterial: Missing cached shader map for material Knife1_01_-_Default_D_Mat, compiling. 
+[2016.10.15-04.48.22:034][861]LogMaterial: Missing cached shader map for material Knife1_01_-_Default_NM_Mat, compiling. 
+[2016.10.15-04.48.28:243][463]LogMaterial: Missing cached shader map for material Knife1_01_-_Default_D_Mat, compiling. 
+[2016.10.15-04.48.28:375][463]LogMaterial: Missing cached shader map for material Knife1_01_-_Default_D_Mat, compiling. 
+[2016.10.15-04.48.28:381][463]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.10.15-04.48.28:411][463]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2016.10.15-04.48.30:553][711]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 23 instructions
+[2016.10.15-04.48.30:553][711]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.10.15-04.48.30:553][711]MaterialEditorStats: Info Texture samplers: 1/16
+[2016.10.15-04.48.36:110][369]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Items/Knife_Mat" FILE="../../../../../../Z Documents/Unreal Projects/TFB_Test/Content/Items/Knife_Mat.uasset" SILENT=true
+[2016.10.15-04.48.36:121][369]LogSavePackage: Save=9.67ms
+[2016.10.15-04.48.36:121][369]LogSavePackage: Moving '../../../../../../Z Documents/Unreal Projects/TFB_Test/Saved/Knife_Mat21FA017F4784F4AAFA4F099B6A003D05.tmp' to '../../../../../../Z Documents/Unreal Projects/TFB_Test/Content/Items/Knife_Mat.uasset'
+[2016.10.15-04.48.36:123][369]LogSavePackage:Display: Finished SavePackage ../../../../../../Z Documents/Unreal Projects/TFB_Test/Content/Items/Knife_Mat.uasset
+[2016.10.15-04.48.51:131][820]LogMaterial: Missing cached shader map for material Knife1_01_-_Default_D_Mat, compiling. 
+[2016.10.15-04.48.51:137][820]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.10.15-04.48.51:139][820]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2016.10.15-04.48.51:168][820]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2016.10.15-04.48.51:171][820]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2016.10.15-04.48.52:380][940]LogMaterial: Missing cached shader map for material Knife1_01_-_Default_D_Mat, compiling. 
+[2016.10.15-04.48.52:386][940]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.10.15-04.48.52:387][940]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2016.10.15-04.48.52:413][940]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2016.10.15-04.48.52:416][940]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2016.10.15-04.48.52:422][940]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2016.10.15-04.48.54:531][129]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 23 instructions
+[2016.10.15-04.48.54:531][129]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.10.15-04.48.54:531][129]MaterialEditorStats: Info Texture samplers: 1/16
+[2016.10.15-04.49.00:377][685]LogMaterial: Missing cached shader map for material Knife1_01_-_Default_D_Mat, compiling. 
+[2016.10.15-04.49.00:383][685]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.10.15-04.49.00:414][685]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2016.10.15-04.49.02:016][826]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 25 instructions
+[2016.10.15-04.49.02:016][826]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.10.15-04.49.02:016][826]MaterialEditorStats: Info Texture samplers: 2/16
+[2016.10.15-04.49.02:715][895]LogMaterial: Missing cached shader map for material Knife1_01_-_Default_D_Mat, compiling. 
+[2016.10.15-04.49.02:721][895]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.10.15-04.49.02:752][895]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2016.10.15-04.49.04:489][ 52]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 40 instructions
+[2016.10.15-04.49.04:489][ 52]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.10.15-04.49.04:489][ 52]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.10.15-04.49.07:620][337]LogMaterial: Missing cached shader map for material Knife1_01_-_Default_D_Mat, compiling. 
+[2016.10.15-04.49.07:626][337]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.10.15-04.49.07:630][337]LogMaterial: Missing cached shader map for material Knife1_01_-_Default_D_Mat, compiling. 
+[2016.10.15-04.49.07:636][337]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.10.15-04.49.09:469][510]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 40 instructions
+[2016.10.15-04.49.09:469][510]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.10.15-04.49.09:469][510]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.10.15-04.49.12:764][844]LogMaterial: Missing cached shader map for material Knife1_01_-_Default_D_Mat, compiling. 
+[2016.10.15-04.49.12:771][844]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.10.15-04.49.12:773][844]LogMaterial: Missing cached shader map for material Knife1_01_-_Default_D_Mat, compiling. 
+[2016.10.15-04.49.12:778][844]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.10.15-04.49.14:375][995]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 40 instructions
+[2016.10.15-04.49.14:375][995]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.10.15-04.49.14:375][995]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.10.15-04.49.27:268][258]LogMaterialEditor: Applying material Knife_Mat
+[2016.10.15-04.49.27:648][258]LogMaterial: Missing cached shader map for material Knife1_01_-_Default_D_Mat, compiling. 
+[2016.10.15-04.49.27:660][258]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.10.15-04.49.27:679][258]LogMaterial: Missing cached shader map for material Knife_Mat, compiling. 
+[2016.10.15-04.49.27:694][258]LogMaterial: Missing cached shader map for material Knife_Mat, compiling. 
+[2016.10.15-04.49.27:705][258]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.10.15-04.49.32:680][777]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 70 instructions
+[2016.10.15-04.49.32:680][777]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.10.15-04.49.32:680][777]MaterialEditorStats: Info Texture samplers: 6/16
+[2016.10.15-04.49.47:010][481]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.10.15-04.49.47:010][481]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.15-04.49.47:010][481]LogApp: UseVRFocus has changed to 1
+[2016.10.15-04.49.47:010][481]LogApp: HasVRFocus has changed to 1
+[2016.10.15-04.49.47:010][481]LogApp: UseVRFocus has changed to 0
+[2016.10.15-04.49.47:010][481]LogApp: HasVRFocus has changed to 0
+[2016.10.15-04.49.47:013][481]PIE: New page: PIE session: ThirdPersonExampleMap (Oct 14, 2016, 7:49:47 PM)
+[2016.10.15-04.49.47:013][481]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2016.10.15-04.49.47:057][481]LogPlayLevel: PIE: StaticDuplicateObject took: (0.043766s)
+[2016.10.15-04.49.47:057][481]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.10.15-04.49.47:057][481]LogPlayLevel: PIE: World Init took: (0.000787s)
+[2016.10.15-04.49.47:058][481]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.044814s)
+[2016.10.15-04.49.47:065][481]LogApp: UseVRFocus has changed to 1
+[2016.10.15-04.49.47:065][481]LogApp: HasVRFocus has changed to 1
+[2016.10.15-04.49.47:065][481]LogApp: UseVRFocus has changed to 0
+[2016.10.15-04.49.47:065][481]LogApp: HasVRFocus has changed to 0
+[2016.10.15-04.49.47:070][481]LogInit: XAudio2 using 'Speakers (Logitech Wireless Headset)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.10.15-04.49.47:076][481]LogInit: FAudioDevice initialized.
+[2016.10.15-04.49.47:168][481]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.10.15-04.49.47:178][481]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2016.10.15-00.49.47
+[2016.10.15-04.49.47:179][481]LogWorld: Bringing up level for play took: 0.009308
+[2016.10.15-04.49.47:189][481]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 11 classes and 0 folders.
+[2016.10.15-04.49.47:190][481]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.155
+[2016.10.15-04.49.47:190][481]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.10.15-04.49.54:778][386]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.10.15-04.49.54:831][386]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.10.15-04.50.22:164][873]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Z Documents/Class/Knife1/Blood/Knife1_01 - Default_DBlood.png)
+[2016.10.15-04.50.22:371][873]LogTexture:Display: Building textures: Knife1_01_-_Default_DBlood (AutoDXT)
+[2016.10.15-04.50.23:845][873]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Z Documents/Class/Knife1/Blood/Knife1_01 - Default_MBlood.png)
+[2016.10.15-04.50.24:145][873]LogTexture:Display: Building textures: Knife1_01_-_Default_MBlood (AutoDXT)
+[2016.10.15-04.50.25:255][873]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Z Documents/Class/Knife1/Blood/Knife1_01 - Default_NMBlood.png)
+[2016.10.15-04.50.25:637][873]LogTexture:Display: Building textures: Knife1_01_-_Default_NMBlood (BC5)
+[2016.10.15-04.50.34:124][792]LogMaterial: Missing cached shader map for material Knife_Mat2, compiling. 
+[2016.10.15-04.50.41:108][610]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Items/Knife_Mat_Blood" FILE="../../../../../../Z Documents/Unreal Projects/TFB_Test/Content/Items/Knife_Mat_Blood.uasset" SILENT=true
+[2016.10.15-04.50.41:121][610]LogSavePackage: Save=10.95ms
+[2016.10.15-04.50.41:121][610]LogSavePackage: Moving '../../../../../../Z Documents/Unreal Projects/TFB_Test/Saved/Knife_Mat_Blood916A17BC496CC4B0CCCF02B7DE59F4DA.tmp' to '../../../../../../Z Documents/Unreal Projects/TFB_Test/Content/Items/Knife_Mat_Blood.uasset'
+[2016.10.15-04.50.41:123][610]LogSavePackage:Display: Finished SavePackage ../../../../../../Z Documents/Unreal Projects/TFB_Test/Content/Items/Knife_Mat_Blood.uasset
+[2016.10.15-04.50.42:275][734]LogMaterial: Missing cached shader map for material Knife_Mat_Blood, compiling. 
+[2016.10.15-04.50.42:346][734]LogMaterial: Missing cached shader map for material Knife_Mat_Blood, compiling. 
+[2016.10.15-04.50.42:352][734]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.10.15-04.50.42:383][734]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2016.10.15-04.50.42:387][734]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2016.10.15-04.50.42:391][734]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2016.10.15-04.50.44:819][934]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 40 instructions
+[2016.10.15-04.50.44:819][934]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.10.15-04.50.44:819][934]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.10.15-04.50.48:322][217]LogMaterial: Missing cached shader map for material Knife_Mat_Blood, compiling. 
+[2016.10.15-04.50.48:328][217]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.10.15-04.50.48:353][217]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2016.10.15-04.50.50:463][391]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 40 instructions
+[2016.10.15-04.50.50:463][391]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.10.15-04.50.50:463][391]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.10.15-04.50.52:154][523]LogMaterial: Missing cached shader map for material Knife_Mat_Blood, compiling. 
+[2016.10.15-04.50.52:160][523]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.10.15-04.50.52:186][523]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2016.10.15-04.50.55:051][752]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 40 instructions
+[2016.10.15-04.50.55:051][752]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.10.15-04.50.55:051][752]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.10.15-04.50.55:149][759]LogMaterial: Missing cached shader map for material Knife_Mat_Blood, compiling. 
+[2016.10.15-04.50.55:155][759]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.10.15-04.50.55:183][759]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2016.10.15-04.50.56:280][852]LogMaterialEditor: Applying material Knife_Mat_Blood
+[2016.10.15-04.50.56:641][852]LogMaterial: Missing cached shader map for material Knife_Mat_Blood, compiling. 
+[2016.10.15-04.50.56:654][852]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.10.15-04.50.56:687][852]LogMaterial: Missing cached shader map for material Knife_Mat_Blood, compiling. 
+[2016.10.15-04.50.56:702][852]LogMaterial: Missing cached shader map for material Knife_Mat_Blood, compiling. 
+[2016.10.15-04.50.56:713][852]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.10.15-04.50.59:674][106]LogMaterialEditor: Saving and Compiling material Knife_Mat_Blood
+[2016.10.15-04.51.01:445][106]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Items/Knife_Mat_Blood" FILE="../../../../../../Z Documents/Unreal Projects/TFB_Test/Content/Items/Knife_Mat_Blood.uasset" SILENT=true
+[2016.10.15-04.51.01:460][106]LogSavePackage: Save=10.94ms
+[2016.10.15-04.51.01:460][106]LogSavePackage: Moving '../../../../../../Z Documents/Unreal Projects/TFB_Test/Saved/Knife_Mat_Blood03B6ED2E4C8DCA32CE1AFCA4A859D50D.tmp' to '../../../../../../Z Documents/Unreal Projects/TFB_Test/Content/Items/Knife_Mat_Blood.uasset'
+[2016.10.15-04.51.01:462][106]LogSavePackage:Display: Finished SavePackage ../../../../../../Z Documents/Unreal Projects/TFB_Test/Content/Items/Knife_Mat_Blood.uasset
+[2016.10.15-04.51.01:465][106]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 70 instructions
+[2016.10.15-04.51.01:465][106]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.10.15-04.51.01:465][106]MaterialEditorStats: Info Texture samplers: 6/16
+[2016.10.15-04.51.03:546][298]LogMaterialEditor: Saving and Compiling material Knife_Mat
+[2016.10.15-04.51.03:567][298]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Items/Knife_Mat" FILE="../../../../../../Z Documents/Unreal Projects/TFB_Test/Content/Items/Knife_Mat.uasset" SILENT=true
+[2016.10.15-04.51.03:591][298]LogSavePackage: Save=10.42ms
+[2016.10.15-04.51.03:592][298]LogSavePackage: Moving '../../../../../../Z Documents/Unreal Projects/TFB_Test/Saved/Knife_MatD425C6BD4ED3C63B6E8133B3CF3455E5.tmp' to '../../../../../../Z Documents/Unreal Projects/TFB_Test/Content/Items/Knife_Mat.uasset'
+[2016.10.15-04.51.03:594][298]LogSavePackage:Display: Finished SavePackage ../../../../../../Z Documents/Unreal Projects/TFB_Test/Content/Items/Knife_Mat.uasset
+[2016.10.15-04.51.06:018][540]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Knife2)
+[2016.10.15-04.51.38:289][993]LogSavePackage: Save=232.15ms
+[2016.10.15-04.51.38:289][993]LogSavePackage: Moving '../../../../../../Z Documents/Unreal Projects/TFB_Test/Saved/ThirdPersonExampleMap1A9391504635EB173F467EBE027A4C07.tmp' to '../../../../../../Z Documents/Unreal Projects/TFB_Test/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2016.10.15-04.51.38:305][993]LogSavePackage:Display: Finished SavePackage ../../../../../../Z Documents/Unreal Projects/TFB_Test/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2016.10.15-04.51.38:323][993]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.416
+[2016.10.15-04.51.38:340][993]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Items/Knife1" FILE="../../../../../../Z Documents/Unreal Projects/TFB_Test/Content/Items/Knife1.uasset" SILENT=true
+[2016.10.15-04.51.38:350][993]LogSavePackage: Save=8.43ms
+[2016.10.15-04.51.38:350][993]LogSavePackage: Moving '../../../../../../Z Documents/Unreal Projects/TFB_Test/Saved/Knife1953B20A5405AB77F8ED491BD5A2F2B9D.tmp' to '../../../../../../Z Documents/Unreal Projects/TFB_Test/Content/Items/Knife1.uasset'
+[2016.10.15-04.51.38:352][993]LogSavePackage:Display: Finished SavePackage ../../../../../../Z Documents/Unreal Projects/TFB_Test/Content/Items/Knife1.uasset
+[2016.10.15-04.51.38:368][993]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Items/Bat1" FILE="../../../../../../Z Documents/Unreal Projects/TFB_Test/Content/Items/Bat1.uasset" SILENT=true
+[2016.10.15-04.51.38:382][993]LogSavePackage: Save=12.22ms
+[2016.10.15-04.51.38:382][993]LogSavePackage: Moving '../../../../../../Z Documents/Unreal Projects/TFB_Test/Saved/Bat1C146CAD04BD3FD82C4FAB59AB4E0CD46.tmp' to '../../../../../../Z Documents/Unreal Projects/TFB_Test/Content/Items/Bat1.uasset'
+[2016.10.15-04.51.38:384][993]LogSavePackage:Display: Finished SavePackage ../../../../../../Z Documents/Unreal Projects/TFB_Test/Content/Items/Bat1.uasset
+[2016.10.15-04.51.38:395][993]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Items/Knife1_01_-_Default_M" FILE="../../../../../../Z Documents/Unreal Projects/TFB_Test/Content/Items/Knife1_01_-_Default_M.uasset" SILENT=true
+[2016.10.15-04.51.38:805][993]LogSavePackage: Save=408.88ms
+[2016.10.15-04.51.38:805][993]LogSavePackage: Moving '../../../../../../Z Documents/Unreal Projects/TFB_Test/Saved/Knife1_01_-_Default_M266A928142B7372FD34180A788CBE652.tmp' to '../../../../../../Z Documents/Unreal Projects/TFB_Test/Content/Items/Knife1_01_-_Default_M.uasset'
+[2016.10.15-04.51.38:807][993]LogSavePackage:Display: Finished SavePackage ../../../../../../Z Documents/Unreal Projects/TFB_Test/Content/Items/Knife1_01_-_Default_M.uasset
+[2016.10.15-04.51.38:818][993]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Items/Knife1_01_-_Default_D" FILE="../../../../../../Z Documents/Unreal Projects/TFB_Test/Content/Items/Knife1_01_-_Default_D.uasset" SILENT=true
+[2016.10.15-04.51.39:024][993]LogSavePackage: Save=205.41ms
+[2016.10.15-04.51.39:024][993]LogSavePackage: Moving '../../../../../../Z Documents/Unreal Projects/TFB_Test/Saved/Knife1_01_-_Default_D7FC74DE24E9A2D856B772A909A020811.tmp' to '../../../../../../Z Documents/Unreal Projects/TFB_Test/Content/Items/Knife1_01_-_Default_D.uasset'
+[2016.10.15-04.51.39:027][993]LogSavePackage:Display: Finished SavePackage ../../../../../../Z Documents/Unreal Projects/TFB_Test/Content/Items/Knife1_01_-_Default_D.uasset
+[2016.10.15-04.51.39:037][993]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Items/Knife1_01_-_Default_NM" FILE="../../../../../../Z Documents/Unreal Projects/TFB_Test/Content/Items/Knife1_01_-_Default_NM.uasset" SILENT=true
+[2016.10.15-04.51.39:684][993]LogSavePackage: Save=644.95ms
+[2016.10.15-04.51.39:684][993]LogSavePackage: Moving '../../../../../../Z Documents/Unreal Projects/TFB_Test/Saved/Knife1_01_-_Default_NM9494761A4B88D2B3F680C8837F841192.tmp' to '../../../../../../Z Documents/Unreal Projects/TFB_Test/Content/Items/Knife1_01_-_Default_NM.uasset'
+[2016.10.15-04.51.39:686][993]LogSavePackage:Display: Finished SavePackage ../../../../../../Z Documents/Unreal Projects/TFB_Test/Content/Items/Knife1_01_-_Default_NM.uasset
+[2016.10.15-04.51.39:688][993]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Items/Knife1_01_-_Default_D_Mat" FILE="../../../../../../Z Documents/Unreal Projects/TFB_Test/Content/Items/Knife1_01_-_Default_D_Mat.uasset" SILENT=true
+[2016.10.15-04.51.39:690][993]LogSavePackage: Save=1.03ms
+[2016.10.15-04.51.39:690][993]LogSavePackage: Moving '../../../../../../Z Documents/Unreal Projects/TFB_Test/Saved/Knife1_01_-_Default_D_MatEAE1468E4C8B4DD2B11013B58ED62F64.tmp' to '../../../../../../Z Documents/Unreal Projects/TFB_Test/Content/Items/Knife1_01_-_Default_D_Mat.uasset'
+[2016.10.15-04.51.39:693][993]LogSavePackage:Display: Finished SavePackage ../../../../../../Z Documents/Unreal Projects/TFB_Test/Content/Items/Knife1_01_-_Default_D_Mat.uasset
+[2016.10.15-04.51.39:704][993]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Items/Knife1_01_-_Default_DBlood" FILE="../../../../../../Z Documents/Unreal Projects/TFB_Test/Content/Items/Knife1_01_-_Default_DBlood.uasset" SILENT=true
+[2016.10.15-04.51.39:934][993]LogSavePackage: Save=229.00ms
+[2016.10.15-04.51.39:934][993]LogSavePackage: Moving '../../../../../../Z Documents/Unreal Projects/TFB_Test/Saved/Knife1_01_-_Default_DBlood2797FB1E404107795E0831958C4C3837.tmp' to '../../../../../../Z Documents/Unreal Projects/TFB_Test/Content/Items/Knife1_01_-_Default_DBlood.uasset'
+[2016.10.15-04.51.39:936][993]LogSavePackage:Display: Finished SavePackage ../../../../../../Z Documents/Unreal Projects/TFB_Test/Content/Items/Knife1_01_-_Default_DBlood.uasset
+[2016.10.15-04.51.39:947][993]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Items/Knife1_01_-_Default_MBlood" FILE="../../../../../../Z Documents/Unreal Projects/TFB_Test/Content/Items/Knife1_01_-_Default_MBlood.uasset" SILENT=true
+[2016.10.15-04.51.40:376][993]LogSavePackage: Save=427.06ms
+[2016.10.15-04.51.40:376][993]LogSavePackage: Moving '../../../../../../Z Documents/Unreal Projects/TFB_Test/Saved/Knife1_01_-_Default_MBloodB8D06A454548851324E55EBB7A047B90.tmp' to '../../../../../../Z Documents/Unreal Projects/TFB_Test/Content/Items/Knife1_01_-_Default_MBlood.uasset'
+[2016.10.15-04.51.40:378][993]LogSavePackage:Display: Finished SavePackage ../../../../../../Z Documents/Unreal Projects/TFB_Test/Content/Items/Knife1_01_-_Default_MBlood.uasset
+[2016.10.15-04.51.40:389][993]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Items/Knife1_01_-_Default_NMBlood" FILE="../../../../../../Z Documents/Unreal Projects/TFB_Test/Content/Items/Knife1_01_-_Default_NMBlood.uasset" SILENT=true
+[2016.10.15-04.51.41:034][993]LogSavePackage: Save=643.43ms
+[2016.10.15-04.51.41:034][993]LogSavePackage: Moving '../../../../../../Z Documents/Unreal Projects/TFB_Test/Saved/Knife1_01_-_Default_NMBlood27E6749A4FBB205034F5FCA27650DDB9.tmp' to '../../../../../../Z Documents/Unreal Projects/TFB_Test/Content/Items/Knife1_01_-_Default_NMBlood.uasset'
+[2016.10.15-04.51.41:036][993]LogSavePackage:Display: Finished SavePackage ../../../../../../Z Documents/Unreal Projects/TFB_Test/Content/Items/Knife1_01_-_Default_NMBlood.uasset
+[2016.10.15-04.51.41:038][993]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Items/Knife_Mat2" FILE="../../../../../../Z Documents/Unreal Projects/TFB_Test/Content/Items/Knife_Mat2.uasset" SILENT=true
+[2016.10.15-04.51.41:041][993]LogSavePackage: Save=0.91ms
+[2016.10.15-04.51.41:041][993]LogSavePackage: Moving '../../../../../../Z Documents/Unreal Projects/TFB_Test/Saved/Knife_Mat2B2FA360649F906548C8FB8B53D8BB204.tmp' to '../../../../../../Z Documents/Unreal Projects/TFB_Test/Content/Items/Knife_Mat2.uasset'
+[2016.10.15-04.51.41:043][993]LogSavePackage:Display: Finished SavePackage ../../../../../../Z Documents/Unreal Projects/TFB_Test/Content/Items/Knife_Mat2.uasset
+[2016.10.15-04.51.59:789][225]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.10.15-04.51.59:789][225]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.15-04.51.59:789][225]LogApp: UseVRFocus has changed to 1
+[2016.10.15-04.51.59:789][225]LogApp: HasVRFocus has changed to 1
+[2016.10.15-04.51.59:789][225]LogApp: UseVRFocus has changed to 0
+[2016.10.15-04.51.59:789][225]LogApp: HasVRFocus has changed to 0
+[2016.10.15-04.51.59:789][225]PIE: New page: PIE session: ThirdPersonExampleMap (Oct 14, 2016, 7:51:59 PM)
+[2016.10.15-04.51.59:789][225]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2016.10.15-04.51.59:831][225]LogPlayLevel: PIE: StaticDuplicateObject took: (0.041721s)
+[2016.10.15-04.51.59:832][225]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.10.15-04.51.59:832][225]LogPlayLevel: PIE: World Init took: (0.001244s)
+[2016.10.15-04.51.59:832][225]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.043319s)
+[2016.10.15-04.51.59:844][225]LogApp: UseVRFocus has changed to 1
+[2016.10.15-04.51.59:844][225]LogApp: HasVRFocus has changed to 1
+[2016.10.15-04.51.59:844][225]LogApp: UseVRFocus has changed to 0
+[2016.10.15-04.51.59:844][225]LogApp: HasVRFocus has changed to 0
+[2016.10.15-04.51.59:849][225]LogInit: XAudio2 using 'Speakers (Logitech Wireless Headset)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.10.15-04.51.59:855][225]LogInit: FAudioDevice initialized.
+[2016.10.15-04.51.59:903][225]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.10.15-04.51.59:912][225]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2016.10.15-00.51.59
+[2016.10.15-04.51.59:913][225]LogWorld: Bringing up level for play took: 0.009524
+[2016.10.15-04.51.59:915][225]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.881
+[2016.10.15-04.51.59:915][225]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.10.15-04.52.01:394][399]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.10.15-04.52.01:440][399]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.10.15-04.52.02:933][574]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Knife1)
+[2016.10.15-04.52.06:748][ 26]Cmd: TRANSACTION UNDO
+[2016.10.15-04.52.06:755][ 26]LogEditorTransaction: Undo Scale Actors
+[2016.10.15-04.52.17:684][262]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.10.15-04.52.17:684][262]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.15-04.52.17:684][262]LogApp: UseVRFocus has changed to 1
+[2016.10.15-04.52.17:684][262]LogApp: HasVRFocus has changed to 1
+[2016.10.15-04.52.17:684][262]LogApp: UseVRFocus has changed to 0
+[2016.10.15-04.52.17:684][262]LogApp: HasVRFocus has changed to 0
+[2016.10.15-04.52.17:684][262]PIE: New page: PIE session: ThirdPersonExampleMap (Oct 14, 2016, 7:52:17 PM)
+[2016.10.15-04.52.17:684][262]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2016.10.15-04.52.17:723][262]LogPlayLevel: PIE: StaticDuplicateObject took: (0.039412s)
+[2016.10.15-04.52.17:724][262]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.10.15-04.52.17:724][262]LogPlayLevel: PIE: World Init took: (0.000855s)
+[2016.10.15-04.52.17:724][262]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.040540s)
+[2016.10.15-04.52.17:733][262]LogApp: UseVRFocus has changed to 1
+[2016.10.15-04.52.17:733][262]LogApp: HasVRFocus has changed to 1
+[2016.10.15-04.52.17:733][262]LogApp: UseVRFocus has changed to 0
+[2016.10.15-04.52.17:733][262]LogApp: HasVRFocus has changed to 0
+[2016.10.15-04.52.17:738][262]LogInit: XAudio2 using 'Speakers (Logitech Wireless Headset)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.10.15-04.52.17:744][262]LogInit: FAudioDevice initialized.
+[2016.10.15-04.52.17:789][262]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.10.15-04.52.17:798][262]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2016.10.15-00.52.17
+[2016.10.15-04.52.17:800][262]LogWorld: Bringing up level for play took: 0.009387
+[2016.10.15-04.52.17:801][262]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.767
+[2016.10.15-04.52.17:801][262]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.10.15-04.52.22:229][790]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.10.15-04.52.22:270][790]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.10.15-04.52.25:977][229]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Knife1)
+[2016.10.15-04.52.31:415][875]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Knife2)
+[2016.10.15-04.52.38:198][655]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.10.15-04.52.38:198][655]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.15-04.52.38:198][655]LogApp: UseVRFocus has changed to 1
+[2016.10.15-04.52.38:198][655]LogApp: HasVRFocus has changed to 1
+[2016.10.15-04.52.38:198][655]LogApp: UseVRFocus has changed to 0
+[2016.10.15-04.52.38:198][655]LogApp: HasVRFocus has changed to 0
+[2016.10.15-04.52.38:198][655]PIE: New page: PIE session: ThirdPersonExampleMap (Oct 14, 2016, 7:52:38 PM)
+[2016.10.15-04.52.38:198][655]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2016.10.15-04.52.38:237][655]LogPlayLevel: PIE: StaticDuplicateObject took: (0.039133s)
+[2016.10.15-04.52.38:238][655]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.10.15-04.52.38:238][655]LogPlayLevel: PIE: World Init took: (0.000856s)
+[2016.10.15-04.52.38:238][655]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.040265s)
+[2016.10.15-04.52.38:246][655]LogApp: UseVRFocus has changed to 1
+[2016.10.15-04.52.38:246][655]LogApp: HasVRFocus has changed to 1
+[2016.10.15-04.52.38:246][655]LogApp: UseVRFocus has changed to 0
+[2016.10.15-04.52.38:246][655]LogApp: HasVRFocus has changed to 0
+[2016.10.15-04.52.38:251][655]LogInit: XAudio2 using 'Speakers (Logitech Wireless Headset)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.10.15-04.52.38:257][655]LogInit: FAudioDevice initialized.
+[2016.10.15-04.52.38:306][655]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.10.15-04.52.38:314][655]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2016.10.15-00.52.38
+[2016.10.15-04.52.38:315][655]LogWorld: Bringing up level for play took: 0.009129
+[2016.10.15-04.52.38:317][655]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.717
+[2016.10.15-04.52.38:317][655]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.10.15-04.52.45:977][571]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.10.15-04.52.46:020][571]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.10.15-04.52.46:703][649]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2016.10.15-04.52.47:207][706]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bat1)
+[2016.10.15-04.52.57:558][912]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.10.15-04.52.57:558][912]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.15-04.52.57:558][912]LogApp: UseVRFocus has changed to 1
+[2016.10.15-04.52.57:558][912]LogApp: HasVRFocus has changed to 1
+[2016.10.15-04.52.57:558][912]LogApp: UseVRFocus has changed to 0
+[2016.10.15-04.52.57:558][912]LogApp: HasVRFocus has changed to 0
+[2016.10.15-04.52.57:558][912]PIE: New page: PIE session: ThirdPersonExampleMap (Oct 14, 2016, 7:52:57 PM)
+[2016.10.15-04.52.57:558][912]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2016.10.15-04.52.57:597][912]LogPlayLevel: PIE: StaticDuplicateObject took: (0.039545s)
+[2016.10.15-04.52.57:598][912]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.10.15-04.52.57:598][912]LogPlayLevel: PIE: World Init took: (0.000909s)
+[2016.10.15-04.52.57:599][912]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.040730s)
+[2016.10.15-04.52.57:607][912]LogApp: UseVRFocus has changed to 1
+[2016.10.15-04.52.57:607][912]LogApp: HasVRFocus has changed to 1
+[2016.10.15-04.52.57:607][912]LogApp: UseVRFocus has changed to 0
+[2016.10.15-04.52.57:607][912]LogApp: HasVRFocus has changed to 0
+[2016.10.15-04.52.57:611][912]LogInit: XAudio2 using 'Speakers (Logitech Wireless Headset)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.10.15-04.52.57:617][912]LogInit: FAudioDevice initialized.
+[2016.10.15-04.52.57:663][912]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.10.15-04.52.57:672][912]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2016.10.15-00.52.57
+[2016.10.15-04.52.57:673][912]LogWorld: Bringing up level for play took: 0.009469
+[2016.10.15-04.52.57:674][912]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.64
+[2016.10.15-04.52.57:674][912]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.10.15-04.53.01:533][372]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.10.15-04.53.01:581][372]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.10.15-04.53.03:091][549]Cmd: DUPLICATE
+[2016.10.15-04.53.03:091][549]Cmd: ACTOR DUPLICATE
+[2016.10.15-04.53.09:468][262]LogSavePackage: Save=219.66ms
+[2016.10.15-04.53.09:468][262]LogSavePackage: Moving '../../../../../../Z Documents/Unreal Projects/TFB_Test/Saved/ThirdPersonExampleMap24FEE61742A1F0772E0E5DBD0197DAE8.tmp' to '../../../../../../Z Documents/Unreal Projects/TFB_Test/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2016.10.15-04.53.09:471][262]LogSavePackage:Display: Finished SavePackage ../../../../../../Z Documents/Unreal Projects/TFB_Test/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2016.10.15-04.53.09:488][262]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.320
+[2016.10.15-05.13.15:919][326]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Z Documents/Class/Bat1/Bat1_02 - Default_D.png)
+[2016.10.15-05.13.16:105][326]LogTexture:Display: Building textures: Bat1_02_-_Default_D (AutoDXT)
+[2016.10.15-05.13.17:677][326]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Z Documents/Class/Bat1/Bat1_02 - Default_M.png)
+[2016.10.15-05.13.17:847][326]LogTexture:Display: Building textures: Bat1_02_-_Default_M (AutoDXT)
+[2016.10.15-05.13.18:313][326]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Z Documents/Class/Bat1/Bat1_02 - Default_NM.png)
+[2016.10.15-05.13.18:492][326]LogTexture:Display: Building textures: Bat1_02_-_Default_NM (BC5)
+[2016.10.15-05.13.31:193][746]LogMaterial: Missing cached shader map for material Bat_Mat, compiling. 
+[2016.10.15-05.13.34:375][113]LogMaterial: Missing cached shader map for material Bat_Mat, compiling. 
+[2016.10.15-05.13.34:454][113]LogMaterial: Missing cached shader map for material Bat_Mat, compiling. 
+[2016.10.15-05.13.34:462][113]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.10.15-05.13.34:492][113]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2016.10.15-05.13.36:376][226]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 23 instructions
+[2016.10.15-05.13.36:376][226]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.10.15-05.13.36:376][226]MaterialEditorStats: Info Texture samplers: 1/16
+[2016.10.15-05.13.38:148][381]LogMaterial: Missing cached shader map for material Bat_Mat, compiling. 
+[2016.10.15-05.13.38:154][381]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.10.15-05.13.38:156][381]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2016.10.15-05.13.38:184][381]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2016.10.15-05.13.38:188][381]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2016.10.15-05.13.39:593][509]LogMaterial: Missing cached shader map for material Bat_Mat, compiling. 
+[2016.10.15-05.13.39:599][509]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.10.15-05.13.39:603][509]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2016.10.15-05.13.39:656][509]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2016.10.15-05.13.39:659][509]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2016.10.15-05.13.39:663][509]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2016.10.15-05.13.41:317][654]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 23 instructions
+[2016.10.15-05.13.41:317][654]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.10.15-05.13.41:317][654]MaterialEditorStats: Info Texture samplers: 1/16
+[2016.10.15-05.13.47:480][199]LogMaterial: Missing cached shader map for material Bat_Mat, compiling. 
+[2016.10.15-05.13.47:486][199]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.10.15-05.13.47:517][199]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2016.10.15-05.13.49:139][337]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 25 instructions
+[2016.10.15-05.13.49:139][337]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.10.15-05.13.49:139][337]MaterialEditorStats: Info Texture samplers: 2/16
+[2016.10.15-05.13.49:339][353]LogMaterial: Missing cached shader map for material Bat_Mat, compiling. 
+[2016.10.15-05.13.49:345][353]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.10.15-05.13.49:375][353]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2016.10.15-05.13.50:903][481]LogMaterial: Missing cached shader map for material Bat_Mat, compiling. 
+[2016.10.15-05.13.50:910][481]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.10.15-05.13.50:936][481]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2016.10.15-05.13.52:725][630]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 25 instructions
+[2016.10.15-05.13.52:725][630]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.10.15-05.13.52:725][630]MaterialEditorStats: Info Texture samplers: 2/16
+[2016.10.15-05.13.52:860][640]LogMaterial: Missing cached shader map for material Bat_Mat, compiling. 
+[2016.10.15-05.13.52:867][640]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.10.15-05.13.52:893][640]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2016.10.15-05.13.54:689][792]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 40 instructions
+[2016.10.15-05.13.54:689][792]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.10.15-05.13.54:689][792]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.10.15-05.14.00:673][332]LogMaterial: Missing cached shader map for material Bat_Mat, compiling. 
+[2016.10.15-05.14.00:679][332]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.10.15-05.14.00:711][332]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2016.10.15-05.14.02:485][485]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 40 instructions
+[2016.10.15-05.14.02:485][485]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.10.15-05.14.02:485][485]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.10.15-05.14.13:588][501]LogMaterialEditor: Applying material Bat_Mat
+[2016.10.15-05.14.14:071][501]LogMaterial: Missing cached shader map for material Bat_Mat, compiling. 
+[2016.10.15-05.14.14:084][501]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.10.15-05.14.14:098][501]LogMaterial: Missing cached shader map for material Bat_Mat, compiling. 
+[2016.10.15-05.14.14:113][501]LogMaterial: Missing cached shader map for material Bat_Mat, compiling. 
+[2016.10.15-05.14.14:125][501]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.10.15-05.14.17:612][793]LogMaterialEditor: Saving and Compiling material Bat_Mat
+[2016.10.15-05.14.18:230][793]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Items/Bat_Mat" FILE="../../../../../../Z Documents/Unreal Projects/TFB_Test/Content/Items/Bat_Mat.uasset" SILENT=true
+[2016.10.15-05.14.18:243][793]LogSavePackage: Save=11.33ms
+[2016.10.15-05.14.18:243][793]LogSavePackage: Moving '../../../../../../Z Documents/Unreal Projects/TFB_Test/Saved/Bat_Mat983D2E4142F5D072A45462AA188AA5D0.tmp' to '../../../../../../Z Documents/Unreal Projects/TFB_Test/Content/Items/Bat_Mat.uasset'
+[2016.10.15-05.14.18:245][793]LogSavePackage:Display: Finished SavePackage ../../../../../../Z Documents/Unreal Projects/TFB_Test/Content/Items/Bat_Mat.uasset
+[2016.10.15-05.14.18:249][793]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 72 instructions
+[2016.10.15-05.14.18:249][793]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.10.15-05.14.18:249][793]MaterialEditorStats: Info Texture samplers: 6/16
+[2016.10.15-05.14.22:157][209]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bat1)
+[2016.10.15-05.14.31:897][338]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.10.15-05.14.31:897][338]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.15-05.14.31:897][338]LogApp: UseVRFocus has changed to 1
+[2016.10.15-05.14.31:897][338]LogApp: HasVRFocus has changed to 1
+[2016.10.15-05.14.31:897][338]LogApp: UseVRFocus has changed to 0
+[2016.10.15-05.14.31:897][338]LogApp: HasVRFocus has changed to 0
+[2016.10.15-05.14.31:897][338]PIE: New page: PIE session: ThirdPersonExampleMap (Oct 14, 2016, 8:14:31 PM)
+[2016.10.15-05.14.31:897][338]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2016.10.15-05.14.32:061][338]LogPlayLevel: PIE: StaticDuplicateObject took: (0.163780s)
+[2016.10.15-05.14.32:062][338]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.10.15-05.14.32:062][338]LogPlayLevel: PIE: World Init took: (0.000897s)
+[2016.10.15-05.14.32:062][338]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.164965s)
+[2016.10.15-05.14.32:074][338]LogApp: UseVRFocus has changed to 1
+[2016.10.15-05.14.32:074][338]LogApp: HasVRFocus has changed to 1
+[2016.10.15-05.14.32:074][338]LogApp: UseVRFocus has changed to 0
+[2016.10.15-05.14.32:074][338]LogApp: HasVRFocus has changed to 0
+[2016.10.15-05.14.32:079][338]LogInit: XAudio2 using 'Speakers (Logitech Wireless Headset)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.10.15-05.14.32:086][338]LogInit: FAudioDevice initialized.
+[2016.10.15-05.14.32:133][338]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.10.15-05.14.32:142][338]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2016.10.15-01.14.32
+[2016.10.15-05.14.32:144][338]LogWorld: Bringing up level for play took: 0.009852
+[2016.10.15-05.14.32:145][338]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 1.111
+[2016.10.15-05.14.32:145][338]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.10.15-05.14.48:492][295]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.10.15-05.14.48:541][295]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.10.15-05.15.33:029][ 28]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Z Documents/Class/Bat1/Bat_Blood/Bat1_02 - Default_DBlood.png)
+[2016.10.15-05.15.33:233][ 28]LogTexture:Display: Building textures: Bat1_02_-_Default_DBlood (AutoDXT)
+[2016.10.15-05.15.34:778][ 28]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Z Documents/Class/Bat1/Bat_Blood/Bat1_02 - Default_MBlood.png)
+[2016.10.15-05.15.34:947][ 28]LogTexture:Display: Building textures: Bat1_02_-_Default_MBlood (AutoDXT)
+[2016.10.15-05.15.35:381][ 28]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Z Documents/Class/Bat1/Bat_Blood/Bat1_02 - Default_NMBlood.png)
+[2016.10.15-05.15.35:563][ 28]LogTexture:Display: Building textures: Bat1_02_-_Default_NMBlood (BC5)
+[2016.10.15-05.15.44:473][996]LogMaterial: Missing cached shader map for material Bat1_02_-_Default_DBlood_Mat, compiling. 
+[2016.10.15-05.15.54:744][202]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Items/BatBlood_Mat" FILE="../../../../../../Z Documents/Unreal Projects/TFB_Test/Content/Items/BatBlood_Mat.uasset" SILENT=true
+[2016.10.15-05.15.54:755][202]LogSavePackage: Save=9.88ms
+[2016.10.15-05.15.54:755][202]LogSavePackage: Moving '../../../../../../Z Documents/Unreal Projects/TFB_Test/Saved/BatBlood_Mat88073CAD4D6BCB022997449A1991B6CC.tmp' to '../../../../../../Z Documents/Unreal Projects/TFB_Test/Content/Items/BatBlood_Mat.uasset'
+[2016.10.15-05.15.54:757][202]LogSavePackage:Display: Finished SavePackage ../../../../../../Z Documents/Unreal Projects/TFB_Test/Content/Items/BatBlood_Mat.uasset
+[2016.10.15-05.15.57:870][566]LogMaterial: Missing cached shader map for material BatBlood_Mat, compiling. 
+[2016.10.15-05.15.57:943][566]LogMaterial: Missing cached shader map for material BatBlood_Mat, compiling. 
+[2016.10.15-05.15.57:949][566]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.10.15-05.15.57:975][566]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2016.10.15-05.15.59:836][670]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 23 instructions
+[2016.10.15-05.15.59:836][670]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.10.15-05.15.59:836][670]MaterialEditorStats: Info Texture samplers: 1/16
+[2016.10.15-05.16.04:686][152]LogMaterial: Missing cached shader map for material BatBlood_Mat, compiling. 
+[2016.10.15-05.16.04:692][152]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.10.15-05.16.04:693][152]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2016.10.15-05.16.04:719][152]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2016.10.15-05.16.04:724][152]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2016.10.15-05.16.06:585][318]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 23 instructions
+[2016.10.15-05.16.06:585][318]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.10.15-05.16.06:585][318]MaterialEditorStats: Info Texture samplers: 1/16
+[2016.10.15-05.16.06:768][334]LogMaterial: Missing cached shader map for material BatBlood_Mat, compiling. 
+[2016.10.15-05.16.06:774][334]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.10.15-05.16.06:775][334]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling. 
+[2016.10.15-05.16.06:805][334]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2016.10.15-05.16.06:810][334]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2016.10.15-05.16.06:815][334]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling. 
+[2016.10.15-05.16.08:790][502]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 23 instructions
+[2016.10.15-05.16.08:790][502]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.10.15-05.16.08:790][502]MaterialEditorStats: Info Texture samplers: 1/16
+[2016.10.15-05.16.15:354][ 74]LogMaterial: Missing cached shader map for material BatBlood_Mat, compiling. 
+[2016.10.15-05.16.15:360][ 74]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.10.15-05.16.15:385][ 74]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling. 
+[2016.10.15-05.16.16:807][192]LogMaterial: Missing cached shader map for material BatBlood_Mat, compiling. 
+[2016.10.15-05.16.16:814][192]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.10.15-05.16.16:840][192]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2016.10.15-05.16.18:897][362]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 40 instructions
+[2016.10.15-05.16.18:897][362]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.10.15-05.16.18:897][362]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.10.15-05.16.18:986][369]LogMaterial: Missing cached shader map for material BatBlood_Mat, compiling. 
+[2016.10.15-05.16.18:993][369]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.10.15-05.16.19:032][369]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2016.10.15-05.16.20:743][511]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 40 instructions
+[2016.10.15-05.16.20:743][511]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.10.15-05.16.20:743][511]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.10.15-05.16.22:131][631]LogMaterial: Missing cached shader map for material BatBlood_Mat, compiling. 
+[2016.10.15-05.16.22:138][631]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.10.15-05.16.22:166][631]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2016.10.15-05.16.23:770][765]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 40 instructions
+[2016.10.15-05.16.23:770][765]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.10.15-05.16.23:770][765]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.10.15-05.16.27:289][ 74]LogMaterialEditor: Applying material BatBlood_Mat
+[2016.10.15-05.16.27:633][ 74]LogMaterial: Missing cached shader map for material BatBlood_Mat, compiling. 
+[2016.10.15-05.16.27:646][ 74]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.10.15-05.16.27:659][ 74]LogMaterial: Missing cached shader map for material BatBlood_Mat, compiling. 
+[2016.10.15-05.16.27:674][ 74]LogMaterial: Missing cached shader map for material BatBlood_Mat, compiling. 
+[2016.10.15-05.16.27:685][ 74]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.10.15-05.16.29:469][215]LogMaterialEditor: Saving and Compiling material BatBlood_Mat
+[2016.10.15-05.16.30:756][215]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Items/BatBlood_Mat" FILE="../../../../../../Z Documents/Unreal Projects/TFB_Test/Content/Items/BatBlood_Mat.uasset" SILENT=true
+[2016.10.15-05.16.30:787][215]LogSavePackage: Save=10.40ms
+[2016.10.15-05.16.30:787][215]LogSavePackage: Moving '../../../../../../Z Documents/Unreal Projects/TFB_Test/Saved/BatBlood_MatA211FA5549094025FE33E38AF2BD6A85.tmp' to '../../../../../../Z Documents/Unreal Projects/TFB_Test/Content/Items/BatBlood_Mat.uasset'
+[2016.10.15-05.16.30:790][215]LogSavePackage:Display: Finished SavePackage ../../../../../../Z Documents/Unreal Projects/TFB_Test/Content/Items/BatBlood_Mat.uasset
+[2016.10.15-05.16.30:793][215]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 72 instructions
+[2016.10.15-05.16.30:793][215]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.10.15-05.16.30:793][215]MaterialEditorStats: Info Texture samplers: 6/16
+[2016.10.15-05.16.40:530][301]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.10.15-05.16.40:530][301]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.15-05.16.40:530][301]LogApp: UseVRFocus has changed to 1
+[2016.10.15-05.16.40:530][301]LogApp: HasVRFocus has changed to 1
+[2016.10.15-05.16.40:530][301]LogApp: UseVRFocus has changed to 0
+[2016.10.15-05.16.40:530][301]LogApp: HasVRFocus has changed to 0
+[2016.10.15-05.16.40:530][301]PIE: New page: PIE session: ThirdPersonExampleMap (Oct 14, 2016, 8:16:40 PM)
+[2016.10.15-05.16.40:530][301]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2016.10.15-05.16.40:570][301]LogPlayLevel: PIE: StaticDuplicateObject took: (0.040367s)
+[2016.10.15-05.16.40:571][301]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.10.15-05.16.40:572][301]LogPlayLevel: PIE: World Init took: (0.001286s)
+[2016.10.15-05.16.40:572][301]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.041978s)
+[2016.10.15-05.16.40:581][301]LogApp: UseVRFocus has changed to 1
+[2016.10.15-05.16.40:581][301]LogApp: HasVRFocus has changed to 1
+[2016.10.15-05.16.40:581][301]LogApp: UseVRFocus has changed to 0
+[2016.10.15-05.16.40:581][301]LogApp: HasVRFocus has changed to 0
+[2016.10.15-05.16.40:586][301]LogInit: XAudio2 using 'Speakers (Logitech Wireless Headset)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.10.15-05.16.40:592][301]LogInit: FAudioDevice initialized.
+[2016.10.15-05.16.40:640][301]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.10.15-05.16.40:648][301]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2016.10.15-01.16.40
+[2016.10.15-05.16.40:650][301]LogWorld: Bringing up level for play took: 0.009551
+[2016.10.15-05.16.40:651][301]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.383
+[2016.10.15-05.16.40:651][301]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.10.15-05.16.52:193][681]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.10.15-05.16.52:239][681]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.10.15-05.17.14:290][181]LogSavePackage: Save=236.71ms
+[2016.10.15-05.17.14:290][181]LogSavePackage: Moving '../../../../../../Z Documents/Unreal Projects/TFB_Test/Saved/ThirdPersonExampleMap955F8A52445854109D222091084D6E3E.tmp' to '../../../../../../Z Documents/Unreal Projects/TFB_Test/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2016.10.15-05.17.14:293][181]LogSavePackage:Display: Finished SavePackage ../../../../../../Z Documents/Unreal Projects/TFB_Test/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2016.10.15-05.17.14:309][181]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.736
+[2016.10.15-05.17.14:320][181]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Items/Bat1_02_-_Default_D" FILE="../../../../../../Z Documents/Unreal Projects/TFB_Test/Content/Items/Bat1_02_-_Default_D.uasset" SILENT=true
+[2016.10.15-05.17.14:534][181]LogSavePackage: Save=212.49ms
+[2016.10.15-05.17.14:534][181]LogSavePackage: Moving '../../../../../../Z Documents/Unreal Projects/TFB_Test/Saved/Bat1_02_-_Default_D76AD246A40148072B218DCA46ACC20F1.tmp' to '../../../../../../Z Documents/Unreal Projects/TFB_Test/Content/Items/Bat1_02_-_Default_D.uasset'
+[2016.10.15-05.17.14:536][181]LogSavePackage:Display: Finished SavePackage ../../../../../../Z Documents/Unreal Projects/TFB_Test/Content/Items/Bat1_02_-_Default_D.uasset
+[2016.10.15-05.17.14:546][181]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Items/Bat1_02_-_Default_M" FILE="../../../../../../Z Documents/Unreal Projects/TFB_Test/Content/Items/Bat1_02_-_Default_M.uasset" SILENT=true
+[2016.10.15-05.17.14:672][181]LogSavePackage: Save=125.10ms
+[2016.10.15-05.17.14:672][181]LogSavePackage: Moving '../../../../../../Z Documents/Unreal Projects/TFB_Test/Saved/Bat1_02_-_Default_M48FBE74C458601DACEDF49A20318A328.tmp' to '../../../../../../Z Documents/Unreal Projects/TFB_Test/Content/Items/Bat1_02_-_Default_M.uasset'
+[2016.10.15-05.17.14:674][181]LogSavePackage:Display: Finished SavePackage ../../../../../../Z Documents/Unreal Projects/TFB_Test/Content/Items/Bat1_02_-_Default_M.uasset
+[2016.10.15-05.17.14:685][181]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Items/Bat1_02_-_Default_NM" FILE="../../../../../../Z Documents/Unreal Projects/TFB_Test/Content/Items/Bat1_02_-_Default_NM.uasset" SILENT=true
+[2016.10.15-05.17.14:892][181]LogSavePackage: Save=204.85ms
+[2016.10.15-05.17.14:892][181]LogSavePackage: Moving '../../../../../../Z Documents/Unreal Projects/TFB_Test/Saved/Bat1_02_-_Default_NM71A881D443B2F7FEF2B05D88B0A07F06.tmp' to '../../../../../../Z Documents/Unreal Projects/TFB_Test/Content/Items/Bat1_02_-_Default_NM.uasset'
+[2016.10.15-05.17.14:894][181]LogSavePackage:Display: Finished SavePackage ../../../../../../Z Documents/Unreal Projects/TFB_Test/Content/Items/Bat1_02_-_Default_NM.uasset
+[2016.10.15-05.17.14:904][181]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Items/Bat1_02_-_Default_DBlood" FILE="../../../../../../Z Documents/Unreal Projects/TFB_Test/Content/Items/Bat1_02_-_Default_DBlood.uasset" SILENT=true
+[2016.10.15-05.17.15:118][181]LogSavePackage: Save=213.02ms
+[2016.10.15-05.17.15:118][181]LogSavePackage: Moving '../../../../../../Z Documents/Unreal Projects/TFB_Test/Saved/Bat1_02_-_Default_DBloodF6B30A8E472B233AB764EFBDB9FEC067.tmp' to '../../../../../../Z Documents/Unreal Projects/TFB_Test/Content/Items/Bat1_02_-_Default_DBlood.uasset'
+[2016.10.15-05.17.15:120][181]LogSavePackage:Display: Finished SavePackage ../../../../../../Z Documents/Unreal Projects/TFB_Test/Content/Items/Bat1_02_-_Default_DBlood.uasset
+[2016.10.15-05.17.15:130][181]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Items/Bat1_02_-_Default_MBlood" FILE="../../../../../../Z Documents/Unreal Projects/TFB_Test/Content/Items/Bat1_02_-_Default_MBlood.uasset" SILENT=true
+[2016.10.15-05.17.15:254][181]LogSavePackage: Save=123.27ms
+[2016.10.15-05.17.15:254][181]LogSavePackage: Moving '../../../../../../Z Documents/Unreal Projects/TFB_Test/Saved/Bat1_02_-_Default_MBloodA7D1A5064E2288AD631531B422A2C606.tmp' to '../../../../../../Z Documents/Unreal Projects/TFB_Test/Content/Items/Bat1_02_-_Default_MBlood.uasset'
+[2016.10.15-05.17.15:256][181]LogSavePackage:Display: Finished SavePackage ../../../../../../Z Documents/Unreal Projects/TFB_Test/Content/Items/Bat1_02_-_Default_MBlood.uasset
+[2016.10.15-05.17.15:267][181]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Items/Bat1_02_-_Default_NMBlood" FILE="../../../../../../Z Documents/Unreal Projects/TFB_Test/Content/Items/Bat1_02_-_Default_NMBlood.uasset" SILENT=true
+[2016.10.15-05.17.15:470][181]LogSavePackage: Save=201.22ms
+[2016.10.15-05.17.15:470][181]LogSavePackage: Moving '../../../../../../Z Documents/Unreal Projects/TFB_Test/Saved/Bat1_02_-_Default_NMBlood849451964A1FB639CCC68784C9CC3EE1.tmp' to '../../../../../../Z Documents/Unreal Projects/TFB_Test/Content/Items/Bat1_02_-_Default_NMBlood.uasset'
+[2016.10.15-05.17.15:472][181]LogSavePackage:Display: Finished SavePackage ../../../../../../Z Documents/Unreal Projects/TFB_Test/Content/Items/Bat1_02_-_Default_NMBlood.uasset
+[2016.10.15-05.17.15:475][181]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Items/Bat1_02_-_Default_DBlood_Mat" FILE="../../../../../../Z Documents/Unreal Projects/TFB_Test/Content/Items/Bat1_02_-_Default_DBlood_Mat.uasset" SILENT=true
+[2016.10.15-05.17.15:477][181]LogSavePackage: Save=0.90ms
+[2016.10.15-05.17.15:477][181]LogSavePackage: Moving '../../../../../../Z Documents/Unreal Projects/TFB_Test/Saved/Bat1_02_-_Default_DBlood_MatF20C46AF46D489787E67D591ED8E7871.tmp' to '../../../../../../Z Documents/Unreal Projects/TFB_Test/Content/Items/Bat1_02_-_Default_DBlood_Mat.uasset'
+[2016.10.15-05.17.15:479][181]LogSavePackage:Display: Finished SavePackage ../../../../../../Z Documents/Unreal Projects/TFB_Test/Content/Items/Bat1_02_-_Default_DBlood_Mat.uasset
+[2016.10.15-07.13.33:633][430]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Knife1)
+[2016.10.15-07.13.34:732][553]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Knife2)
+[2016.10.15-07.13.36:723][785]LogPhysics:Warning: Scale 'X=0.063 Y=0.000 Z=0.063' is not valid on object '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Knife1_2.StaticMeshComponent0 Knife1'.
+[2016.10.15-07.13.36:723][785]LogPhysics:Warning: Scale 'X=0.063 Y=0.000 Z=0.063' is not valid on object '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Knife1_2.StaticMeshComponent0 Knife1'.
+[2016.10.15-07.13.36:723][785]LogPhysics:Warning: Scale 'X=0.063 Y=0.000 Z=0.063' is not valid on object '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Knife1_2.StaticMeshComponent0 Knife1'.
+[2016.10.15-07.13.36:723][785]LogPhysics:Warning: Scale 'X=0.063 Y=0.000 Z=0.063' is not valid on object '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Knife1_2.StaticMeshComponent0 Knife1'.
+[2016.10.15-07.13.36:723][785]LogPhysics:Warning: Scale 'X=0.063 Y=0.000 Z=0.063' is not valid on object '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Knife2.StaticMeshComponent0 Knife1'.
+[2016.10.15-07.13.36:723][785]LogPhysics:Warning: Scale 'X=0.063 Y=0.000 Z=0.063' is not valid on object '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Knife2.StaticMeshComponent0 Knife1'.
+[2016.10.15-07.13.38:988][ 55]Cmd: TRANSACTION UNDO
+[2016.10.15-07.13.38:988][ 55]LogEditorTransaction: Undo Scale Actors
+[2016.10.15-07.13.40:907][271]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.10.15-07.13.41:069][286]Cmd: TRANSACTION UNDO
+[2016.10.15-07.13.41:069][286]LogEditorTransaction: Undo Scale Actors
+[2016.10.15-07.13.48:250][143]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Knife1)
+[2016.10.15-07.13.52:424][638]Cmd: TRANSACTION UNDO
+[2016.10.15-07.13.52:424][638]LogEditorTransaction: Undo Scale Actors
+[2016.10.15-07.14.04:025][  6]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Knife2)
+[2016.10.15-07.14.10:040][722]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2016.10.15-07.14.13:781][159]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.10.15-07.14.13:781][159]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.15-07.14.13:781][159]LogApp: UseVRFocus has changed to 1
+[2016.10.15-07.14.13:781][159]LogApp: HasVRFocus has changed to 1
+[2016.10.15-07.14.13:781][159]LogApp: UseVRFocus has changed to 0
+[2016.10.15-07.14.13:781][159]LogApp: HasVRFocus has changed to 0
+[2016.10.15-07.14.13:782][159]PIE: New page: PIE session: ThirdPersonExampleMap (Oct 14, 2016, 10:14:13 PM)
+[2016.10.15-07.14.13:782][159]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2016.10.15-07.14.13:851][159]LogPlayLevel: PIE: StaticDuplicateObject took: (0.068563s)
+[2016.10.15-07.14.13:853][159]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.10.15-07.14.13:853][159]LogPlayLevel: PIE: World Init took: (0.002249s)
+[2016.10.15-07.14.13:854][159]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.071160s)
+[2016.10.15-07.14.13:878][159]LogApp: UseVRFocus has changed to 1
+[2016.10.15-07.14.13:878][159]LogApp: HasVRFocus has changed to 1
+[2016.10.15-07.14.13:878][159]LogApp: UseVRFocus has changed to 0
+[2016.10.15-07.14.13:878][159]LogApp: HasVRFocus has changed to 0
+[2016.10.15-07.14.13:884][159]LogInit: XAudio2 using 'Speakers (Logitech Wireless Headset)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.10.15-07.14.13:891][159]LogInit: FAudioDevice initialized.
+[2016.10.15-07.14.13:944][159]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.10.15-07.14.13:953][159]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2016.10.15-03.14.13
+[2016.10.15-07.14.13:955][159]LogWorld: Bringing up level for play took: 0.010240
+[2016.10.15-07.14.13:957][159]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.922
+[2016.10.15-07.14.13:957][159]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.10.15-07.14.44:192][784]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.10.15-07.14.44:226][784]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.10.15-07.14.45:601][944]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bat1)
+[2016.10.15-07.14.47:762][131]LogRenderer: Reallocating scene render targets to support 1192x744 (Frame:101217).
+[2016.10.15-07.15.02:205][677]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bat1)
+[2016.10.15-07.15.02:951][765]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2016.10.15-07.15.08:944][472]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.10.15-07.15.08:944][472]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.15-07.15.08:944][472]LogApp: UseVRFocus has changed to 1
+[2016.10.15-07.15.08:944][472]LogApp: HasVRFocus has changed to 1
+[2016.10.15-07.15.08:944][472]LogApp: UseVRFocus has changed to 0
+[2016.10.15-07.15.08:944][472]LogApp: HasVRFocus has changed to 0
+[2016.10.15-07.15.08:944][472]PIE: New page: PIE session: ThirdPersonExampleMap (Oct 14, 2016, 10:15:08 PM)
+[2016.10.15-07.15.08:944][472]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2016.10.15-07.15.08:983][472]LogPlayLevel: PIE: StaticDuplicateObject took: (0.038677s)
+[2016.10.15-07.15.08:984][472]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.10.15-07.15.08:984][472]LogPlayLevel: PIE: World Init took: (0.000953s)
+[2016.10.15-07.15.08:984][472]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.040004s)
+[2016.10.15-07.15.08:994][472]LogApp: UseVRFocus has changed to 1
+[2016.10.15-07.15.08:994][472]LogApp: HasVRFocus has changed to 1
+[2016.10.15-07.15.08:994][472]LogApp: UseVRFocus has changed to 0
+[2016.10.15-07.15.08:994][472]LogApp: HasVRFocus has changed to 0
+[2016.10.15-07.15.08:999][472]LogInit: XAudio2 using 'Speakers (Logitech Wireless Headset)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.10.15-07.15.09:005][472]LogInit: FAudioDevice initialized.
+[2016.10.15-07.15.09:053][472]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.10.15-07.15.09:062][472]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2016.10.15-03.15.09
+[2016.10.15-07.15.09:063][472]LogWorld: Bringing up level for play took: 0.009635
+[2016.10.15-07.15.09:065][472]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.031
+[2016.10.15-07.15.09:065][472]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.10.15-07.15.14:096][ 71]Cmd: stat fps
+[2016.10.15-07.15.25:424][428]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.10.15-07.15.25:458][428]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.10.15-07.15.50:975][679]LogSavePackage: Save=235.04ms
+[2016.10.15-07.15.50:975][679]LogSavePackage: Moving '../../../../../../Z Documents/Unreal Projects/TFB_Test/Saved/ThirdPersonExampleMap_Auto2C2E878EC43396E63468D49823AB6879C.tmp' to '../../../../../../Z Documents/Unreal Projects/TFB_Test/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto2.umap'
+[2016.10.15-07.15.50:977][679]LogSavePackage:Display: Finished SavePackage ../../../../../../Z Documents/Unreal Projects/TFB_Test/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto2.umap
+[2016.10.15-07.15.50:978][679]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.280
+[2016.10.15-07.15.50:978][679]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.280
+[2016.10.15-07.52.20:743][407]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2016.10.15-07.53.24:746][439]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2016.10.15-07.53.31:593][455]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2016.10.15-07.53.52:936][487]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2016.10.15-07.55.25:094][707]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2016.10.15-08.24.00:317][799]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.10.15-08.24.29:696][800]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Z Documents/Class/Bed/NewBeds_01 - Default_D.png)
+[2016.10.15-08.24.30:050][800]LogTexture:Display: Building textures: NewBeds_01_-_Default_D (AutoDXT)
+[2016.10.15-08.24.33:274][800]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Z Documents/Class/Bed/NewBeds_01 - Default_M.png)
+[2016.10.15-08.24.39:215][800]LogTexture:Display: Building textures: NewBeds_01_-_Default_M (AutoDXT)
+[2016.10.15-08.24.41:354][800]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Z Documents/Class/Bed/NewBeds_01 - Default_NM.png)
+[2016.10.15-08.24.41:850][800]LogTexture:Display: Building textures: NewBeds_01_-_Default_NM (BC5)
+[2016.10.15-08.24.42:490][800]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Z Documents/Class/Bed/NewBeds_02 - Default_D.png)
+[2016.10.15-08.24.45:054][800]LogTexture:Display: Building textures: NewBeds_02_-_Default_D (AutoDXT)
+[2016.10.15-08.24.46:373][800]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Z Documents/Class/Bed/NewBeds_02 - Default_M.png)
+[2016.10.15-08.24.47:140][800]LogTexture:Display: Building textures: NewBeds_02_-_Default_M (AutoDXT)
+[2016.10.15-08.24.48:199][800]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Z Documents/Class/Bed/NewBeds_02 - Default_NM.png)
+[2016.10.15-08.24.48:548][800]LogTexture:Display: Building textures: NewBeds_02_-_Default_NM (BC5)
+[2016.10.15-08.24.49:581][800]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Z Documents/Class/Bed/NewBeds_03 - Default_D.png)
+[2016.10.15-08.24.49:850][800]LogTexture:Display: Building textures: NewBeds_03_-_Default_D (AutoDXT)
+[2016.10.15-08.24.50:484][800]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Z Documents/Class/Bed/NewBeds_03 - Default_M.png)
+[2016.10.15-08.24.50:716][800]LogTexture:Display: Building textures: NewBeds_03_-_Default_M (AutoDXT)
+[2016.10.15-08.24.51:552][800]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Z Documents/Class/Bed/NewBeds_03 - Default_NM.png)
+[2016.10.15-08.24.51:789][800]LogTexture:Display: Building textures: NewBeds_03_-_Default_NM (BC5)
+[2016.10.15-08.24.52:467][800]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Z Documents/Class/Bed/NewBeds_04 - Default_D.png)
+[2016.10.15-08.24.52:776][800]LogTexture:Display: Building textures: NewBeds_04_-_Default_D (AutoDXT)
+[2016.10.15-08.24.53:449][800]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Z Documents/Class/Bed/NewBeds_04 - Default_M.png)
+[2016.10.15-08.24.53:792][800]LogTexture:Display: Building textures: NewBeds_04_-_Default_M (AutoDXT)
+[2016.10.15-08.24.54:605][800]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Z Documents/Class/Bed/NewBeds_04 - Default_NM.png)
+[2016.10.15-08.24.54:981][800]LogTexture:Display: Building textures: NewBeds_04_-_Default_NM (BC5)
+[2016.10.15-08.24.58:929][801]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.063
+[2016.10.15-08.24.58:957][801]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Items/NewBeds_01_-_Default_D] ([1] browsable assets)...
+[2016.10.15-08.24.58:971][801]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Items/NewBeds_01_-_Default_D.NewBeds_01_-_Default_D]
+[2016.10.15-08.24.58:971][801]OBJ SavePackage: Finished generating thumbnails for package [/Game/Items/NewBeds_01_-_Default_D]
+[2016.10.15-08.24.59:037][801]LogSavePackage: Save=60.93ms
+[2016.10.15-08.24.59:037][801]LogSavePackage: Moving '../../../../../../Z Documents/Unreal Projects/TFB_Test/Saved/NewBeds_01_-_Default_D_Auto3361AAFC144937F3D281B86A2E114EAB6.tmp' to '../../../../../../Z Documents/Unreal Projects/TFB_Test/Saved/Autosaves/Game/Items/NewBeds_01_-_Default_D_Auto3.uasset'
+[2016.10.15-08.24.59:038][801]LogSavePackage:Display: Finished SavePackage ../../../../../../Z Documents/Unreal Projects/TFB_Test/Saved/Autosaves/Game/Items/NewBeds_01_-_Default_D_Auto3.uasset
+[2016.10.15-08.24.59:039][801]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Items/NewBeds_01_-_Default_M] ([1] browsable assets)...
+[2016.10.15-08.24.59:047][801]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Items/NewBeds_01_-_Default_M.NewBeds_01_-_Default_M]
+[2016.10.15-08.24.59:047][801]OBJ SavePackage: Finished generating thumbnails for package [/Game/Items/NewBeds_01_-_Default_M]
+[2016.10.15-08.24.59:065][801]LogSavePackage: Save=16.32ms
+[2016.10.15-08.24.59:065][801]LogSavePackage: Moving '../../../../../../Z Documents/Unreal Projects/TFB_Test/Saved/NewBeds_01_-_Default_M_Auto3E81E21C8459ED07AB59F349D3A9E4887.tmp' to '../../../../../../Z Documents/Unreal Projects/TFB_Test/Saved/Autosaves/Game/Items/NewBeds_01_-_Default_M_Auto3.uasset'
+[2016.10.15-08.24.59:066][801]LogSavePackage:Display: Finished SavePackage ../../../../../../Z Documents/Unreal Projects/TFB_Test/Saved/Autosaves/Game/Items/NewBeds_01_-_Default_M_Auto3.uasset
+[2016.10.15-08.24.59:067][801]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Items/NewBeds_01_-_Default_NM] ([1] browsable assets)...
+[2016.10.15-08.24.59:076][801]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Items/NewBeds_01_-_Default_NM.NewBeds_01_-_Default_NM]
+[2016.10.15-08.24.59:076][801]OBJ SavePackage: Finished generating thumbnails for package [/Game/Items/NewBeds_01_-_Default_NM]
+[2016.10.15-08.24.59:093][801]LogSavePackage: Save=15.62ms
+[2016.10.15-08.24.59:093][801]LogSavePackage: Moving '../../../../../../Z Documents/Unreal Projects/TFB_Test/Saved/NewBeds_01_-_Default_NM_Auto339FB8D644248E5190B1E41956D23C50A.tmp' to '../../../../../../Z Documents/Unreal Projects/TFB_Test/Saved/Autosaves/Game/Items/NewBeds_01_-_Default_NM_Auto3.uasset'
+[2016.10.15-08.24.59:094][801]LogSavePackage:Display: Finished SavePackage ../../../../../../Z Documents/Unreal Projects/TFB_Test/Saved/Autosaves/Game/Items/NewBeds_01_-_Default_NM_Auto3.uasset
+[2016.10.15-08.24.59:095][801]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Items/NewBeds_02_-_Default_D] ([1] browsable assets)...
+[2016.10.15-08.24.59:103][801]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Items/NewBeds_02_-_Default_D.NewBeds_02_-_Default_D]
+[2016.10.15-08.24.59:103][801]OBJ SavePackage: Finished generating thumbnails for package [/Game/Items/NewBeds_02_-_Default_D]
+[2016.10.15-08.24.59:115][801]LogSavePackage: Save=10.27ms
+[2016.10.15-08.24.59:115][801]LogSavePackage: Moving '../../../../../../Z Documents/Unreal Projects/TFB_Test/Saved/NewBeds_02_-_Default_D_Auto3F58787D3408DA7E1FA5099BE068D4DD6.tmp' to '../../../../../../Z Documents/Unreal Projects/TFB_Test/Saved/Autosaves/Game/Items/NewBeds_02_-_Default_D_Auto3.uasset'
+[2016.10.15-08.24.59:117][801]LogSavePackage:Display: Finished SavePackage ../../../../../../Z Documents/Unreal Projects/TFB_Test/Saved/Autosaves/Game/Items/NewBeds_02_-_Default_D_Auto3.uasset
+[2016.10.15-08.24.59:117][801]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Items/NewBeds_02_-_Default_M] ([1] browsable assets)...
+[2016.10.15-08.24.59:127][801]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Items/NewBeds_02_-_Default_M.NewBeds_02_-_Default_M]
+[2016.10.15-08.24.59:127][801]OBJ SavePackage: Finished generating thumbnails for package [/Game/Items/NewBeds_02_-_Default_M]
+[2016.10.15-08.24.59:242][801]LogSavePackage: Save=113.57ms
+[2016.10.15-08.24.59:242][801]LogSavePackage: Moving '../../../../../../Z Documents/Unreal Projects/TFB_Test/Saved/NewBeds_02_-_Default_M_Auto3EB02065D44D4F410A5F710A86FF62C2F.tmp' to '../../../../../../Z Documents/Unreal Projects/TFB_Test/Saved/Autosaves/Game/Items/NewBeds_02_-_Default_M_Auto3.uasset'
+[2016.10.15-08.24.59:243][801]LogSavePackage:Display: Finished SavePackage ../../../../../../Z Documents/Unreal Projects/TFB_Test/Saved/Autosaves/Game/Items/NewBeds_02_-_Default_M_Auto3.uasset
+[2016.10.15-08.24.59:244][801]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Items/NewBeds_02_-_Default_NM] ([1] browsable assets)...
+[2016.10.15-08.24.59:253][801]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Items/NewBeds_02_-_Default_NM.NewBeds_02_-_Default_NM]
+[2016.10.15-08.24.59:253][801]OBJ SavePackage: Finished generating thumbnails for package [/Game/Items/NewBeds_02_-_Default_NM]
+[2016.10.15-08.24.59:270][801]LogSavePackage: Save=15.97ms
+[2016.10.15-08.24.59:270][801]LogSavePackage: Moving '../../../../../../Z Documents/Unreal Projects/TFB_Test/Saved/NewBeds_02_-_Default_NM_Auto3BC4F44A3490F239DD37318A62AC92ADF.tmp' to '../../../../../../Z Documents/Unreal Projects/TFB_Test/Saved/Autosaves/Game/Items/NewBeds_02_-_Default_NM_Auto3.uasset'
+[2016.10.15-08.24.59:271][801]LogSavePackage:Display: Finished SavePackage ../../../../../../Z Documents/Unreal Projects/TFB_Test/Saved/Autosaves/Game/Items/NewBeds_02_-_Default_NM_Auto3.uasset
+[2016.10.15-08.24.59:272][801]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Items/NewBeds_03_-_Default_D] ([1] browsable assets)...
+[2016.10.15-08.24.59:281][801]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Items/NewBeds_03_-_Default_D.NewBeds_03_-_Default_D]
+[2016.10.15-08.24.59:281][801]OBJ SavePackage: Finished generating thumbnails for package [/Game/Items/NewBeds_03_-_Default_D]
+[2016.10.15-08.24.59:292][801]LogSavePackage: Save=9.44ms
+[2016.10.15-08.24.59:292][801]LogSavePackage: Moving '../../../../../../Z Documents/Unreal Projects/TFB_Test/Saved/NewBeds_03_-_Default_D_Auto384B3A6CA4058D8973EF633BF92430B89.tmp' to '../../../../../../Z Documents/Unreal Projects/TFB_Test/Saved/Autosaves/Game/Items/NewBeds_03_-_Default_D_Auto3.uasset'
+[2016.10.15-08.24.59:293][801]LogSavePackage:Display: Finished SavePackage ../../../../../../Z Documents/Unreal Projects/TFB_Test/Saved/Autosaves/Game/Items/NewBeds_03_-_Default_D_Auto3.uasset
+[2016.10.15-08.24.59:294][801]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Items/NewBeds_03_-_Default_M] ([1] browsable assets)...
+[2016.10.15-08.24.59:303][801]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Items/NewBeds_03_-_Default_M.NewBeds_03_-_Default_M]
+[2016.10.15-08.24.59:303][801]OBJ SavePackage: Finished generating thumbnails for package [/Game/Items/NewBeds_03_-_Default_M]
+[2016.10.15-08.24.59:314][801]LogSavePackage: Save=9.98ms
+[2016.10.15-08.24.59:314][801]LogSavePackage: Moving '../../../../../../Z Documents/Unreal Projects/TFB_Test/Saved/NewBeds_03_-_Default_M_Auto35751504345C1A745B17BD3B4857C911F.tmp' to '../../../../../../Z Documents/Unreal Projects/TFB_Test/Saved/Autosaves/Game/Items/NewBeds_03_-_Default_M_Auto3.uasset'
+[2016.10.15-08.24.59:315][801]LogSavePackage:Display: Finished SavePackage ../../../../../../Z Documents/Unreal Projects/TFB_Test/Saved/Autosaves/Game/Items/NewBeds_03_-_Default_M_Auto3.uasset
+[2016.10.15-08.24.59:316][801]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Items/NewBeds_03_-_Default_NM] ([1] browsable assets)...
+[2016.10.15-08.24.59:325][801]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Items/NewBeds_03_-_Default_NM.NewBeds_03_-_Default_NM]
+[2016.10.15-08.24.59:325][801]OBJ SavePackage: Finished generating thumbnails for package [/Game/Items/NewBeds_03_-_Default_NM]
+[2016.10.15-08.24.59:366][801]LogSavePackage: Save=39.06ms
+[2016.10.15-08.24.59:366][801]LogSavePackage: Moving '../../../../../../Z Documents/Unreal Projects/TFB_Test/Saved/NewBeds_03_-_Default_NM_Auto393CB265140143327AF1E01A0B670A327.tmp' to '../../../../../../Z Documents/Unreal Projects/TFB_Test/Saved/Autosaves/Game/Items/NewBeds_03_-_Default_NM_Auto3.uasset'
+[2016.10.15-08.24.59:367][801]LogSavePackage:Display: Finished SavePackage ../../../../../../Z Documents/Unreal Projects/TFB_Test/Saved/Autosaves/Game/Items/NewBeds_03_-_Default_NM_Auto3.uasset
+[2016.10.15-08.24.59:368][801]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Items/NewBeds_04_-_Default_D] ([1] browsable assets)...
+[2016.10.15-08.24.59:377][801]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Items/NewBeds_04_-_Default_D.NewBeds_04_-_Default_D]
+[2016.10.15-08.24.59:377][801]OBJ SavePackage: Finished generating thumbnails for package [/Game/Items/NewBeds_04_-_Default_D]
+[2016.10.15-08.24.59:525][801]LogSavePackage: Save=147.02ms
+[2016.10.15-08.24.59:525][801]LogSavePackage: Moving '../../../../../../Z Documents/Unreal Projects/TFB_Test/Saved/NewBeds_04_-_Default_D_Auto3B26DF22F41FC30F861513DBDFAB6D20C.tmp' to '../../../../../../Z Documents/Unreal Projects/TFB_Test/Saved/Autosaves/Game/Items/NewBeds_04_-_Default_D_Auto3.uasset'
+[2016.10.15-08.24.59:526][801]LogSavePackage:Display: Finished SavePackage ../../../../../../Z Documents/Unreal Projects/TFB_Test/Saved/Autosaves/Game/Items/NewBeds_04_-_Default_D_Auto3.uasset
+[2016.10.15-08.24.59:527][801]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Items/NewBeds_04_-_Default_M] ([1] browsable assets)...
+[2016.10.15-08.24.59:535][801]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Items/NewBeds_04_-_Default_M.NewBeds_04_-_Default_M]
+[2016.10.15-08.24.59:535][801]OBJ SavePackage: Finished generating thumbnails for package [/Game/Items/NewBeds_04_-_Default_M]
+[2016.10.15-08.25.00:271][801]LogSavePackage: Save=611.04ms
+[2016.10.15-08.25.00:271][801]LogSavePackage: Moving '../../../../../../Z Documents/Unreal Projects/TFB_Test/Saved/NewBeds_04_-_Default_M_Auto33EE031A945129463B5E618AB8D38914A.tmp' to '../../../../../../Z Documents/Unreal Projects/TFB_Test/Saved/Autosaves/Game/Items/NewBeds_04_-_Default_M_Auto3.uasset'
+[2016.10.15-08.25.00:273][801]LogSavePackage:Display: Finished SavePackage ../../../../../../Z Documents/Unreal Projects/TFB_Test/Saved/Autosaves/Game/Items/NewBeds_04_-_Default_M_Auto3.uasset
+[2016.10.15-08.25.00:274][801]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Items/NewBeds_04_-_Default_NM] ([1] browsable assets)...
+[2016.10.15-08.25.00:283][801]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Items/NewBeds_04_-_Default_NM.NewBeds_04_-_Default_NM]
+[2016.10.15-08.25.00:283][801]OBJ SavePackage: Finished generating thumbnails for package [/Game/Items/NewBeds_04_-_Default_NM]
+[2016.10.15-08.25.00:516][801]LogSavePackage: Save=108.02ms
+[2016.10.15-08.25.00:516][801]LogSavePackage: Moving '../../../../../../Z Documents/Unreal Projects/TFB_Test/Saved/NewBeds_04_-_Default_NM_Auto38DACACB2487CA3344474D58FA2F2825E.tmp' to '../../../../../../Z Documents/Unreal Projects/TFB_Test/Saved/Autosaves/Game/Items/NewBeds_04_-_Default_NM_Auto3.uasset'
+[2016.10.15-08.25.00:517][801]LogSavePackage:Display: Finished SavePackage ../../../../../../Z Documents/Unreal Projects/TFB_Test/Saved/Autosaves/Game/Items/NewBeds_04_-_Default_NM_Auto3.uasset
+[2016.10.15-08.25.00:517][801]LogFileHelpers: Auto-saving content packages took 1.586
+[2016.10.15-08.25.34:008][757]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Z Documents/Class/BedNew.FBX)
+[2016.10.15-08.25.34:159][757]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2016.10.15-08.25.34:159][757]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2016.10.15-08.25.34:159][757]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2016.10.15-08.25.34:159][757]LogFbx: ItemName: Model, ItemCount : 4
+[2016.10.15-08.25.34:159][757]LogFbx: ItemName: Geometry, ItemCount : 4
+[2016.10.15-08.25.34:159][757]LogFbx: ItemName: Material, ItemCount : 4
+[2016.10.15-08.25.34:175][757]LogFbx: Loading FBX Scene from ../../../../../../Z Documents/Class/BedNew.FBX
+[2016.10.15-08.25.34:244][757]LogFbx: FBX Scene Loaded Succesfully
+[2016.10.15-08.25.41:871][757]LogFbx: Loading FBX Scene from ../../../../../../Z Documents/Class/BedNew.FBX
+[2016.10.15-08.25.41:885][757]LogFbx: FBX Scene Loaded Succesfully
+[2016.10.15-08.25.41:917][757]LogFbx:Warning: Triangulating static mesh Box001
+[2016.10.15-08.25.42:191][757]LogStaticMesh: Building static mesh BedNew_Box001...
+[2016.10.15-08.25.42:235][757]LogStaticMesh: Built static mesh [0.06s] /Game/Items/BedNew_Box001.BedNew_Box001
+[2016.10.15-08.25.42:336][757]LogFbx:Warning: Triangulating static mesh Covers
+[2016.10.15-08.25.42:682][757]LogStaticMesh: Building static mesh BedNew_Covers...
+[2016.10.15-08.25.42:724][757]LogStaticMesh: Built static mesh [0.08s] /Game/Items/BedNew_Covers.BedNew_Covers
+[2016.10.15-08.25.42:873][757]LogFbx:Warning: Triangulating static mesh Mattress
+[2016.10.15-08.25.43:112][757]LogStaticMesh: Building static mesh BedNew_Mattress...
+[2016.10.15-08.25.43:209][757]LogStaticMesh: Built static mesh [0.14s] /Game/Items/BedNew_Mattress.BedNew_Mattress
+[2016.10.15-08.25.43:224][757]LogFbx:Warning: Triangulating static mesh Pillows
+[2016.10.15-08.25.44:326][757]LogStaticMesh: Building static mesh BedNew_Pillows...
+[2016.10.15-08.25.44:454][757]LogStaticMesh: Built static mesh [0.13s] /Game/Items/BedNew_Pillows.BedNew_Pillows
+[2016.10.15-08.25.48:053][149]LogActorFactory: Actor Factory created BedNew_Box001
+[2016.10.15-08.25.48:074][149]LogActorFactory: Actor Factory created BedNew_Covers
+[2016.10.15-08.25.48:081][149]LogActorFactory: Actor Factory created BedNew_Mattress
+[2016.10.15-08.25.48:086][149]LogActorFactory: Actor Factory created BedNew_Pillows
+[2016.10.15-08.25.50:533][418]LogActorFactory: Actor Factory created BedNew_Box001
+[2016.10.15-08.25.50:685][418]LogActorFactory: Actor Factory created BedNew_Covers
+[2016.10.15-08.25.50:769][418]LogActorFactory: Actor Factory created BedNew_Mattress
+[2016.10.15-08.25.50:827][418]LogActorFactory: Actor Factory created BedNew_Pillows
+[2016.10.15-08.26.17:552][408]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BedNew_Covers)
+[2016.10.15-08.26.39:633][655]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Z Documents/Class/Bed1.FBX)
+[2016.10.15-08.26.39:662][655]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2016.10.15-08.26.39:662][655]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2016.10.15-08.26.39:676][655]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2016.10.15-08.26.39:676][655]LogFbx: ItemName: Model, ItemCount : 5
+[2016.10.15-08.26.39:676][655]LogFbx: ItemName: NodeAttribute, ItemCount : 1
+[2016.10.15-08.26.39:676][655]LogFbx: ItemName: Geometry, ItemCount : 4
+[2016.10.15-08.26.39:676][655]LogFbx: ItemName: Material, ItemCount : 4
+[2016.10.15-08.26.39:676][655]LogFbx: ItemName: AnimationCurve, ItemCount : 9
+[2016.10.15-08.26.39:676][655]LogFbx: ItemName: AnimationCurveNode, ItemCount : 3
+[2016.10.15-08.26.39:680][655]LogFbx: Loading FBX Scene from ../../../../../../Z Documents/Class/Bed1.FBX
+[2016.10.15-08.26.39:721][655]LogFbx: FBX Scene Loaded Succesfully
+[2016.10.15-08.26.45:407][655]LogFbx: Loading FBX Scene from ../../../../../../Z Documents/Class/Bed1.FBX
+[2016.10.15-08.26.45:417][655]LogFbx: FBX Scene Loaded Succesfully
+[2016.10.15-08.26.45:419][655]LogFbx:Warning: Triangulating static mesh Plane001
+[2016.10.15-08.26.45:478][655]LogStaticMesh: Building static mesh Bed1_Plane001...
+[2016.10.15-08.26.45:485][655]LogStaticMesh: Built static mesh [0.01s] /Game/Items/Bed1_Plane001.Bed1_Plane001
+[2016.10.15-08.26.45:544][655]LogFbx:Warning: Triangulating static mesh Box002
+[2016.10.15-08.26.45:772][655]LogStaticMesh: Building static mesh Bed1_Box002...
+[2016.10.15-08.26.45:797][655]LogStaticMesh: Built static mesh [0.03s] /Game/Items/Bed1_Box002.Bed1_Box002
+[2016.10.15-08.26.45:861][655]LogFbx:Warning: Triangulating static mesh Box001
+[2016.10.15-08.26.46:055][655]LogStaticMesh: Building static mesh Bed1_Box001...
+[2016.10.15-08.26.46:080][655]LogStaticMesh: Built static mesh [0.03s] /Game/Items/Bed1_Box001.Bed1_Box001
+[2016.10.15-08.26.46:091][655]LogFbx:Warning: Triangulating static mesh Bed_Frame
+[2016.10.15-08.26.46:352][655]LogStaticMesh: Building static mesh Bed1_Bed_Frame...
+[2016.10.15-08.26.46:382][655]LogStaticMesh: Built static mesh [0.04s] /Game/Items/Bed1_Bed_Frame.Bed1_Bed_Frame
+[2016.10.15-08.27.19:251][219]LogMaterial: Missing cached shader map for material Blankets, compiling. 
+[2016.10.15-08.27.21:398][386]LogMaterial: Missing cached shader map for material Blankets, compiling. 
+[2016.10.15-08.27.22:005][386]LogMaterial: Missing cached shader map for material Blankets, compiling. 
+[2016.10.15-08.27.22:016][386]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.10.15-08.27.22:082][386]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2016.10.15-08.27.27:867][677]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 23 instructions
+[2016.10.15-08.27.27:867][677]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.10.15-08.27.27:867][677]MaterialEditorStats: Info Texture samplers: 1/16
+[2016.10.15-08.27.28:325][708]LogMaterial: Missing cached shader map for material Blankets, compiling. 
+[2016.10.15-08.27.28:330][708]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.10.15-08.27.28:332][708]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling. 
+[2016.10.15-08.27.28:396][708]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2016.10.15-08.27.28:415][708]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling. 
+[2016.10.15-08.27.29:580][788]LogMaterial: Missing cached shader map for material Blankets, compiling. 
+[2016.10.15-08.27.29:586][788]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.10.15-08.27.29:613][788]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_8, compiling. 
+[2016.10.15-08.27.29:643][788]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2016.10.15-08.27.29:647][788]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling. 
+[2016.10.15-08.27.29:652][788]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_8, compiling. 
+[2016.10.15-08.27.40:619][665]LogMaterial: Missing cached shader map for material Blankets, compiling. 
+[2016.10.15-08.27.40:625][665]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.10.15-08.27.40:692][665]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling. 
+[2016.10.15-08.27.42:774][815]LogMaterial: Missing cached shader map for material Blankets, compiling. 
+[2016.10.15-08.27.42:780][815]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.10.15-08.27.42:806][815]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling. 
+[2016.10.15-08.27.44:875][972]LogMaterial: Missing cached shader map for material Blankets, compiling. 
+[2016.10.15-08.27.44:881][972]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.10.15-08.27.44:966][972]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling. 
+[2016.10.15-08.27.46:791][114]LogMaterial: Missing cached shader map for material Blankets, compiling. 
+[2016.10.15-08.27.46:797][114]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.10.15-08.27.46:827][114]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_8, compiling. 
+[2016.10.15-08.27.48:274][231]LogMaterialEditor: Applying material Blankets
+[2016.10.15-08.27.49:263][231]LogMaterial: Missing cached shader map for material Blankets, compiling. 
+[2016.10.15-08.27.49:277][231]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.10.15-08.27.49:330][231]LogMaterial: Missing cached shader map for material Blankets, compiling. 
+[2016.10.15-08.27.49:444][231]LogMaterial: Missing cached shader map for material Blankets, compiling. 
+[2016.10.15-08.27.49:467][231]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.10.15-08.27.55:941][766]LogMaterialEditor: Saving and Compiling material Blankets
+[2016.10.15-08.27.57:523][766]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Items/Blankets" FILE="../../../../../../Z Documents/Unreal Projects/TFB_Test/Content/Items/Blankets.uasset" SILENT=true
+[2016.10.15-08.27.57:540][766]LogSavePackage: Save=15.51ms
+[2016.10.15-08.27.57:540][766]LogSavePackage: Moving '../../../../../../Z Documents/Unreal Projects/TFB_Test/Saved/Blankets4D152BFD41DA545A75F3BE98A631F2C4.tmp' to '../../../../../../Z Documents/Unreal Projects/TFB_Test/Content/Items/Blankets.uasset'
+[2016.10.15-08.27.57:543][766]LogSavePackage:Display: Finished SavePackage ../../../../../../Z Documents/Unreal Projects/TFB_Test/Content/Items/Blankets.uasset
+[2016.10.15-08.27.57:550][766]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 72 instructions
+[2016.10.15-08.27.57:550][766]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.10.15-08.27.57:550][766]MaterialEditorStats: Info Texture samplers: 6/16
+[2016.10.15-08.28.15:820][862]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BedNew_Mattress)
+[2016.10.15-08.28.26:807][ 55]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0494 seconds. Added 1 classes and 2 folders.
+[2016.10.15-08.28.36:794][ 84]LogMaterial: Missing cached shader map for material Pillows, compiling. 
+[2016.10.15-08.28.39:939][431]LogMaterial: Missing cached shader map for material Pillows, compiling. 
+[2016.10.15-08.28.40:086][431]LogMaterial: Missing cached shader map for material Pillows, compiling. 
+[2016.10.15-08.28.40:093][431]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.10.15-08.28.40:122][431]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2016.10.15-08.28.44:918][856]LogMaterial: Missing cached shader map for material Pillows, compiling. 
+[2016.10.15-08.28.44:925][856]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.10.15-08.28.44:955][856]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_9, compiling. 
+[2016.10.15-08.28.44:993][856]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2016.10.15-08.28.45:057][856]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_9, compiling. 
+[2016.10.15-08.28.46:995][ 16]LogMaterial: Missing cached shader map for material Pillows, compiling. 
+[2016.10.15-08.28.47:001][ 16]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.10.15-08.28.47:024][ 16]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_10, compiling. 
+[2016.10.15-08.28.47:052][ 16]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2016.10.15-08.28.47:056][ 16]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_9, compiling. 
+[2016.10.15-08.28.47:059][ 16]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_10, compiling. 
+[2016.10.15-08.28.52:734][525]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 23 instructions
+[2016.10.15-08.28.52:734][525]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.10.15-08.28.52:734][525]MaterialEditorStats: Info Texture samplers: 1/16
+[2016.10.15-08.28.54:933][716]LogMaterial: Missing cached shader map for material Pillows, compiling. 
+[2016.10.15-08.28.54:939][716]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.10.15-08.28.55:022][716]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_9, compiling. 
+[2016.10.15-08.28.56:413][825]LogMaterial: Missing cached shader map for material Pillows, compiling. 
+[2016.10.15-08.28.56:419][825]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.10.15-08.28.56:487][825]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_9, compiling. 
+[2016.10.15-08.28.58:429][995]LogMaterial: Missing cached shader map for material Pillows, compiling. 
+[2016.10.15-08.28.58:436][995]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.10.15-08.28.58:464][995]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_9, compiling. 
+[2016.10.15-08.29.02:177][317]LogMaterial: Missing cached shader map for material Pillows, compiling. 
+[2016.10.15-08.29.02:183][317]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.10.15-08.29.02:237][317]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_10, compiling. 
+[2016.10.15-08.29.03:868][465]LogMaterialEditor: Applying material Pillows
+[2016.10.15-08.29.04:231][465]LogMaterial: Missing cached shader map for material Pillows, compiling. 
+[2016.10.15-08.29.04:245][465]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.10.15-08.29.04:304][465]LogMaterial: Missing cached shader map for material Pillows, compiling. 
+[2016.10.15-08.29.04:325][465]LogMaterial: Missing cached shader map for material Pillows, compiling. 
+[2016.10.15-08.29.04:336][465]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.10.15-08.29.18:453][759]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 73 instructions
+[2016.10.15-08.29.18:453][759]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.10.15-08.29.18:453][759]MaterialEditorStats: Info Texture samplers: 6/16
+[2016.10.15-08.29.46:114][460]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BedNew_Box001)
+[2016.10.15-08.29.50:248][950]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BedNew_Pillows)
+[2016.10.15-08.31.31:759][507]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BedNew_Mattress)
+[2016.10.15-08.31.39:787][293]LogMaterial: Missing cached shader map for material Pillows, compiling. 
+[2016.10.15-08.31.39:789][293]LogMaterial:Warning: Failed to compile Material /Game/Items/Pillows.Pillows for platform PCD3D_SM5, Default Material will be used in game.
+[2016.10.15-08.31.39:789][293]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2016.10.15-08.31.39:789][293]LogMaterial:Warning: FMaterialUniformExpressionTexture had invalid TextureIndex! (2 / 2)
+[2016.10.15-08.31.39:820][293]LogMaterial: Missing cached shader map for material Pillows, compiling. 
+[2016.10.15-08.31.39:820][293]LogMaterial:Warning: Failed to compile Material /Game/Items/Pillows.Pillows for platform PCD3D_SM5, Default Material will be used in game.
+[2016.10.15-08.31.39:820][293]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2016.10.15-08.31.39:823][293]LogMaterial: Missing cached shader map for material Pillows, compiling. 
+[2016.10.15-08.31.39:823][293]LogMaterial:Warning: Failed to compile Material /Game/Items/Pillows.Pillows for platform PCD3D_SM5, Default Material will be used in game.
+[2016.10.15-08.31.39:823][293]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2016.10.15-08.31.39:827][293]LogMaterial: Missing cached shader map for material Pillows, compiling. 
+[2016.10.15-08.31.39:827][293]LogMaterial:Warning: Failed to compile Material /Game/Items/Pillows.Pillows for platform PCD3D_SM5, Default Material will be used in game.
+[2016.10.15-08.31.39:827][293]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2016.10.15-08.31.39:874][293]LogMaterial: Missing cached shader map for material Pillows, compiling. 
+[2016.10.15-08.31.39:875][293]LogMaterial:Warning: Failed to compile Material /Game/Items/Pillows.Pillows for platform PCD3D_SM5, Default Material will be used in game.
+[2016.10.15-08.31.39:876][293]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2016.10.15-08.31.39:904][293]LogMaterial: Missing cached shader map for material Pillows, compiling. 
+[2016.10.15-08.31.39:905][293]LogMaterial:Warning: Failed to compile Material /Game/Items/Pillows.Pillows for platform PCD3D_SM5, Default Material will be used in game.
+[2016.10.15-08.31.39:905][293]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2016.10.15-08.31.54:523][804]LogMaterial: Missing cached shader map for material Bars_Mat, compiling. 
+[2016.10.15-08.31.56:562][  5]LogMaterial: Missing cached shader map for material Bars_Mat, compiling. 
+[2016.10.15-08.31.56:663][  5]LogMaterial: Missing cached shader map for material Bars_Mat, compiling. 
+[2016.10.15-08.31.56:669][  5]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.10.15-08.31.56:699][  5]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2016.10.15-08.32.01:012][355]LogMaterial: Missing cached shader map for material Bars_Mat, compiling. 
+[2016.10.15-08.32.01:018][355]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.10.15-08.32.01:067][355]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_11, compiling. 
+[2016.10.15-08.32.01:134][355]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2016.10.15-08.32.01:223][355]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_11, compiling. 
+[2016.10.15-08.32.02:882][490]LogMaterial: Missing cached shader map for material Bars_Mat, compiling. 
+[2016.10.15-08.32.02:889][490]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.10.15-08.32.02:917][490]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_12, compiling. 
+[2016.10.15-08.32.03:031][490]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2016.10.15-08.32.03:036][490]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_11, compiling. 
+[2016.10.15-08.32.03:049][490]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_12, compiling. 
+[2016.10.15-08.32.06:602][797]LogMaterial: Missing cached shader map for material Bars_Mat, compiling. 
+[2016.10.15-08.32.06:609][797]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.10.15-08.32.06:641][797]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_11, compiling. 
+[2016.10.15-08.32.09:832][ 75]LogMaterial: Missing cached shader map for material Bars_Mat, compiling. 
+[2016.10.15-08.32.09:840][ 75]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.10.15-08.32.09:867][ 75]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_11, compiling. 
+[2016.10.15-08.32.13:417][361]LogMaterial: Missing cached shader map for material Bars_Mat, compiling. 
+[2016.10.15-08.32.13:423][361]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.10.15-08.32.13:462][361]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_11, compiling. 
+[2016.10.15-08.32.19:209][861]LogMaterial: Missing cached shader map for material Bars_Mat, compiling. 
+[2016.10.15-08.32.19:216][861]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.10.15-08.32.19:314][861]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_12, compiling. 
+[2016.10.15-08.32.20:670][977]LogMaterialEditor: Applying material Bars_Mat
+[2016.10.15-08.32.21:096][977]LogMaterial: Missing cached shader map for material Bars_Mat, compiling. 
+[2016.10.15-08.32.21:109][977]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.10.15-08.32.21:174][977]LogMaterial: Missing cached shader map for material Bars_Mat, compiling. 
+[2016.10.15-08.32.21:263][977]LogMaterial: Missing cached shader map for material Bars_Mat, compiling. 
+[2016.10.15-08.32.21:274][977]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.10.15-08.32.27:020][486]LogMaterialEditor: Saving and Compiling material Bars_Mat
+[2016.10.15-08.32.30:613][486]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Items/Bars_Mat" FILE="../../../../../../Z Documents/Unreal Projects/TFB_Test/Content/Items/Bars_Mat.uasset" SILENT=true
+[2016.10.15-08.32.30:627][486]LogSavePackage: Save=11.72ms
+[2016.10.15-08.32.30:627][486]LogSavePackage: Moving '../../../../../../Z Documents/Unreal Projects/TFB_Test/Saved/Bars_MatF8CF49EC457864C330D3BEA695AE5EE1.tmp' to '../../../../../../Z Documents/Unreal Projects/TFB_Test/Content/Items/Bars_Mat.uasset'
+[2016.10.15-08.32.30:629][486]LogSavePackage:Display: Finished SavePackage ../../../../../../Z Documents/Unreal Projects/TFB_Test/Content/Items/Bars_Mat.uasset
+[2016.10.15-08.32.30:633][486]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 72 instructions
+[2016.10.15-08.32.30:633][486]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.10.15-08.32.30:633][486]MaterialEditorStats: Info Texture samplers: 6/16
+[2016.10.15-08.32.57:669][322]LogMaterial: Missing cached shader map for material Bars_Mat, compiling. 
+[2016.10.15-08.32.57:675][322]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.10.15-08.33.03:074][802]LogMaterialEditor: Applying material Bars_Mat
+[2016.10.15-08.33.03:460][802]LogMaterial: Missing cached shader map for material Bars_Mat, compiling. 
+[2016.10.15-08.33.03:473][802]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.10.15-08.33.03:488][802]LogMaterial: Missing cached shader map for material Bars_Mat, compiling. 
+[2016.10.15-08.33.03:503][802]LogMaterial: Missing cached shader map for material Bars_Mat, compiling. 
+[2016.10.15-08.33.03:515][802]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.10.15-08.33.05:597][986]LogMaterialEditor: Saving and Compiling material Bars_Mat
+[2016.10.15-08.33.11:238][986]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Items/Bars_Mat" FILE="../../../../../../Z Documents/Unreal Projects/TFB_Test/Content/Items/Bars_Mat.uasset" SILENT=true
+[2016.10.15-08.33.11:300][986]LogSavePackage: Save=10.77ms
+[2016.10.15-08.33.11:300][986]LogSavePackage: Moving '../../../../../../Z Documents/Unreal Projects/TFB_Test/Saved/Bars_Mat5A46DBCF40D24E979FA21B9EC74B142C.tmp' to '../../../../../../Z Documents/Unreal Projects/TFB_Test/Content/Items/Bars_Mat.uasset'
+[2016.10.15-08.33.11:303][986]LogSavePackage:Display: Finished SavePackage ../../../../../../Z Documents/Unreal Projects/TFB_Test/Content/Items/Bars_Mat.uasset
+[2016.10.15-08.33.11:306][986]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 72 instructions
+[2016.10.15-08.33.11:306][986]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.10.15-08.33.11:306][986]MaterialEditorStats: Info Texture samplers: 6/16
+[2016.10.15-08.33.21:116][ 92]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Knife1)
+[2016.10.15-08.33.23:815][395]LogMaterial: Missing cached shader map for material Knife_Mat, compiling. 
+[2016.10.15-08.33.23:934][395]LogMaterial: Missing cached shader map for material Knife_Mat, compiling. 
+[2016.10.15-08.33.23:940][395]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.10.15-08.33.23:974][395]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2016.10.15-08.33.23:977][395]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2016.10.15-08.33.23:983][395]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2016.10.15-08.33.34:328][276]LogMaterial: Missing cached shader map for material Bars_Mat, compiling. 
+[2016.10.15-08.33.34:334][276]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.10.15-08.33.38:794][591]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 40 instructions
+[2016.10.15-08.33.38:795][591]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.10.15-08.33.38:795][591]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.10.15-08.33.39:765][675]LogMaterial: Missing cached shader map for material Bars_Mat, compiling. 
+[2016.10.15-08.33.39:771][675]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.10.15-08.33.42:103][883]LogMaterial: Missing cached shader map for material Bars_Mat, compiling. 
+[2016.10.15-08.33.42:110][883]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.10.15-08.33.43:777][ 36]LogMaterial: Missing cached shader map for material Bars_Mat, compiling. 
+[2016.10.15-08.33.43:783][ 36]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.10.15-08.33.46:009][240]LogMaterialEditor: Applying material Bars_Mat
+[2016.10.15-08.33.46:388][240]LogMaterial: Missing cached shader map for material Bars_Mat, compiling. 
+[2016.10.15-08.33.46:401][240]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.10.15-08.33.46:416][240]LogMaterial: Missing cached shader map for material Bars_Mat, compiling. 
+[2016.10.15-08.33.46:491][240]LogMaterial: Missing cached shader map for material Bars_Mat, compiling. 
+[2016.10.15-08.33.46:501][240]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.10.15-08.33.49:933][554]LogMaterialEditor: Saving and Compiling material Bars_Mat
+[2016.10.15-08.33.53:781][554]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Items/Bars_Mat" FILE="../../../../../../Z Documents/Unreal Projects/TFB_Test/Content/Items/Bars_Mat.uasset" SILENT=true
+[2016.10.15-08.33.53:816][554]LogSavePackage: Save=31.01ms
+[2016.10.15-08.33.53:817][554]LogSavePackage: Moving '../../../../../../Z Documents/Unreal Projects/TFB_Test/Saved/Bars_MatC18352AB4314524DF5C5C1882628AA5E.tmp' to '../../../../../../Z Documents/Unreal Projects/TFB_Test/Content/Items/Bars_Mat.uasset'
+[2016.10.15-08.33.53:819][554]LogSavePackage:Display: Finished SavePackage ../../../../../../Z Documents/Unreal Projects/TFB_Test/Content/Items/Bars_Mat.uasset
+[2016.10.15-08.33.53:822][554]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 70 instructions
+[2016.10.15-08.33.53:823][554]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.10.15-08.33.53:823][554]MaterialEditorStats: Info Texture samplers: 6/16
+[2016.10.15-08.34.20:268][587]LogMaterial: Missing cached shader map for material Mattress_Mat, compiling. 
+[2016.10.15-08.34.22:336][794]LogMaterial: Missing cached shader map for material Mattress_Mat, compiling. 
+[2016.10.15-08.34.22:431][794]LogMaterial: Missing cached shader map for material Mattress_Mat, compiling. 
+[2016.10.15-08.34.22:437][794]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.10.15-08.34.22:519][794]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2016.10.15-08.34.29:439][335]LogMaterial: Missing cached shader map for material Mattress_Mat, compiling. 
+[2016.10.15-08.34.29:445][335]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.10.15-08.34.29:453][335]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_13, compiling. 
+[2016.10.15-08.34.29:485][335]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2016.10.15-08.34.29:676][335]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_13, compiling. 
+[2016.10.15-08.34.29:707][335]LogMaterial: Missing cached shader map for material Mattress_Mat, compiling. 
+[2016.10.15-08.34.29:714][335]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.10.15-08.34.29:728][335]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_14, compiling. 
+[2016.10.15-08.34.29:798][335]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2016.10.15-08.34.29:801][335]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_13, compiling. 
+[2016.10.15-08.34.29:831][335]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_14, compiling. 
+[2016.10.15-08.34.34:426][731]LogMaterial: Missing cached shader map for material Mattress_Mat, compiling. 
+[2016.10.15-08.34.34:432][731]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.10.15-08.34.34:464][731]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_13, compiling. 
+[2016.10.15-08.34.38:418][ 62]LogMaterial: Missing cached shader map for material Mattress_Mat, compiling. 
+[2016.10.15-08.34.38:425][ 62]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.10.15-08.34.38:457][ 62]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_13, compiling. 
+[2016.10.15-08.34.40:696][248]LogMaterial: Missing cached shader map for material Mattress_Mat, compiling. 
+[2016.10.15-08.34.40:702][248]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.10.15-08.34.40:758][248]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_13, compiling. 
+[2016.10.15-08.34.44:352][555]LogMaterial: Missing cached shader map for material Mattress_Mat, compiling. 
+[2016.10.15-08.34.44:358][555]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.10.15-08.34.44:386][555]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_14, compiling. 
+[2016.10.15-08.34.46:064][697]LogMaterialEditor: Applying material Mattress_Mat
+[2016.10.15-08.34.46:478][697]LogMaterial: Missing cached shader map for material Mattress_Mat, compiling. 
+[2016.10.15-08.34.46:491][697]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.10.15-08.34.46:506][697]LogMaterial: Missing cached shader map for material Mattress_Mat, compiling. 
+[2016.10.15-08.34.46:526][697]LogMaterial: Missing cached shader map for material Mattress_Mat, compiling. 
+[2016.10.15-08.34.46:538][697]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.10.15-08.34.49:493][954]LogMaterialEditor: Saving and Compiling material Mattress_Mat
+[2016.10.15-08.34.55:880][954]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Items/Mattress_Mat" FILE="../../../../../../Z Documents/Unreal Projects/TFB_Test/Content/Items/Mattress_Mat.uasset" SILENT=true
+[2016.10.15-08.34.55:893][954]LogSavePackage: Save=11.12ms
+[2016.10.15-08.34.55:893][954]LogSavePackage: Moving '../../../../../../Z Documents/Unreal Projects/TFB_Test/Saved/Mattress_Mat6213F9A845EA1DC38CC282BD5D3932A8.tmp' to '../../../../../../Z Documents/Unreal Projects/TFB_Test/Content/Items/Mattress_Mat.uasset'
+[2016.10.15-08.34.55:895][954]LogSavePackage:Display: Finished SavePackage ../../../../../../Z Documents/Unreal Projects/TFB_Test/Content/Items/Mattress_Mat.uasset
+[2016.10.15-08.34.55:899][954]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 72 instructions
+[2016.10.15-08.34.55:899][954]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.10.15-08.34.55:899][954]MaterialEditorStats: Info Texture samplers: 6/16
+[2016.10.15-08.35.05:638][  3]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2016.10.15-08.36.20:444][951]LogSavePackage: Save=629.51ms
+[2016.10.15-08.36.20:444][951]LogSavePackage: Moving '../../../../../../Z Documents/Unreal Projects/TFB_Test/Saved/ThirdPersonExampleMap_Auto42E7D3EF1401384C50C09D2913673747A.tmp' to '../../../../../../Z Documents/Unreal Projects/TFB_Test/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto4.umap'
+[2016.10.15-08.36.20:446][951]LogSavePackage:Display: Finished SavePackage ../../../../../../Z Documents/Unreal Projects/TFB_Test/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto4.umap
+[2016.10.15-08.36.20:447][951]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.838
+[2016.10.15-08.36.20:447][951]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.838
+[2016.10.15-08.36.20:450][951]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Items/BedNew_Box001] ([1] browsable assets)...
+[2016.10.15-08.36.20:473][951]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Items/BedNew_Box001.BedNew_Box001]
+[2016.10.15-08.36.20:473][951]OBJ SavePackage: Finished generating thumbnails for package [/Game/Items/BedNew_Box001]
+[2016.10.15-08.36.20:473][951]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Items/BedNew_Box001" FILE="../../../../../../Z Documents/Unreal Projects/TFB_Test/Saved/Autosaves/Game/Items/BedNew_Box001_Auto4.uasset" SILENT=false AUTOSAVING=true
+[2016.10.15-08.36.20:485][951]LogSavePackage: Save=10.35ms
+[2016.10.15-08.36.20:485][951]LogSavePackage: Moving '../../../../../../Z Documents/Unreal Projects/TFB_Test/Saved/BedNew_Box001_Auto4F8B9281D47CF370AE4601C8476BBEB04.tmp' to '../../../../../../Z Documents/Unreal Projects/TFB_Test/Saved/Autosaves/Game/Items/BedNew_Box001_Auto4.uasset'
+[2016.10.15-08.36.20:486][951]LogSavePackage:Display: Finished SavePackage ../../../../../../Z Documents/Unreal Projects/TFB_Test/Saved/Autosaves/Game/Items/BedNew_Box001_Auto4.uasset
+[2016.10.15-08.36.20:486][951]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Items/BedNew_Mattress] ([1] browsable assets)...
+[2016.10.15-08.36.20:511][951]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Items/BedNew_Mattress.BedNew_Mattress]
+[2016.10.15-08.36.20:511][951]OBJ SavePackage: Finished generating thumbnails for package [/Game/Items/BedNew_Mattress]
+[2016.10.15-08.36.20:521][951]LogSavePackage: Save=8.50ms
+[2016.10.15-08.36.20:521][951]LogSavePackage: Moving '../../../../../../Z Documents/Unreal Projects/TFB_Test/Saved/BedNew_Mattress_Auto4D02A46C249A000B6C621509320F3DCB0.tmp' to '../../../../../../Z Documents/Unreal Projects/TFB_Test/Saved/Autosaves/Game/Items/BedNew_Mattress_Auto4.uasset'
+[2016.10.15-08.36.20:522][951]LogSavePackage:Display: Finished SavePackage ../../../../../../Z Documents/Unreal Projects/TFB_Test/Saved/Autosaves/Game/Items/BedNew_Mattress_Auto4.uasset
+[2016.10.15-08.36.20:522][951]LogFileHelpers: Auto-saving content packages took 0.073
+[2016.10.15-08.51.31:979][976]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2016.10.15-08.51.48:138][980]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2016.10.15-10.19.14:060][850]LogSavePackage: Save=255.18ms
+[2016.10.15-10.19.14:060][850]LogSavePackage: Moving '../../../../../../Z Documents/Unreal Projects/TFB_Test/Saved/ThirdPersonExampleMap746B2598423C5D910379B5A33D84E523.tmp' to '../../../../../../Z Documents/Unreal Projects/TFB_Test/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2016.10.15-10.19.14:065][850]LogSavePackage:Display: Finished SavePackage ../../../../../../Z Documents/Unreal Projects/TFB_Test/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2016.10.15-10.19.14:087][850]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.755
+[2016.10.15-10.19.14:101][850]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Items/NewBeds_03_-_Default_D" FILE="../../../../../../Z Documents/Unreal Projects/TFB_Test/Content/Items/NewBeds_03_-_Default_D.uasset" SILENT=true
+[2016.10.15-10.19.14:269][850]LogSavePackage: Save=166.90ms
+[2016.10.15-10.19.14:269][850]LogSavePackage: Moving '../../../../../../Z Documents/Unreal Projects/TFB_Test/Saved/NewBeds_03_-_Default_DC36466DB4E70B6E3B5AA44B6CD2E76D3.tmp' to '../../../../../../Z Documents/Unreal Projects/TFB_Test/Content/Items/NewBeds_03_-_Default_D.uasset'
+[2016.10.15-10.19.14:272][850]LogSavePackage:Display: Finished SavePackage ../../../../../../Z Documents/Unreal Projects/TFB_Test/Content/Items/NewBeds_03_-_Default_D.uasset
+[2016.10.15-10.19.14:283][850]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Items/NewBeds_03_-_Default_M" FILE="../../../../../../Z Documents/Unreal Projects/TFB_Test/Content/Items/NewBeds_03_-_Default_M.uasset" SILENT=true
+[2016.10.15-10.19.14:505][850]LogSavePackage: Save=220.43ms
+[2016.10.15-10.19.14:505][850]LogSavePackage: Moving '../../../../../../Z Documents/Unreal Projects/TFB_Test/Saved/NewBeds_03_-_Default_MD15F94174A24DF9E9AB411983A7EC3F4.tmp' to '../../../../../../Z Documents/Unreal Projects/TFB_Test/Content/Items/NewBeds_03_-_Default_M.uasset'
+[2016.10.15-10.19.14:507][850]LogSavePackage:Display: Finished SavePackage ../../../../../../Z Documents/Unreal Projects/TFB_Test/Content/Items/NewBeds_03_-_Default_M.uasset
+[2016.10.15-10.19.14:520][850]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Items/NewBeds_03_-_Default_NM" FILE="../../../../../../Z Documents/Unreal Projects/TFB_Test/Content/Items/NewBeds_03_-_Default_NM.uasset" SILENT=true
+[2016.10.15-10.19.14:699][850]LogSavePackage: Save=173.72ms
+[2016.10.15-10.19.14:699][850]LogSavePackage: Moving '../../../../../../Z Documents/Unreal Projects/TFB_Test/Saved/NewBeds_03_-_Default_NMCB0AAAFC4452C075566225910A39E14A.tmp' to '../../../../../../Z Documents/Unreal Projects/TFB_Test/Content/Items/NewBeds_03_-_Default_NM.uasset'
+[2016.10.15-10.19.14:701][850]LogSavePackage:Display: Finished SavePackage ../../../../../../Z Documents/Unreal Projects/TFB_Test/Content/Items/NewBeds_03_-_Default_NM.uasset
+[2016.10.15-10.19.14:713][850]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Items/NewBeds_04_-_Default_D" FILE="../../../../../../Z Documents/Unreal Projects/TFB_Test/Content/Items/NewBeds_04_-_Default_D.uasset" SILENT=true
+[2016.10.15-10.19.14:893][850]LogSavePackage: Save=178.75ms
+[2016.10.15-10.19.14:893][850]LogSavePackage: Moving '../../../../../../Z Documents/Unreal Projects/TFB_Test/Saved/NewBeds_04_-_Default_D46F5AEB24392122B1BB8CE92B53EFAB1.tmp' to '../../../../../../Z Documents/Unreal Projects/TFB_Test/Content/Items/NewBeds_04_-_Default_D.uasset'
+[2016.10.15-10.19.14:895][850]LogSavePackage:Display: Finished SavePackage ../../../../../../Z Documents/Unreal Projects/TFB_Test/Content/Items/NewBeds_04_-_Default_D.uasset
+[2016.10.15-10.19.14:905][850]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Items/NewBeds_04_-_Default_M" FILE="../../../../../../Z Documents/Unreal Projects/TFB_Test/Content/Items/NewBeds_04_-_Default_M.uasset" SILENT=true
+[2016.10.15-10.19.15:415][850]LogSavePackage: Save=508.34ms
+[2016.10.15-10.19.15:415][850]LogSavePackage: Moving '../../../../../../Z Documents/Unreal Projects/TFB_Test/Saved/NewBeds_04_-_Default_M8E57BD6543025F98B0A60F98A9FA141E.tmp' to '../../../../../../Z Documents/Unreal Projects/TFB_Test/Content/Items/NewBeds_04_-_Default_M.uasset'
+[2016.10.15-10.19.15:417][850]LogSavePackage:Display: Finished SavePackage ../../../../../../Z Documents/Unreal Projects/TFB_Test/Content/Items/NewBeds_04_-_Default_M.uasset
+[2016.10.15-10.19.15:429][850]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Items/NewBeds_04_-_Default_NM" FILE="../../../../../../Z Documents/Unreal Projects/TFB_Test/Content/Items/NewBeds_04_-_Default_NM.uasset" SILENT=true
+[2016.10.15-10.19.16:003][850]LogSavePackage: Save=572.49ms
+[2016.10.15-10.19.16:003][850]LogSavePackage: Moving '../../../../../../Z Documents/Unreal Projects/TFB_Test/Saved/NewBeds_04_-_Default_NMF4AF4CC74461DC66485B46AA852E8B1F.tmp' to '../../../../../../Z Documents/Unreal Projects/TFB_Test/Content/Items/NewBeds_04_-_Default_NM.uasset'
+[2016.10.15-10.19.16:005][850]LogSavePackage:Display: Finished SavePackage ../../../../../../Z Documents/Unreal Projects/TFB_Test/Content/Items/NewBeds_04_-_Default_NM.uasset
+[2016.10.15-10.19.16:045][850]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Items/BedNew_Box001" FILE="../../../../../../Z Documents/Unreal Projects/TFB_Test/Content/Items/BedNew_Box001.uasset" SILENT=true
+[2016.10.15-10.19.16:079][850]LogSavePackage: Save=9.29ms
+[2016.10.15-10.19.16:079][850]LogSavePackage: Moving '../../../../../../Z Documents/Unreal Projects/TFB_Test/Saved/BedNew_Box0015E731F5F4D3311FF98260B8E5EF06117.tmp' to '../../../../../../Z Documents/Unreal Projects/TFB_Test/Content/Items/BedNew_Box001.uasset'
+[2016.10.15-10.19.16:081][850]LogSavePackage:Display: Finished SavePackage ../../../../../../Z Documents/Unreal Projects/TFB_Test/Content/Items/BedNew_Box001.uasset
+[2016.10.15-10.19.16:107][850]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Items/BedNew_Mattress" FILE="../../../../../../Z Documents/Unreal Projects/TFB_Test/Content/Items/BedNew_Mattress.uasset" SILENT=true
+[2016.10.15-10.19.16:124][850]LogSavePackage: Save=16.03ms
+[2016.10.15-10.19.16:124][850]LogSavePackage: Moving '../../../../../../Z Documents/Unreal Projects/TFB_Test/Saved/BedNew_Mattress9EEDB621412F8BDB90697597AF407CEA.tmp' to '../../../../../../Z Documents/Unreal Projects/TFB_Test/Content/Items/BedNew_Mattress.uasset'
+[2016.10.15-10.19.16:126][850]LogSavePackage:Display: Finished SavePackage ../../../../../../Z Documents/Unreal Projects/TFB_Test/Content/Items/BedNew_Mattress.uasset
+[2016.10.15-10.19.24:781][871]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.10.15-10.19.25:062][872]Cmd: QUIT_EDITOR
+[2016.10.15-10.19.25:585][872]LogExit: Preparing to exit.
+[2016.10.15-10.19.26:644][872]LogExit: Editor shut down
+[2016.10.15-10.19.26:646][872]LogExit: Transaction tracking system shut down
+[2016.10.15-10.19.26:887][872]LogObj: Freed 0b from 0 cluster array pools.
+[2016.10.15-10.19.26:887][872]LogExit: Object subsystem successfully closed.
+[2016.10.15-10.19.26:907][872]LogD3D11RHI: Shutdown
+[2016.10.15-10.19.26:907][872]LogD3D11RHI: CleanupD3DDevice
+[2016.10.15-10.19.27:074][872]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.10.15-10.19.27:239][872]LogModuleManager: Shutting down and abandoning module TextureEditor (218)
+[2016.10.15-10.19.27:262][872]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (217)
+[2016.10.15-10.19.27:264][872]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (216)
+[2016.10.15-10.19.27:265][872]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (215)
+[2016.10.15-10.19.27:265][872]LogModuleManager: Shutting down and abandoning module MaterialEditor (214)
+[2016.10.15-10.19.27:266][872]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (213)
+[2016.10.15-10.19.27:266][872]LogModuleManager: Shutting down and abandoning module CrashTracker (212)
+[2016.10.15-10.19.27:266][872]LogModuleManager: Shutting down and abandoning module SceneOutliner (211)
+[2016.10.15-10.19.27:266][872]LogModuleManager: Shutting down and abandoning module WidgetCarousel (210)
+[2016.10.15-10.19.27:266][872]LogModuleManager: Shutting down and abandoning module AddContentDialog (209)
+[2016.10.15-10.19.27:273][872]LogModuleManager: Shutting down and abandoning module GameplayTags (208)
+[2016.10.15-10.19.27:273][872]LogModuleManager: Shutting down and abandoning module EditorWidgets (207)
+[2016.10.15-10.19.27:273][872]LogModuleManager: Shutting down and abandoning module CollectionManager (206)
+[2016.10.15-10.19.27:273][872]LogModuleManager: Shutting down and abandoning module StatsViewer (205)
+[2016.10.15-10.19.27:273][872]LogModuleManager: Shutting down and abandoning module FoliageEdit (204)
+[2016.10.15-10.19.27:273][872]LogModuleManager: Shutting down and abandoning module LandscapeEditor (203)
+[2016.10.15-10.19.27:274][872]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (202)
+[2016.10.15-10.19.27:274][872]LogModuleManager: Shutting down and abandoning module ActorPickerMode (201)
+[2016.10.15-10.19.27:274][872]LogModuleManager: Shutting down and abandoning module GeometryMode (200)
+[2016.10.15-10.19.27:274][872]LogModuleManager: Shutting down and abandoning module TextureAlignMode (199)
+[2016.10.15-10.19.27:274][872]LogModuleManager: Shutting down and abandoning module BspMode (198)
+[2016.10.15-10.19.27:274][872]LogModuleManager: Shutting down and abandoning module HardwareSurvey (197)
+[2016.10.15-10.19.27:274][872]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (196)
+[2016.10.15-10.19.27:274][872]LogModuleManager: Shutting down and abandoning module SequenceRecorder (195)
+[2016.10.15-10.19.27:274][872]LogModuleManager: Shutting down and abandoning module AutomationWorker (194)
+[2016.10.15-10.19.27:274][872]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (193)
+[2016.10.15-10.19.27:274][872]LogModuleManager: Shutting down and abandoning module PlacementMode (192)
+[2016.10.15-10.19.27:274][872]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (191)
+[2016.10.15-10.19.27:274][872]LogModuleManager: Shutting down and abandoning module CharacterAI (190)
+[2016.10.15-10.19.27:274][872]LogModuleManager: Shutting down and abandoning module SmartSnapping (189)
+[2016.10.15-10.19.27:274][872]LogModuleManager: Shutting down and abandoning module SessionServices (188)
+[2016.10.15-10.19.27:274][872]LogModuleManager: Shutting down and abandoning module ViewportSnapping (187)
+[2016.10.15-10.19.27:274][872]LogModuleManager: Shutting down and abandoning module LogVisualizer (186)
+[2016.10.15-10.19.27:274][872]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (185)
+[2016.10.15-10.19.27:274][872]LogModuleManager: Shutting down and abandoning module IntroTutorials (184)
+[2016.10.15-10.19.27:275][872]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (183)
+[2016.10.15-10.19.27:275][872]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (182)
+[2016.10.15-10.19.27:275][872]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (181)
+[2016.10.15-10.19.27:275][872]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (180)
+[2016.10.15-10.19.28:049][872]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (179)
+[2016.10.15-10.19.28:049][872]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (178)
+[2016.10.15-10.19.28:049][872]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (177)
+[2016.10.15-10.19.28:049][872]LogModuleManager: Shutting down and abandoning module MergeActors (176)
+[2016.10.15-10.19.28:049][872]LogModuleManager: Shutting down and abandoning module SizeMap (175)
+[2016.10.15-10.19.28:049][872]LogModuleManager: Shutting down and abandoning module TreeMap (174)
+[2016.10.15-10.19.28:049][872]LogModuleManager: Shutting down and abandoning module ReferenceViewer (173)
+[2016.10.15-10.19.28:049][872]LogModuleManager: Shutting down and abandoning module LocalizationService (172)
+[2016.10.15-10.19.28:049][872]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (171)
+[2016.10.15-10.19.28:049][872]LogModuleManager: Shutting down and abandoning module HardwareTargeting (170)
+[2016.10.15-10.19.28:049][872]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (169)
+[2016.10.15-10.19.28:049][872]LogModuleManager: Shutting down and abandoning module UndoHistory (168)
+[2016.10.15-10.19.28:049][872]LogModuleManager: Shutting down and abandoning module UserFeedback (167)
+[2016.10.15-10.19.28:050][872]LogModuleManager: Shutting down and abandoning module XmlParser (166)
+[2016.10.15-10.19.28:050][872]LogModuleManager: Shutting down and abandoning module Blutility (165)
+[2016.10.15-10.19.28:050][872]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (164)
+[2016.10.15-10.19.28:050][872]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (163)
+[2016.10.15-10.19.28:050][872]LogModuleManager: Shutting down and abandoning module InputBindingEditor (162)
+[2016.10.15-10.19.28:050][872]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (161)
+[2016.10.15-10.19.28:050][872]LogModuleManager: Shutting down and abandoning module SettingsEditor (160)
+[2016.10.15-10.19.28:050][872]LogModuleManager: Shutting down and abandoning module ProjectLauncher (159)
+[2016.10.15-10.19.28:050][872]LogModuleManager: Shutting down and abandoning module SessionFrontend (158)
+[2016.10.15-10.19.28:050][872]LogModuleManager: Shutting down and abandoning module ProfilerClient (157)
+[2016.10.15-10.19.28:050][872]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (156)
+[2016.10.15-10.19.28:050][872]LogModuleManager: Shutting down and abandoning module DeviceManager (155)
+[2016.10.15-10.19.28:105][872]LogModuleManager: Shutting down and abandoning module AutomationController (154)
+[2016.10.15-10.19.28:105][872]LogModuleManager: Shutting down and abandoning module AutomationWindow (153)
+[2016.10.15-10.19.28:105][872]LogModuleManager: Shutting down and abandoning module Layers (152)
+[2016.10.15-10.19.28:105][872]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (151)
+[2016.10.15-10.19.28:105][872]LogModuleManager: Shutting down and abandoning module DetailCustomizations (150)
+[2016.10.15-10.19.28:105][872]LogModuleManager: Shutting down and abandoning module PackagesDialog (149)
+[2016.10.15-10.19.28:105][872]LogModuleManager: Shutting down and abandoning module Persona (148)
+[2016.10.15-10.19.28:105][872]LogModuleManager: Shutting down and abandoning module Kismet (147)
+[2016.10.15-10.19.28:106][872]LogModuleManager: Shutting down and abandoning module GraphEditor (146)
+[2016.10.15-10.19.28:106][872]LogModuleManager: Shutting down and abandoning module ClassViewer (145)
+[2016.10.15-10.19.28:106][872]LogModuleManager: Shutting down and abandoning module Toolbox (144)
+[2016.10.15-10.19.28:106][872]LogModuleManager: Shutting down and abandoning module ModuleUI (143)
+[2016.10.15-10.19.28:106][872]LogModuleManager: Shutting down and abandoning module MovieSceneTools (142)
+[2016.10.15-10.19.28:106][872]LogModuleManager: Shutting down and abandoning module OutputLog (141)
+[2016.10.15-10.19.28:106][872]LogModuleManager: Shutting down and abandoning module GammaUI (140)
+[2016.10.15-10.19.28:106][872]LogModuleManager: Shutting down and abandoning module Documentation (139)
+[2016.10.15-10.19.28:106][872]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (138)
+[2016.10.15-10.19.28:106][872]LogModuleManager: Shutting down and abandoning module AnalyticsET (137)
+[2016.10.15-10.19.28:106][872]LogModuleManager: Shutting down and abandoning module Analytics (136)
+[2016.10.15-10.19.28:106][872]LogModuleManager: Shutting down and abandoning module PortalServices (135)
+[2016.10.15-10.19.28:106][872]LogModuleManager: Shutting down and abandoning module PortalRpc (134)
+[2016.10.15-10.19.28:106][872]LogModuleManager: Shutting down and abandoning module MessagingRpc (133)
+[2016.10.15-10.19.28:106][872]LogModuleManager: Shutting down and abandoning module GameplayDebugger (132)
+[2016.10.15-10.19.28:106][872]LogModuleManager: Shutting down and abandoning module AITestSuite (131)
+[2016.10.15-10.19.28:106][872]LogModuleManager: Shutting down and abandoning module AIModule (130)
+[2016.10.15-10.19.28:106][872]LogModuleManager: Shutting down and abandoning module ProfilerService (129)
+[2016.10.15-10.19.28:219][872]LogModuleManager: Shutting down and abandoning module TaskGraph (128)
+[2016.10.15-10.19.28:219][872]LogModuleManager: Shutting down and abandoning module SlateRemote (127)
+[2016.10.15-10.19.28:219][872]LogModuleManager: Shutting down and abandoning module SteamVRController (126)
+[2016.10.15-10.19.28:219][872]LogModuleManager: Shutting down and abandoning module SteamVR (125)
+[2016.10.15-10.19.28:219][872]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (124)
+[2016.10.15-10.19.28:219][872]LogModuleManager: Shutting down and abandoning module OculusLibrary (123)
+[2016.10.15-10.19.28:219][872]LogModuleManager: Shutting down and abandoning module OculusInput (122)
+[2016.10.15-10.19.28:219][872]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (121)
+[2016.10.15-10.19.28:219][872]LogModuleManager: Shutting down and abandoning module CableComponent (120)
+[2016.10.15-10.19.28:219][872]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (119)
+[2016.10.15-10.19.28:219][872]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (118)
+[2016.10.15-10.19.28:219][872]LogModuleManager: Shutting down and abandoning module HTML5Networking (117)
+[2016.10.15-10.19.28:219][872]LogModuleManager: Shutting down and abandoning module SuperSearch (116)
+[2016.10.15-10.19.28:219][872]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (115)
+[2016.10.15-10.19.28:219][872]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (114)
+[2016.10.15-10.19.28:219][872]LogModuleManager: Shutting down and abandoning module PluginBrowser (113)
+[2016.10.15-10.19.28:219][872]LogModuleManager: Shutting down and abandoning module EpicSurvey (112)
+[2016.10.15-10.19.28:219][872]LogModuleManager: Shutting down and abandoning module DesktopPlatform (111)
+[2016.10.15-10.19.28:219][872]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (110)
+[2016.10.15-10.19.28:220][872]LogModuleManager: Shutting down and abandoning module UObjectPlugin (109)
+[2016.10.15-10.19.28:220][872]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (108)
+[2016.10.15-10.19.28:220][872]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (107)
+[2016.10.15-10.19.28:220][872]LogModuleManager: Shutting down and abandoning module SourceControl (106)
+[2016.10.15-10.19.28:220][872]LogModuleManager: Shutting down and abandoning module GitSourceControl (105)
+[2016.10.15-10.19.28:220][872]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (104)
+[2016.10.15-10.19.28:220][872]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (103)
+[2016.10.15-10.19.28:220][872]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (102)
+[2016.10.15-10.19.28:220][872]LogModuleManager: Shutting down and abandoning module MeshPaint (101)
+[2016.10.15-10.19.28:220][872]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (100)
+[2016.10.15-10.19.28:220][872]LogModuleManager: Shutting down and abandoning module HotReload (99)
+[2016.10.15-10.19.28:249][872]LogModuleManager: Shutting down and abandoning module MainFrame (98)
+[2016.10.15-10.19.28:249][872]LogModuleManager: Shutting down and abandoning module LevelEditor (97)
+[2016.10.15-10.19.28:250][872]LogModuleManager: Shutting down and abandoning module ContentBrowser (96)
+[2016.10.15-10.19.28:252][872]LogModuleManager: Shutting down and abandoning module Paper2DEditor (95)
+[2016.10.15-10.19.28:252][872]LogModuleManager: Shutting down and abandoning module UdpMessaging (94)
+[2016.10.15-10.19.28:353][872]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (93)
+[2016.10.15-10.19.28:353][872]LogModuleManager: Shutting down and abandoning module Paper2D (92)
+[2016.10.15-10.19.28:353][872]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (91)
+[2016.10.15-10.19.28:353][872]LogModuleManager: Shutting down and abandoning module Media (90)
+[2016.10.15-10.19.28:353][872]LogModuleManager: Shutting down and abandoning module WmfMedia (89)
+[2016.10.15-10.19.28:353][872]LogModuleManager: Shutting down and abandoning module MediaAssets (88)
+[2016.10.15-10.19.28:353][872]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (87)
+[2016.10.15-10.19.28:353][872]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (86)
+[2016.10.15-10.19.28:353][872]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (85)
+[2016.10.15-10.19.28:353][872]LogModuleManager: Shutting down and abandoning module VREditor (84)
+[2016.10.15-10.19.28:353][872]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (83)
+[2016.10.15-10.19.28:353][872]LogModuleManager: Shutting down and abandoning module PropertyEditor (82)
+[2016.10.15-10.19.28:353][872]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (81)
+[2016.10.15-10.19.28:353][872]LogModuleManager: Shutting down and abandoning module FunctionalTesting (80)
+[2016.10.15-10.19.28:353][872]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (79)
+[2016.10.15-10.19.28:353][872]LogModuleManager: Shutting down and abandoning module Sequencer (78)
+[2016.10.15-10.19.28:353][872]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (77)
+[2016.10.15-10.19.28:353][872]LogModuleManager: Shutting down and abandoning module MessageLog (76)
+[2016.10.15-10.19.28:353][872]LogModuleManager: Shutting down and abandoning module AssetTools (75)
+[2016.10.15-10.19.28:353][872]LogModuleManager: Shutting down and abandoning module UMGEditor (74)
+[2016.10.15-10.19.28:353][872]LogModuleManager: Shutting down and abandoning module UMG (73)
+[2016.10.15-10.19.28:353][872]LogModuleManager: Shutting down and abandoning module SlateReflector (72)
+[2016.10.15-10.19.28:353][872]LogModuleManager: Shutting down and abandoning module Slate (71)
+[2016.10.15-10.19.28:354][872]LogModuleManager: Shutting down and abandoning module EditorStyle (70)
+[2016.10.15-10.19.28:358][872]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (69)
+[2016.10.15-10.19.28:358][872]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (68)
+[2016.10.15-10.19.28:358][872]LogModuleManager: Shutting down and abandoning module XAudio2 (67)
+[2016.10.15-10.19.28:358][872]LogModuleManager: Shutting down and abandoning module Networking (65)
+[2016.10.15-10.19.28:358][872]LogModuleManager: Shutting down and abandoning module Core (64)
+[2016.10.15-10.19.28:358][872]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (63)
+[2016.10.15-10.19.28:362][872]LogModuleManager: Shutting down and abandoning module AssetRegistry (62)
+[2016.10.15-10.19.28:564][872]LogModuleManager: Shutting down and abandoning module KismetCompiler (61)
+[2016.10.15-10.19.28:564][872]LogModuleManager: Shutting down and abandoning module PhysXFormats (60)
+[2016.10.15-10.19.28:564][872]LogModuleManager: Shutting down and abandoning module MeshUtilities (59)
+[2016.10.15-10.19.28:564][872]LogModuleManager: Shutting down and abandoning module DerivedDataCache (58)
+[2016.10.15-10.19.28:590][872]LogDerivedDataCache: Shutdown
+[2016.10.15-10.19.28:590][872]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (57)
+[2016.10.15-10.19.28:590][872]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (56)
+[2016.10.15-10.19.28:590][872]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (55)
+[2016.10.15-10.19.28:590][872]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (54)
+[2016.10.15-10.19.28:591][872]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (53)
+[2016.10.15-10.19.28:591][872]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (52)
+[2016.10.15-10.19.28:591][872]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (51)
+[2016.10.15-10.19.28:591][872]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (50)
+[2016.10.15-10.19.28:591][872]LogModuleManager: Shutting down and abandoning module ImageWrapper (49)
+[2016.10.15-10.19.28:591][872]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (48)
+[2016.10.15-10.19.28:591][872]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (47)
+[2016.10.15-10.19.28:591][872]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (46)
+[2016.10.15-10.19.28:591][872]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (45)
+[2016.10.15-10.19.28:591][872]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (44)
+[2016.10.15-10.19.28:591][872]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (43)
+[2016.10.15-10.19.28:591][872]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (42)
+[2016.10.15-10.19.28:591][872]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (41)
+[2016.10.15-10.19.28:591][872]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (40)
+[2016.10.15-10.19.28:591][872]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.10.15-10.19.28:591][872]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.10.15-10.19.28:591][872]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.10.15-10.19.28:591][872]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.10.15-10.19.28:591][872]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.10.15-10.19.28:591][872]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.10.15-10.19.28:591][872]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.10.15-10.19.28:591][872]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.10.15-10.19.28:591][872]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.10.15-10.19.28:591][872]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.10.15-10.19.28:591][872]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.10.15-10.19.28:591][872]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.10.15-10.19.28:591][872]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.10.15-10.19.28:591][872]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.10.15-10.19.28:591][872]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.10.15-10.19.28:591][872]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.10.15-10.19.28:591][872]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.10.15-10.19.28:591][872]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.10.15-10.19.28:591][872]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.10.15-10.19.28:591][872]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.10.15-10.19.28:591][872]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.10.15-10.19.30:098][872]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.10.15-10.19.30:098][872]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.10.15-10.19.30:099][872]LogHMD: Oculus shutdown.
+[2016.10.15-10.19.30:099][872]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.10.15-10.19.30:099][872]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.10.15-10.19.30:099][872]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.10.15-10.19.30:099][872]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.10.15-10.19.30:099][872]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.10.15-10.19.30:108][872]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.10.15-10.19.30:108][872]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.10.15-10.19.30:108][872]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.10.15-10.19.30:108][872]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.10.15-10.19.30:108][872]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.10.15-10.19.30:108][872]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.10.15-10.19.30:108][872]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.10.15-10.19.30:108][872]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.10.15-10.19.30:108][872]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.10.15-10.19.30:108][872]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.10.15-10.19.30:109][872]LogExit: Exiting.
+[2016.10.15-10.19.30:121][872]Log file closed, 10/15/16 06:19:30

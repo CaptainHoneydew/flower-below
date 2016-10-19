@@ -1,0 +1,1039 @@
+﻿Log file open, 10/14/16 17:36:58
+LogInit:Display: Running engine for game: TFB_Test
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1706963956) SRandInit(1706963958).
+LogTaskGraph: Started task graph with 4 named threads and 7 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.070404
+OCULUS: Info: [CAPI] LibOVR module is located at C:\Program Files\Oculus\Support\oculus-runtime\LibOVRRT64_1.dll
+OCULUS: Info: [HMDState] Requested to SetForegroundWindow(e0b7all)
+OCULUS: Debug: Connected to the server running version (prod = 1).1.9.0(build = 292703) feature version = 0. Client runs version (prod = 1).1.9.0(build = 292703) feature version = 0
+LogInit: Version: 4.12.5-3039270+++UE4+Release-4.12
+LogInit: API Version: 2992821
+LogInit: Net Version: 3039270
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 3
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 2
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 6
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 2
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 0
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Jul  6 2016 09:09:46
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.12
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: Z:/Z Program Files/Epic Games/4.12/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Using libcurl 7.41.0
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2016.10.14-21.36.58:390][  0]LogInit: Selected Device Profile: [Windows]
+[2016.10.14-21.36.58:390][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.10.14-21.36.58:398][  0]LogInit: Computer: ZACH-PC
+[2016.10.14-21.36.58:398][  0]LogInit: User: Zack
+[2016.10.14-21.36.58:398][  0]LogInit: CPU Page size=65536, Cores=4
+[2016.10.14-21.36.58:398][  0]LogInit: High frequency timer resolution =3.222684 MHz
+[2016.10.14-21.36.58:398][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2016.10.14-21.36.58:398][  0]LogMemory: Platform Memory Stats for Windows
+[2016.10.14-21.36.58:398][  0]LogMemory: Process Physical Memory: 198.49 MB used, 198.49 MB peak
+[2016.10.14-21.36.58:398][  0]LogMemory: Process Virtual Memory: 201.24 MB used, 201.24 MB peak
+[2016.10.14-21.36.58:398][  0]LogMemory: Physical Memory: 5252.81 MB used, 8155.50 MB total
+[2016.10.14-21.36.58:398][  0]LogMemory: Virtual Memory: 601.00 MB used, 134217728.00 MB total
+[2016.10.14-21.36.58:455][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.10.14-21.36.58:835][  0]LogD3D11RHI: D3D11 adapters:
+[2016.10.14-21.36.59:026][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 680' (Feature Level 11_0)
+[2016.10.14-21.36.59:026][  0]LogD3D11RHI:       2017/0/4077 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2016.10.14-21.36.59:030][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2016.10.14-21.36.59:030][  0]LogD3D11RHI:       0/0/4077 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2016.10.14-21.36.59:030][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.10.14-21.36.59:033][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.10.14-21.36.59:033][  0]LogD3D11RHI:     GPU DeviceId: 0x1180 (for the marketing name, search the web for "GPU Device Id")
+[2016.10.14-21.36.59:033][  0]LogWindows: EnumDisplayDevices:
+[2016.10.14-21.36.59:034][  0]LogWindows:    0. 'NVIDIA GeForce GTX 680' (P:1 D:1)
+[2016.10.14-21.36.59:034][  0]LogWindows:    1. 'NVIDIA GeForce GTX 680' (P:0 D:0)
+[2016.10.14-21.36.59:034][  0]LogWindows:    2. 'NVIDIA GeForce GTX 680' (P:0 D:0)
+[2016.10.14-21.36.59:034][  0]LogWindows:    3. 'NVIDIA GeForce GTX 680' (P:0 D:0)
+[2016.10.14-21.36.59:034][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2016.10.14-21.36.59:034][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 680
+[2016.10.14-21.36.59:034][  0]LogD3D11RHI:   Driver Version: 372.70 (internal:21.21.13.7270, unified:372.70)
+[2016.10.14-21.36.59:034][  0]LogD3D11RHI:      Driver Date: 8-25-2016
+[2016.10.14-21.36.59:034][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.10.14-21.36.59:200][  0]LogD3D11RHI: Async texture creation enabled
+[2016.10.14-21.36.59:236][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2016.10.14-21.36.59:236][  0]LogShaderCompilers: Guid format shader working directory is -10 characters bigger than the processId version (../../../../../../Z Documents/Unreal Projects/TFB_Test/Intermediate/Shaders/WorkingDirectory/10108/).
+[2016.10.14-21.36.59:237][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Zack/AppData/Local/Temp/UnrealShaderWorkingDir/36EDCDDD47920F4B8BC7E6A1D9E8E0FC/'.
+[2016.10.14-21.36.59:237][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.10.14-21.37.00:132][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.10.14-21.37.00:143][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.10.14-21.37.00:152][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.10.14-21.37.00:162][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.10.14-21.37.00:171][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.10.14-21.37.00:180][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.10.14-21.37.00:189][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.10.14-21.37.00:198][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.10.14-21.37.00:207][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.10.14-21.37.00:216][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.10.14-21.37.00:225][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.10.14-21.37.00:243][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.10.14-21.37.00:243][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.10.14-21.37.00:247][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.10.14-21.37.00:274][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.10.14-21.37.00:283][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.10.14-21.37.00:292][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.10.14-21.37.00:301][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.10.14-21.37.00:311][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.10.14-21.37.00:311][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.10.14-21.37.00:417][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.10.14-21.37.00:463][  0]LogDerivedDataCache: Loaded boot cache 0.05s 48MB C:/Users/Zack/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2016.10.14-21.37.00:464][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Zack/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc
+[2016.10.14-21.37.00:464][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Z Documents/Unreal Projects/TFB_Test/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.10.14-21.37.00:464][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.10.14-21.37.00:464][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Z Documents/Unreal Projects/TFB_Test/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.10.14-21.37.00:464][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.10.14-21.37.00:479][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.10.14-21.37.00:492][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Zack/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.10.14-21.37.00:681][  0]LogInit: Selected Device Profile: [Windows]
+[2016.10.14-21.37.00:681][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.10.14-21.37.00:826][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.10.14-21.37.00:826][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.10.14-21.37.00:826][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.10.14-21.37.01:041][  0]LogAssetRegistry: FAssetRegistry took 0.0212 seconds to start up
+[2016.10.14-21.37.01:060][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.018239 seconds
+[2016.10.14-21.37.01:065][  0]LogUObjectArray: 28739 objects as part of root set at end of initial load.
+[2016.10.14-21.37.01:065][  0]LogUObjectAllocator: 5855624 out of 0 bytes used by permanent object pool.
+[2016.10.14-21.37.01:065][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.10.14-21.37.01:071][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.10.14-21.37.01:271][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.10.14-21.37.01:271][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.10.14-21.37.02:328][  0]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(e0b7all)
+[2016.10.14-21.37.02:397][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.10.14-21.37.02:602][  0]SourceControl: Info Source control is disabled
+[2016.10.14-21.37.02:603][  0]SourceControl: Info Source control is disabled
+[2016.10.14-21.37.02:611][  0]SourceControl: Info Source control is disabled
+[2016.10.14-21.37.02:620][  0]SourceControl: Info Source control is disabled
+[2016.10.14-21.37.02:833][  0]LogEngine: Initializing Engine...
+[2016.10.14-21.37.02:836][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.10.14-21.37.02:836][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.10.14-21.37.02:837][  0]LogHMD: Oculus plugin initialized. Version: 4.12.5-3039270+++UE4+Release-4.12, LibOVR: 1.9.0, SDK: 1.3.2, built Jul  6 2016, 09:11:15
+[2016.10.14-21.37.02:958][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.10.14-21.37.02:971][  0]LogInit: XAudio2 using 'Speakers (Logitech Wireless Headset)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.10.14-21.37.02:988][  0]LogInit: FAudioDevice initialized.
+[2016.10.14-21.37.03:008][  0]LogDerivedDataCache: Saved boot cache 0.02s 48MB C:/Users/Zack/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2016.10.14-21.37.03:015][  0]LogInit: Texture streaming: Enabled
+[2016.10.14-21.37.03:047][  0]LogInit: Transaction tracking system initialized
+[2016.10.14-21.37.03:072][  0]BlueprintLog: New page: Editor Load
+[2016.10.14-21.37.03:245][  0]LocalizationService: Info Localization service is disabled
+[2016.10.14-21.37.03:346][  0]LogConsoleResponse:Display: 
+[2016.10.14-21.37.03:456][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2016.10.14-21.37.03:456][  0]LogCook:Display: Mobile HDR setting 1
+[2016.10.14-21.37.03:593][  0]LogFileCache: Scanning file cache for directory 'Z:/Z Documents/Unreal Projects/TFB_Test/Content/' took 0.01s
+[2016.10.14-21.37.03:593][  0]SourceControl: Info Source control is disabled
+[2016.10.14-21.37.03:593][  0]Cmd: MAP LOAD FILE="../../../../../../Z Documents/Unreal Projects/TFB_Test/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.10.14-21.37.03:594][  0]LightingResults: New page: Lighting Build
+[2016.10.14-21.37.03:596][  0]MapCheck: New page: Map Check
+[2016.10.14-21.37.03:596][  0]LightingResults: New page: Lighting Build
+[2016.10.14-21.37.03:987][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.10.14-21.37.03:995][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.10.14-21.37.03:996][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.10.14-21.37.04:117][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 121.016ms to complete.
+[2016.10.14-21.37.04:117][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.524
+[2016.10.14-21.37.04:237][  0]LogCollectionManager: Loaded 0 collections in 0.000774 seconds
+[2016.10.14-21.37.04:275][  0]LogFileCache: Scanning file cache for directory 'Z:/Z Documents/Unreal Projects/TFB_Test/Saved/Collections/' took 0.01s
+[2016.10.14-21.37.04:275][  0]LogFileCache: Scanning file cache for directory 'Z:/Z Documents/Unreal Projects/TFB_Test/Content/Developers/Zack/Collections/' took 0.01s
+[2016.10.14-21.37.04:275][  0]LogFileCache: Scanning file cache for directory 'Z:/Z Documents/Unreal Projects/TFB_Test/Content/Collections/' took 0.01s
+[2016.10.14-21.37.04:275][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2016.10.14-21.37.04:282][  0]LogContentBrowser: Native class hierarchy populated in 0.0069 seconds. Added 2047 classes and 369 folders.
+[2016.10.14-21.37.04:285][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.10.14-21.37.04:285][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.10.14-21.37.04:286][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0004 seconds. Added 12 classes and 0 folders.
+[2016.10.14-21.37.04:288][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.10.14-21.37.04:331][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.10.14-21.37.04:336][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2016.10.14-21.37.04:382][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.10.14-21.37.04:387][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.10.14-21.37.04:413][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2016.10.14-21.37.04:413][  0]LogLoad: Full Startup: 7.36 seconds (BP compile: 0.08 seconds)
+[2016.10.14-21.37.04:413][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2016.10.14-21.37.04:747][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.10.14-21.37.04:749][  0]LogOcInput: OculusInput pre-init called
+[2016.10.14-21.37.04:760][  0]LogOcInput: OculusInput is initialized. Init status 0. Runtime version: 1.9.0
+[2016.10.14-21.37.04:777][  0]LogAssetRegistry: Asset discovery search completed in 3.7573 seconds
+[2016.10.14-21.37.04:777][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.10.14-21.37.04:777][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000018 seconds (updated 0 objects)
+[2016.10.14-21.37.04:780][  0]LogContentStreaming: Texture pool size now 400 MB
+[2016.10.14-21.37.04:926][  0]LogRenderer: Reallocating scene render targets to support 1020x464 (Frame:2).
+[2016.10.14-21.37.09:384][410]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall6)
+[2016.10.14-21.37.30:668][959]Cmd: DELETE
+[2016.10.14-21.37.30:668][959]Cmd: ACTOR DELETE
+[2016.10.14-21.37.30:670][959]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.10.14-21.37.30:684][959]LogEditorActor: Deleted 1 Actors (0.016 secs)
+[2016.10.14-21.37.32:815][215]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall5)
+[2016.10.14-21.37.33:949][347]Cmd: DELETE
+[2016.10.14-21.37.33:949][347]Cmd: ACTOR DELETE
+[2016.10.14-21.37.33:950][347]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.10.14-21.37.33:957][347]LogEditorActor: Deleted 1 Actors (0.007 secs)
+[2016.10.14-21.37.34:670][432]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall7)
+[2016.10.14-21.37.34:776][441]Cmd: DELETE
+[2016.10.14-21.37.34:776][441]Cmd: ACTOR DELETE
+[2016.10.14-21.37.34:776][441]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.10.14-21.37.34:783][441]LogEditorActor: Deleted 1 Actors (0.007 secs)
+[2016.10.14-21.37.35:214][493]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall8)
+[2016.10.14-21.37.35:334][504]Cmd: DELETE
+[2016.10.14-21.37.35:335][504]Cmd: ACTOR DELETE
+[2016.10.14-21.37.35:335][504]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.10.14-21.37.35:342][504]LogEditorActor: Deleted 1 Actors (0.007 secs)
+[2016.10.14-21.37.36:839][684]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ramp_StaticMesh)
+[2016.10.14-21.37.36:929][691]Cmd: DELETE
+[2016.10.14-21.37.36:929][691]Cmd: ACTOR DELETE
+[2016.10.14-21.37.36:930][691]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.10.14-21.37.36:936][691]LogEditorActor: Deleted 1 Actors (0.007 secs)
+[2016.10.14-21.37.37:558][766]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (CubeMesh)
+[2016.10.14-21.37.37:694][777]Cmd: DELETE
+[2016.10.14-21.37.37:694][777]Cmd: ACTOR DELETE
+[2016.10.14-21.37.37:694][777]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.10.14-21.37.37:701][777]LogEditorActor: Deleted 1 Actors (0.007 secs)
+[2016.10.14-21.37.37:935][805]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (LeftArm_StaticMesh)
+[2016.10.14-21.37.38:128][824]Cmd: DELETE
+[2016.10.14-21.37.38:128][824]Cmd: ACTOR DELETE
+[2016.10.14-21.37.38:128][824]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.10.14-21.37.38:136][824]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2016.10.14-21.37.38:650][886]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bump_StaticMesh)
+[2016.10.14-21.37.38:773][897]Cmd: DELETE
+[2016.10.14-21.37.38:773][897]Cmd: ACTOR DELETE
+[2016.10.14-21.37.38:773][897]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.10.14-21.37.38:780][897]LogEditorActor: Deleted 1 Actors (0.007 secs)
+[2016.10.14-21.37.39:202][948]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (RightArm_StaticMesh)
+[2016.10.14-21.37.39:323][959]Cmd: DELETE
+[2016.10.14-21.37.39:323][959]Cmd: ACTOR DELETE
+[2016.10.14-21.37.39:324][959]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.10.14-21.37.39:330][959]LogEditorActor: Deleted 1 Actors (0.007 secs)
+[2016.10.14-21.37.39:828][ 19]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Linear_Stair_StaticMesh)
+[2016.10.14-21.37.39:924][ 27]Cmd: DELETE
+[2016.10.14-21.37.39:924][ 27]Cmd: ACTOR DELETE
+[2016.10.14-21.37.39:925][ 27]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.10.14-21.37.39:931][ 27]LogEditorActor: Deleted 1 Actors (0.007 secs)
+[2016.10.14-21.37.43:440][446]MapCheck: New page: Map Check
+[2016.10.14-21.37.43:472][446]LightingResults: New page: Lighting Build - Oct 14, 2016, 12:37:43 PM
+[2016.10.14-21.37.43:555][446]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2016.10.14-21.37.45:587][446]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2016.10.14-21.37.45:602][446]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2016.10.14-21.37.46:664][446]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2016.10.14-21.37.46:664][446]LogSwarmInterface: [TryOpenConnection] Local Process ID is 10108
+[2016.10.14-21.37.49:225][446]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2016.10.14-21.37.49:225][446]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2016.10.14-21.37.49:225][446]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2016.10.14-21.37.49:225][446]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2016.10.14-21.37.49:225][446]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2016.10.14-21.37.49:568][446]LogEditorBuildUtils: Build time 0:06
+[2016.10.14-21.37.59:343][814]Job is a success!
+[2016.10.14-21.37.59:813][815]LogTexture:Display: Building textures: SkyOcclusion1_1 (AutoDXT)
+[2016.10.14-21.37.59:813][815]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2016.10.14-21.37.59:813][815]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
+[2016.10.14-21.37.59:813][815]LogTexture:Display: Building textures: SkyOcclusion1_2 (AutoDXT)
+[2016.10.14-21.37.59:813][815]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2016.10.14-21.37.59:813][815]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1)
+[2016.10.14-21.37.59:813][815]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (G8)
+[2016.10.14-21.37.59:813][815]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (G8)
+[2016.10.14-21.37.59:867][815]Lightmass on ZACH-PC: 3.59 sec total, 119 ms importing, 1 ms setup, 601 ms photons, 2.83 sec processing, 0 ms extra exporting [2/2 mappings]. Threads: 11.3 sec total, 2.32 sec processing.
+[2016.10.14-21.37.59:880][815]LogStaticLightingSystem: Illumination: 16.3 sec (169 ms encoding lightmaps, 126 ms encoding shadowmaps)
+[2016.10.14-21.37.59:880][815]LogStaticLightingSystem: Lightmap texture memory:  2.7 MB (2.7 MB streaming, 0.0 MB non-streaming), 4 textures
+[2016.10.14-21.37.59:880][815]LogStaticLightingSystem: Shadowmap texture memory: 0.7 MB (0.7 MB streaming, 0.0 MB non-streaming), 2 textures
+[2016.10.14-21.38.00:229][816]Cmd: MAP CHECK NOTIFYRESULTS
+[2016.10.14-21.38.00:229][816]MapCheck: New page: ThirdPersonExampleMap - Oct 14, 2016, 12:38:00 PM
+[2016.10.14-21.38.00:304][816]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 73.99ms to complete.
+[2016.10.14-21.38.18:597][ 10]LogEditorViewport: Clicking Background
+[2016.10.14-21.38.19:176][ 79]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.10.14-21.38.22:615][480]LogEditorViewport: Clicking on Actor (LMB): DocumentationActor (DocumentationActor1)
+[2016.10.14-21.38.23:378][567]Cmd: DELETE
+[2016.10.14-21.38.23:378][567]Cmd: ACTOR DELETE
+[2016.10.14-21.38.23:378][567]LogEditorActor: Deleted Actor: DocumentationActor
+[2016.10.14-21.38.23:385][567]LogEditorActor: Deleted 1 Actors (0.007 secs)
+[2016.10.14-21.38.23:938][633]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TemplateLabel)
+[2016.10.14-21.38.24:266][670]Cmd: DELETE
+[2016.10.14-21.38.24:266][670]Cmd: ACTOR DELETE
+[2016.10.14-21.38.24:267][670]LogEditorActor: Deleted Actor: TextRenderActor
+[2016.10.14-21.38.24:273][670]LogEditorActor: Deleted 1 Actors (0.007 secs)
+[2016.10.14-21.39.30:241][185]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Z Documents/Class/Maptry.fbx)
+[2016.10.14-21.39.30:272][185]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2016.10.14-21.39.30:272][185]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2016.10.14-21.39.30:272][185]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2016.10.14-21.39.30:272][185]LogFbx: ItemName: Model, ItemCount : 117
+[2016.10.14-21.39.30:272][185]LogFbx: ItemName: Geometry, ItemCount : 117
+[2016.10.14-21.39.30:272][185]LogFbx: ItemName: Material, ItemCount : 1
+[2016.10.14-21.39.30:277][185]LogFbx: Loading FBX Scene from ../../../../../../Z Documents/Class/Maptry.fbx
+[2016.10.14-21.39.30:310][185]LogFbx: FBX Scene Loaded Succesfully
+[2016.10.14-21.39.45:325][185]LogFbx: Loading FBX Scene from ../../../../../../Z Documents/Class/Maptry.fbx
+[2016.10.14-21.39.45:358][185]LogFbx: FBX Scene Loaded Succesfully
+[2016.10.14-21.39.45:369][185]LogStaticMesh: Building static mesh Maptry_BoxBrush...
+[2016.10.14-21.39.45:371][185]LogStaticMesh: Built static mesh [0.00s] /Game/Maptry_BoxBrush.Maptry_BoxBrush
+[2016.10.14-21.39.45:398][185]LogStaticMesh: Building static mesh Maptry_BoxBrush2...
+[2016.10.14-21.39.45:403][185]LogStaticMesh: Built static mesh [0.00s] /Game/Maptry_BoxBrush2.Maptry_BoxBrush2
+[2016.10.14-21.39.45:408][185]LogStaticMesh: Building static mesh Maptry_BoxBrush3...
+[2016.10.14-21.39.45:414][185]LogStaticMesh: Built static mesh [0.01s] /Game/Maptry_BoxBrush3.Maptry_BoxBrush3
+[2016.10.14-21.39.45:419][185]LogStaticMesh: Building static mesh Maptry_BoxBrush4...
+[2016.10.14-21.39.45:420][185]LogStaticMesh: Built static mesh [0.00s] /Game/Maptry_BoxBrush4.Maptry_BoxBrush4
+[2016.10.14-21.39.45:425][185]LogStaticMesh: Building static mesh Maptry_BoxBrush5...
+[2016.10.14-21.39.45:427][185]LogStaticMesh: Built static mesh [0.00s] /Game/Maptry_BoxBrush5.Maptry_BoxBrush5
+[2016.10.14-21.39.45:431][185]LogStaticMesh: Building static mesh Maptry_BoxBrush6...
+[2016.10.14-21.39.45:432][185]LogStaticMesh: Built static mesh [0.00s] /Game/Maptry_BoxBrush6.Maptry_BoxBrush6
+[2016.10.14-21.39.45:438][185]LogStaticMesh: Building static mesh Maptry_BoxBrush7...
+[2016.10.14-21.39.45:439][185]LogStaticMesh: Built static mesh [0.00s] /Game/Maptry_BoxBrush7.Maptry_BoxBrush7
+[2016.10.14-21.39.45:443][185]LogStaticMesh: Building static mesh Maptry_BoxBrush8...
+[2016.10.14-21.39.45:445][185]LogStaticMesh: Built static mesh [0.00s] /Game/Maptry_BoxBrush8.Maptry_BoxBrush8
+[2016.10.14-21.39.45:451][185]LogStaticMesh: Building static mesh Maptry_BoxBrush9...
+[2016.10.14-21.39.45:452][185]LogStaticMesh: Built static mesh [0.00s] /Game/Maptry_BoxBrush9.Maptry_BoxBrush9
+[2016.10.14-21.39.45:457][185]LogStaticMesh: Building static mesh Maptry_BoxBrush10...
+[2016.10.14-21.39.45:458][185]LogStaticMesh: Built static mesh [0.00s] /Game/Maptry_BoxBrush10.Maptry_BoxBrush10
+[2016.10.14-21.39.45:463][185]LogStaticMesh: Building static mesh Maptry_BoxBrush11...
+[2016.10.14-21.39.45:464][185]LogStaticMesh: Built static mesh [0.00s] /Game/Maptry_BoxBrush11.Maptry_BoxBrush11
+[2016.10.14-21.39.45:469][185]LogStaticMesh: Building static mesh Maptry_BoxBrush12...
+[2016.10.14-21.39.45:470][185]LogStaticMesh: Built static mesh [0.00s] /Game/Maptry_BoxBrush12.Maptry_BoxBrush12
+[2016.10.14-21.39.45:475][185]LogStaticMesh: Building static mesh Maptry_BoxBrush13...
+[2016.10.14-21.39.45:476][185]LogStaticMesh: Built static mesh [0.00s] /Game/Maptry_BoxBrush13.Maptry_BoxBrush13
+[2016.10.14-21.39.45:481][185]LogStaticMesh: Building static mesh Maptry_BoxBrush15...
+[2016.10.14-21.39.45:482][185]LogStaticMesh: Built static mesh [0.00s] /Game/Maptry_BoxBrush15.Maptry_BoxBrush15
+[2016.10.14-21.39.45:487][185]LogStaticMesh: Building static mesh Maptry_BoxBrush14...
+[2016.10.14-21.39.45:518][185]LogStaticMesh: Built static mesh [0.03s] /Game/Maptry_BoxBrush14.Maptry_BoxBrush14
+[2016.10.14-21.39.45:524][185]LogStaticMesh: Building static mesh Maptry_BoxBrush16...
+[2016.10.14-21.39.45:526][185]LogStaticMesh: Built static mesh [0.00s] /Game/Maptry_BoxBrush16.Maptry_BoxBrush16
+[2016.10.14-21.39.45:530][185]LogStaticMesh: Building static mesh Maptry_BoxBrush35...
+[2016.10.14-21.39.45:531][185]LogStaticMesh: Built static mesh [0.00s] /Game/Maptry_BoxBrush35.Maptry_BoxBrush35
+[2016.10.14-21.39.45:536][185]LogStaticMesh: Building static mesh Maptry_BoxBrush36...
+[2016.10.14-21.39.45:537][185]LogStaticMesh: Built static mesh [0.00s] /Game/Maptry_BoxBrush36.Maptry_BoxBrush36
+[2016.10.14-21.39.45:542][185]LogStaticMesh: Building static mesh Maptry_BoxBrush34...
+[2016.10.14-21.39.45:548][185]LogStaticMesh: Built static mesh [0.01s] /Game/Maptry_BoxBrush34.Maptry_BoxBrush34
+[2016.10.14-21.39.45:553][185]LogStaticMesh: Building static mesh Maptry_BoxBrush37...
+[2016.10.14-21.39.45:554][185]LogStaticMesh: Built static mesh [0.00s] /Game/Maptry_BoxBrush37.Maptry_BoxBrush37
+[2016.10.14-21.39.45:558][185]LogStaticMesh: Building static mesh Maptry_BoxBrush39...
+[2016.10.14-21.39.45:560][185]LogStaticMesh: Built static mesh [0.00s] /Game/Maptry_BoxBrush39.Maptry_BoxBrush39
+[2016.10.14-21.39.45:565][185]LogStaticMesh: Building static mesh Maptry_BoxBrush41...
+[2016.10.14-21.39.45:567][185]LogStaticMesh: Built static mesh [0.00s] /Game/Maptry_BoxBrush41.Maptry_BoxBrush41
+[2016.10.14-21.39.45:571][185]LogStaticMesh: Building static mesh Maptry_BoxBrush42_51...
+[2016.10.14-21.39.45:572][185]LogStaticMesh: Built static mesh [0.00s] /Game/Maptry_BoxBrush42_51.Maptry_BoxBrush42_51
+[2016.10.14-21.39.45:577][185]LogStaticMesh: Building static mesh Maptry_BoxBrush44...
+[2016.10.14-21.39.45:580][185]LogStaticMesh: Built static mesh [0.00s] /Game/Maptry_BoxBrush44.Maptry_BoxBrush44
+[2016.10.14-21.39.45:585][185]LogStaticMesh: Building static mesh Maptry_BoxBrush45...
+[2016.10.14-21.39.45:586][185]LogStaticMesh: Built static mesh [0.00s] /Game/Maptry_BoxBrush45.Maptry_BoxBrush45
+[2016.10.14-21.39.45:591][185]LogStaticMesh: Building static mesh Maptry_BoxBrush46...
+[2016.10.14-21.39.45:593][185]LogStaticMesh: Built static mesh [0.00s] /Game/Maptry_BoxBrush46.Maptry_BoxBrush46
+[2016.10.14-21.39.45:598][185]LogStaticMesh: Building static mesh Maptry_BoxBrush47...
+[2016.10.14-21.39.45:599][185]LogStaticMesh: Built static mesh [0.00s] /Game/Maptry_BoxBrush47.Maptry_BoxBrush47
+[2016.10.14-21.39.45:603][185]LogStaticMesh: Building static mesh Maptry_BoxBrush48...
+[2016.10.14-21.39.45:606][185]LogStaticMesh: Built static mesh [0.00s] /Game/Maptry_BoxBrush48.Maptry_BoxBrush48
+[2016.10.14-21.39.45:611][185]LogStaticMesh: Building static mesh Maptry_BoxBrush49...
+[2016.10.14-21.39.45:613][185]LogStaticMesh: Built static mesh [0.00s] /Game/Maptry_BoxBrush49.Maptry_BoxBrush49
+[2016.10.14-21.39.45:617][185]LogStaticMesh: Building static mesh Maptry_BoxBrush50...
+[2016.10.14-21.39.45:619][185]LogStaticMesh: Built static mesh [0.00s] /Game/Maptry_BoxBrush50.Maptry_BoxBrush50
+[2016.10.14-21.39.45:623][185]LogStaticMesh: Building static mesh Maptry_BoxBrush51...
+[2016.10.14-21.39.45:627][185]LogStaticMesh: Built static mesh [0.00s] /Game/Maptry_BoxBrush51.Maptry_BoxBrush51
+[2016.10.14-21.39.45:631][185]LogStaticMesh: Building static mesh Maptry_BoxBrush52...
+[2016.10.14-21.39.45:633][185]LogStaticMesh: Built static mesh [0.00s] /Game/Maptry_BoxBrush52.Maptry_BoxBrush52
+[2016.10.14-21.39.45:638][185]LogStaticMesh: Building static mesh Maptry_BoxBrush43_65...
+[2016.10.14-21.39.45:649][185]LogStaticMesh: Built static mesh [0.01s] /Game/Maptry_BoxBrush43_65.Maptry_BoxBrush43_65
+[2016.10.14-21.39.45:654][185]LogStaticMesh: Building static mesh Maptry_BoxBrush17...
+[2016.10.14-21.39.45:656][185]LogStaticMesh: Built static mesh [0.00s] /Game/Maptry_BoxBrush17.Maptry_BoxBrush17
+[2016.10.14-21.39.45:660][185]LogStaticMesh: Building static mesh Maptry_BoxBrush18...
+[2016.10.14-21.39.45:661][185]LogStaticMesh: Built static mesh [0.00s] /Game/Maptry_BoxBrush18.Maptry_BoxBrush18
+[2016.10.14-21.39.45:666][185]LogStaticMesh: Building static mesh Maptry_BoxBrush53...
+[2016.10.14-21.39.45:669][185]LogStaticMesh: Built static mesh [0.00s] /Game/Maptry_BoxBrush53.Maptry_BoxBrush53
+[2016.10.14-21.39.45:674][185]LogStaticMesh: Building static mesh Maptry_BoxBrush54...
+[2016.10.14-21.39.45:675][185]LogStaticMesh: Built static mesh [0.00s] /Game/Maptry_BoxBrush54.Maptry_BoxBrush54
+[2016.10.14-21.39.45:680][185]LogStaticMesh: Building static mesh Maptry_BoxBrush19...
+[2016.10.14-21.39.45:681][185]LogStaticMesh: Built static mesh [0.00s] /Game/Maptry_BoxBrush19.Maptry_BoxBrush19
+[2016.10.14-21.39.45:686][185]LogStaticMesh: Building static mesh Maptry_BoxBrush40...
+[2016.10.14-21.39.45:687][185]LogStaticMesh: Built static mesh [0.00s] /Game/Maptry_BoxBrush40.Maptry_BoxBrush40
+[2016.10.14-21.39.45:691][185]LogStaticMesh: Building static mesh Maptry_BoxBrush55...
+[2016.10.14-21.39.45:692][185]LogStaticMesh: Built static mesh [0.00s] /Game/Maptry_BoxBrush55.Maptry_BoxBrush55
+[2016.10.14-21.39.45:699][185]LogStaticMesh: Building static mesh Maptry_BoxBrush56...
+[2016.10.14-21.39.45:702][185]LogStaticMesh: Built static mesh [0.00s] /Game/Maptry_BoxBrush56.Maptry_BoxBrush56
+[2016.10.14-21.39.45:707][185]LogStaticMesh: Building static mesh Maptry_BoxBrush57...
+[2016.10.14-21.39.45:709][185]LogStaticMesh: Built static mesh [0.00s] /Game/Maptry_BoxBrush57.Maptry_BoxBrush57
+[2016.10.14-21.39.45:713][185]LogStaticMesh: Building static mesh Maptry_BoxBrush58...
+[2016.10.14-21.39.45:716][185]LogStaticMesh: Built static mesh [0.00s] /Game/Maptry_BoxBrush58.Maptry_BoxBrush58
+[2016.10.14-21.39.45:722][185]LogStaticMesh: Building static mesh Maptry_BoxBrush59...
+[2016.10.14-21.39.45:724][185]LogStaticMesh: Built static mesh [0.00s] /Game/Maptry_BoxBrush59.Maptry_BoxBrush59
+[2016.10.14-21.39.45:729][185]LogStaticMesh: Building static mesh Maptry_BoxBrush60...
+[2016.10.14-21.39.45:732][185]LogStaticMesh: Built static mesh [0.00s] /Game/Maptry_BoxBrush60.Maptry_BoxBrush60
+[2016.10.14-21.39.45:737][185]LogStaticMesh: Building static mesh Maptry_BoxBrush61...
+[2016.10.14-21.39.45:739][185]LogStaticMesh: Built static mesh [0.00s] /Game/Maptry_BoxBrush61.Maptry_BoxBrush61
+[2016.10.14-21.39.45:744][185]LogStaticMesh: Building static mesh Maptry_BoxBrush62...
+[2016.10.14-21.39.45:747][185]LogStaticMesh: Built static mesh [0.00s] /Game/Maptry_BoxBrush62.Maptry_BoxBrush62
+[2016.10.14-21.39.45:752][185]LogStaticMesh: Building static mesh Maptry_BoxBrush63...
+[2016.10.14-21.39.45:753][185]LogStaticMesh: Built static mesh [0.00s] /Game/Maptry_BoxBrush63.Maptry_BoxBrush63
+[2016.10.14-21.39.45:758][185]LogStaticMesh: Building static mesh Maptry_BoxBrush64...
+[2016.10.14-21.39.45:761][185]LogStaticMesh: Built static mesh [0.00s] /Game/Maptry_BoxBrush64.Maptry_BoxBrush64
+[2016.10.14-21.39.45:766][185]LogStaticMesh: Building static mesh Maptry_BoxBrush65...
+[2016.10.14-21.39.45:774][185]LogStaticMesh: Built static mesh [0.01s] /Game/Maptry_BoxBrush65.Maptry_BoxBrush65
+[2016.10.14-21.39.45:779][185]LogStaticMesh: Building static mesh Maptry_BoxBrush66...
+[2016.10.14-21.39.45:780][185]LogStaticMesh: Built static mesh [0.00s] /Game/Maptry_BoxBrush66.Maptry_BoxBrush66
+[2016.10.14-21.39.45:785][185]LogStaticMesh: Building static mesh Maptry_BoxBrush67...
+[2016.10.14-21.39.45:786][185]LogStaticMesh: Built static mesh [0.00s] /Game/Maptry_BoxBrush67.Maptry_BoxBrush67
+[2016.10.14-21.39.45:791][185]LogStaticMesh: Building static mesh Maptry_BoxBrush68...
+[2016.10.14-21.39.45:794][185]LogStaticMesh: Built static mesh [0.00s] /Game/Maptry_BoxBrush68.Maptry_BoxBrush68
+[2016.10.14-21.39.45:799][185]LogStaticMesh: Building static mesh Maptry_BoxBrush69...
+[2016.10.14-21.39.45:801][185]LogStaticMesh: Built static mesh [0.00s] /Game/Maptry_BoxBrush69.Maptry_BoxBrush69
+[2016.10.14-21.39.45:806][185]LogStaticMesh: Building static mesh Maptry_BoxBrush71...
+[2016.10.14-21.39.45:808][185]LogStaticMesh: Built static mesh [0.00s] /Game/Maptry_BoxBrush71.Maptry_BoxBrush71
+[2016.10.14-21.39.45:813][185]LogStaticMesh: Building static mesh Maptry_BoxBrush72...
+[2016.10.14-21.39.45:814][185]LogStaticMesh: Built static mesh [0.00s] /Game/Maptry_BoxBrush72.Maptry_BoxBrush72
+[2016.10.14-21.39.45:819][185]LogStaticMesh: Building static mesh Maptry_BoxBrush73...
+[2016.10.14-21.39.45:821][185]LogStaticMesh: Built static mesh [0.00s] /Game/Maptry_BoxBrush73.Maptry_BoxBrush73
+[2016.10.14-21.39.45:826][185]LogStaticMesh: Building static mesh Maptry_BoxBrush74...
+[2016.10.14-21.39.45:828][185]LogStaticMesh: Built static mesh [0.00s] /Game/Maptry_BoxBrush74.Maptry_BoxBrush74
+[2016.10.14-21.39.45:833][185]LogStaticMesh: Building static mesh Maptry_BoxBrush75...
+[2016.10.14-21.39.45:835][185]LogStaticMesh: Built static mesh [0.00s] /Game/Maptry_BoxBrush75.Maptry_BoxBrush75
+[2016.10.14-21.39.45:841][185]LogStaticMesh: Building static mesh Maptry_BoxBrush76...
+[2016.10.14-21.39.45:843][185]LogStaticMesh: Built static mesh [0.00s] /Game/Maptry_BoxBrush76.Maptry_BoxBrush76
+[2016.10.14-21.39.45:848][185]LogStaticMesh: Building static mesh Maptry_BoxBrush77...
+[2016.10.14-21.39.45:850][185]LogStaticMesh: Built static mesh [0.00s] /Game/Maptry_BoxBrush77.Maptry_BoxBrush77
+[2016.10.14-21.39.45:854][185]LogStaticMesh: Building static mesh Maptry_BoxBrush78...
+[2016.10.14-21.39.45:856][185]LogStaticMesh: Built static mesh [0.00s] /Game/Maptry_BoxBrush78.Maptry_BoxBrush78
+[2016.10.14-21.39.45:861][185]LogStaticMesh: Building static mesh Maptry_BoxBrush79...
+[2016.10.14-21.39.45:863][185]LogStaticMesh: Built static mesh [0.00s] /Game/Maptry_BoxBrush79.Maptry_BoxBrush79
+[2016.10.14-21.39.45:868][185]LogStaticMesh: Building static mesh Maptry_BoxBrush80...
+[2016.10.14-21.39.45:870][185]LogStaticMesh: Built static mesh [0.00s] /Game/Maptry_BoxBrush80.Maptry_BoxBrush80
+[2016.10.14-21.39.45:876][185]LogStaticMesh: Building static mesh Maptry_BoxBrush81...
+[2016.10.14-21.39.45:878][185]LogStaticMesh: Built static mesh [0.00s] /Game/Maptry_BoxBrush81.Maptry_BoxBrush81
+[2016.10.14-21.39.45:882][185]LogStaticMesh: Building static mesh Maptry_BoxBrush82...
+[2016.10.14-21.39.45:885][185]LogStaticMesh: Built static mesh [0.00s] /Game/Maptry_BoxBrush82.Maptry_BoxBrush82
+[2016.10.14-21.39.45:889][185]LogStaticMesh: Building static mesh Maptry_BoxBrush83...
+[2016.10.14-21.39.45:891][185]LogStaticMesh: Built static mesh [0.00s] /Game/Maptry_BoxBrush83.Maptry_BoxBrush83
+[2016.10.14-21.39.45:896][185]LogStaticMesh: Building static mesh Maptry_BoxBrush84...
+[2016.10.14-21.39.45:898][185]LogStaticMesh: Built static mesh [0.00s] /Game/Maptry_BoxBrush84.Maptry_BoxBrush84
+[2016.10.14-21.39.45:903][185]LogStaticMesh: Building static mesh Maptry_BoxBrush70_104...
+[2016.10.14-21.39.45:906][185]LogStaticMesh: Built static mesh [0.00s] /Game/Maptry_BoxBrush70_104.Maptry_BoxBrush70_104
+[2016.10.14-21.39.45:911][185]LogStaticMesh: Building static mesh Maptry_BoxBrush85...
+[2016.10.14-21.39.45:913][185]LogStaticMesh: Built static mesh [0.00s] /Game/Maptry_BoxBrush85.Maptry_BoxBrush85
+[2016.10.14-21.39.45:917][185]LogStaticMesh: Building static mesh Maptry_BoxBrush86...
+[2016.10.14-21.39.45:920][185]LogStaticMesh: Built static mesh [0.00s] /Game/Maptry_BoxBrush86.Maptry_BoxBrush86
+[2016.10.14-21.39.45:926][185]LogStaticMesh: Building static mesh Maptry_BoxBrush87...
+[2016.10.14-21.39.45:929][185]LogStaticMesh: Built static mesh [0.00s] /Game/Maptry_BoxBrush87.Maptry_BoxBrush87
+[2016.10.14-21.39.45:934][185]LogStaticMesh: Building static mesh Maptry_BoxBrush20...
+[2016.10.14-21.39.45:935][185]LogStaticMesh: Built static mesh [0.00s] /Game/Maptry_BoxBrush20.Maptry_BoxBrush20
+[2016.10.14-21.39.45:939][185]LogStaticMesh: Building static mesh Maptry_BoxBrush21...
+[2016.10.14-21.39.45:941][185]LogStaticMesh: Built static mesh [0.00s] /Game/Maptry_BoxBrush21.Maptry_BoxBrush21
+[2016.10.14-21.39.45:945][185]LogStaticMesh: Building static mesh Maptry_BoxBrush22...
+[2016.10.14-21.39.45:946][185]LogStaticMesh: Built static mesh [0.00s] /Game/Maptry_BoxBrush22.Maptry_BoxBrush22
+[2016.10.14-21.39.45:950][185]LogStaticMesh: Building static mesh Maptry_BoxBrush23...
+[2016.10.14-21.39.45:951][185]LogStaticMesh: Built static mesh [0.00s] /Game/Maptry_BoxBrush23.Maptry_BoxBrush23
+[2016.10.14-21.39.45:956][185]LogStaticMesh: Building static mesh Maptry_BoxBrush24...
+[2016.10.14-21.39.45:957][185]LogStaticMesh: Built static mesh [0.00s] /Game/Maptry_BoxBrush24.Maptry_BoxBrush24
+[2016.10.14-21.39.45:961][185]LogStaticMesh: Building static mesh Maptry_BoxBrush89...
+[2016.10.14-21.39.45:964][185]LogStaticMesh: Built static mesh [0.00s] /Game/Maptry_BoxBrush89.Maptry_BoxBrush89
+[2016.10.14-21.39.45:968][185]LogStaticMesh: Building static mesh Maptry_BoxBrush90...
+[2016.10.14-21.39.45:970][185]LogStaticMesh: Built static mesh [0.00s] /Game/Maptry_BoxBrush90.Maptry_BoxBrush90
+[2016.10.14-21.39.45:975][185]LogStaticMesh: Building static mesh Maptry_BoxBrush38...
+[2016.10.14-21.39.45:989][185]LogStaticMesh: Built static mesh [0.01s] /Game/Maptry_BoxBrush38.Maptry_BoxBrush38
+[2016.10.14-21.39.45:993][185]LogStaticMesh: Building static mesh Maptry_BoxBrush88_118...
+[2016.10.14-21.39.45:995][185]LogStaticMesh: Built static mesh [0.00s] /Game/Maptry_BoxBrush88_118.Maptry_BoxBrush88_118
+[2016.10.14-21.39.45:999][185]LogStaticMesh: Building static mesh Maptry_BoxBrush91...
+[2016.10.14-21.39.46:000][185]LogStaticMesh: Built static mesh [0.00s] /Game/Maptry_BoxBrush91.Maptry_BoxBrush91
+[2016.10.14-21.39.46:005][185]LogStaticMesh: Building static mesh Maptry_BoxBrush92...
+[2016.10.14-21.39.46:006][185]LogStaticMesh: Built static mesh [0.00s] /Game/Maptry_BoxBrush92.Maptry_BoxBrush92
+[2016.10.14-21.39.46:013][185]LogStaticMesh: Building static mesh Maptry_BoxBrush93_122...
+[2016.10.14-21.39.46:014][185]LogStaticMesh: Built static mesh [0.00s] /Game/Maptry_BoxBrush93_122.Maptry_BoxBrush93_122
+[2016.10.14-21.39.46:019][185]LogStaticMesh: Building static mesh Maptry_BoxBrush94...
+[2016.10.14-21.39.46:022][185]LogStaticMesh: Built static mesh [0.00s] /Game/Maptry_BoxBrush94.Maptry_BoxBrush94
+[2016.10.14-21.39.46:027][185]LogStaticMesh: Building static mesh Maptry_BoxBrush95...
+[2016.10.14-21.39.46:028][185]LogStaticMesh: Built static mesh [0.00s] /Game/Maptry_BoxBrush95.Maptry_BoxBrush95
+[2016.10.14-21.39.46:041][185]LogStaticMesh: Building static mesh Maptry_BoxBrush96...
+[2016.10.14-21.39.46:043][185]LogStaticMesh: Built static mesh [0.00s] /Game/Maptry_BoxBrush96.Maptry_BoxBrush96
+[2016.10.14-21.39.46:050][185]LogStaticMesh: Building static mesh Maptry_BoxBrush97...
+[2016.10.14-21.39.46:051][185]LogStaticMesh: Built static mesh [0.00s] /Game/Maptry_BoxBrush97.Maptry_BoxBrush97
+[2016.10.14-21.39.46:058][185]LogStaticMesh: Building static mesh Maptry_BoxBrush98_129...
+[2016.10.14-21.39.46:059][185]LogStaticMesh: Built static mesh [0.00s] /Game/Maptry_BoxBrush98_129.Maptry_BoxBrush98_129
+[2016.10.14-21.39.46:064][185]LogStaticMesh: Building static mesh Maptry_BoxBrush99...
+[2016.10.14-21.39.46:099][185]LogStaticMesh: Built static mesh [0.04s] /Game/Maptry_BoxBrush99.Maptry_BoxBrush99
+[2016.10.14-21.39.46:107][185]LogStaticMesh: Building static mesh Maptry_BoxBrush25...
+[2016.10.14-21.39.46:108][185]LogStaticMesh: Built static mesh [0.00s] /Game/Maptry_BoxBrush25.Maptry_BoxBrush25
+[2016.10.14-21.39.46:113][185]LogStaticMesh: Building static mesh Maptry_BoxBrush26...
+[2016.10.14-21.39.46:114][185]LogStaticMesh: Built static mesh [0.00s] /Game/Maptry_BoxBrush26.Maptry_BoxBrush26
+[2016.10.14-21.39.46:119][185]LogStaticMesh: Building static mesh Maptry_BoxBrush27...
+[2016.10.14-21.39.46:121][185]LogStaticMesh: Built static mesh [0.00s] /Game/Maptry_BoxBrush27.Maptry_BoxBrush27
+[2016.10.14-21.39.46:132][185]LogStaticMesh: Building static mesh Maptry_BoxBrush28...
+[2016.10.14-21.39.46:133][185]LogStaticMesh: Built static mesh [0.00s] /Game/Maptry_BoxBrush28.Maptry_BoxBrush28
+[2016.10.14-21.39.46:138][185]LogStaticMesh: Building static mesh Maptry_BoxBrush29...
+[2016.10.14-21.39.46:140][185]LogStaticMesh: Built static mesh [0.00s] /Game/Maptry_BoxBrush29.Maptry_BoxBrush29
+[2016.10.14-21.39.46:145][185]LogStaticMesh: Building static mesh Maptry_BoxBrush100...
+[2016.10.14-21.39.46:147][185]LogStaticMesh: Built static mesh [0.00s] /Game/Maptry_BoxBrush100.Maptry_BoxBrush100
+[2016.10.14-21.39.46:151][185]LogStaticMesh: Building static mesh Maptry_BoxBrush101...
+[2016.10.14-21.39.46:153][185]LogStaticMesh: Built static mesh [0.00s] /Game/Maptry_BoxBrush101.Maptry_BoxBrush101
+[2016.10.14-21.39.46:158][185]LogStaticMesh: Building static mesh Maptry_BoxBrush102...
+[2016.10.14-21.39.46:160][185]LogStaticMesh: Built static mesh [0.00s] /Game/Maptry_BoxBrush102.Maptry_BoxBrush102
+[2016.10.14-21.39.46:165][185]LogStaticMesh: Building static mesh Maptry_BoxBrush103...
+[2016.10.14-21.39.46:167][185]LogStaticMesh: Built static mesh [0.00s] /Game/Maptry_BoxBrush103.Maptry_BoxBrush103
+[2016.10.14-21.39.46:172][185]LogStaticMesh: Building static mesh Maptry_BoxBrush104...
+[2016.10.14-21.39.46:177][185]LogStaticMesh: Built static mesh [0.01s] /Game/Maptry_BoxBrush104.Maptry_BoxBrush104
+[2016.10.14-21.39.46:181][185]LogStaticMesh: Building static mesh Maptry_BoxBrush105...
+[2016.10.14-21.39.46:183][185]LogStaticMesh: Built static mesh [0.00s] /Game/Maptry_BoxBrush105.Maptry_BoxBrush105
+[2016.10.14-21.39.46:188][185]LogStaticMesh: Building static mesh Maptry_BoxBrush106...
+[2016.10.14-21.39.46:190][185]LogStaticMesh: Built static mesh [0.00s] /Game/Maptry_BoxBrush106.Maptry_BoxBrush106
+[2016.10.14-21.39.46:194][185]LogStaticMesh: Building static mesh Maptry_BoxBrush107...
+[2016.10.14-21.39.46:196][185]LogStaticMesh: Built static mesh [0.00s] /Game/Maptry_BoxBrush107.Maptry_BoxBrush107
+[2016.10.14-21.39.46:201][185]LogStaticMesh: Building static mesh Maptry_BoxBrush108...
+[2016.10.14-21.39.46:202][185]LogStaticMesh: Built static mesh [0.00s] /Game/Maptry_BoxBrush108.Maptry_BoxBrush108
+[2016.10.14-21.39.46:207][185]LogStaticMesh: Building static mesh Maptry_BoxBrush109...
+[2016.10.14-21.39.46:209][185]LogStaticMesh: Built static mesh [0.00s] /Game/Maptry_BoxBrush109.Maptry_BoxBrush109
+[2016.10.14-21.39.46:214][185]LogStaticMesh: Building static mesh Maptry_BoxBrush110...
+[2016.10.14-21.39.46:216][185]LogStaticMesh: Built static mesh [0.00s] /Game/Maptry_BoxBrush110.Maptry_BoxBrush110
+[2016.10.14-21.39.46:221][185]LogStaticMesh: Building static mesh Maptry_BoxBrush111...
+[2016.10.14-21.39.46:222][185]LogStaticMesh: Built static mesh [0.00s] /Game/Maptry_BoxBrush111.Maptry_BoxBrush111
+[2016.10.14-21.39.46:226][185]LogStaticMesh: Building static mesh Maptry_BoxBrush112...
+[2016.10.14-21.39.46:230][185]LogStaticMesh: Built static mesh [0.00s] /Game/Maptry_BoxBrush112.Maptry_BoxBrush112
+[2016.10.14-21.39.46:235][185]LogStaticMesh: Building static mesh Maptry_BoxBrush113...
+[2016.10.14-21.39.46:237][185]LogStaticMesh: Built static mesh [0.00s] /Game/Maptry_BoxBrush113.Maptry_BoxBrush113
+[2016.10.14-21.39.46:243][185]LogStaticMesh: Building static mesh Maptry_BoxBrush114...
+[2016.10.14-21.39.46:246][185]LogStaticMesh: Built static mesh [0.00s] /Game/Maptry_BoxBrush114.Maptry_BoxBrush114
+[2016.10.14-21.39.46:250][185]LogStaticMesh: Building static mesh Maptry_BoxBrush115...
+[2016.10.14-21.39.46:252][185]LogStaticMesh: Built static mesh [0.00s] /Game/Maptry_BoxBrush115.Maptry_BoxBrush115
+[2016.10.14-21.39.46:257][185]LogStaticMesh: Building static mesh Maptry_BoxBrush116...
+[2016.10.14-21.39.46:259][185]LogStaticMesh: Built static mesh [0.00s] /Game/Maptry_BoxBrush116.Maptry_BoxBrush116
+[2016.10.14-21.39.46:264][185]LogStaticMesh: Building static mesh Maptry_BoxBrush117...
+[2016.10.14-21.39.46:266][185]LogStaticMesh: Built static mesh [0.00s] /Game/Maptry_BoxBrush117.Maptry_BoxBrush117
+[2016.10.14-21.39.46:270][185]LogStaticMesh: Building static mesh Maptry_BoxBrush118...
+[2016.10.14-21.39.46:272][185]LogStaticMesh: Built static mesh [0.00s] /Game/Maptry_BoxBrush118.Maptry_BoxBrush118
+[2016.10.14-21.39.46:277][185]LogStaticMesh: Building static mesh Maptry_BoxBrush119...
+[2016.10.14-21.39.46:279][185]LogStaticMesh: Built static mesh [0.00s] /Game/Maptry_BoxBrush119.Maptry_BoxBrush119
+[2016.10.14-21.39.46:283][185]LogStaticMesh: Building static mesh Maptry_BoxBrush120...
+[2016.10.14-21.39.46:285][185]LogStaticMesh: Built static mesh [0.00s] /Game/Maptry_BoxBrush120.Maptry_BoxBrush120
+[2016.10.14-21.39.46:290][185]LogStaticMesh: Building static mesh Maptry_BoxBrush121...
+[2016.10.14-21.39.46:292][185]LogStaticMesh: Built static mesh [0.00s] /Game/Maptry_BoxBrush121.Maptry_BoxBrush121
+[2016.10.14-21.39.46:304][185]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2016.10.14-21.39.58:354][583]LogActorFactory: Actor Factory created Maptry_BoxBrush99
+[2016.10.14-21.39.58:356][583]LogActorFactory: Actor Factory created Maptry_BoxBrush
+[2016.10.14-21.39.58:356][583]LogActorFactory: Actor Factory created Maptry_BoxBrush10
+[2016.10.14-21.39.58:357][583]LogActorFactory: Actor Factory created Maptry_BoxBrush100
+[2016.10.14-21.39.58:358][583]LogActorFactory: Actor Factory created Maptry_BoxBrush101
+[2016.10.14-21.39.58:359][583]LogActorFactory: Actor Factory created Maptry_BoxBrush102
+[2016.10.14-21.39.58:360][583]LogActorFactory: Actor Factory created Maptry_BoxBrush103
+[2016.10.14-21.39.58:361][583]LogActorFactory: Actor Factory created Maptry_BoxBrush104
+[2016.10.14-21.39.58:362][583]LogActorFactory: Actor Factory created Maptry_BoxBrush105
+[2016.10.14-21.39.58:363][583]LogActorFactory: Actor Factory created Maptry_BoxBrush106
+[2016.10.14-21.39.58:364][583]LogActorFactory: Actor Factory created Maptry_BoxBrush107
+[2016.10.14-21.39.58:365][583]LogActorFactory: Actor Factory created Maptry_BoxBrush108
+[2016.10.14-21.39.58:366][583]LogActorFactory: Actor Factory created Maptry_BoxBrush109
+[2016.10.14-21.39.58:367][583]LogActorFactory: Actor Factory created Maptry_BoxBrush11
+[2016.10.14-21.39.58:367][583]LogActorFactory: Actor Factory created Maptry_BoxBrush110
+[2016.10.14-21.39.58:368][583]LogActorFactory: Actor Factory created Maptry_BoxBrush111
+[2016.10.14-21.39.58:369][583]LogActorFactory: Actor Factory created Maptry_BoxBrush112
+[2016.10.14-21.39.58:371][583]LogActorFactory: Actor Factory created Maptry_BoxBrush113
+[2016.10.14-21.39.58:372][583]LogActorFactory: Actor Factory created Maptry_BoxBrush114
+[2016.10.14-21.39.58:373][583]LogActorFactory: Actor Factory created Maptry_BoxBrush115
+[2016.10.14-21.39.58:373][583]LogActorFactory: Actor Factory created Maptry_BoxBrush116
+[2016.10.14-21.39.58:374][583]LogActorFactory: Actor Factory created Maptry_BoxBrush117
+[2016.10.14-21.39.58:375][583]LogActorFactory: Actor Factory created Maptry_BoxBrush118
+[2016.10.14-21.39.58:376][583]LogActorFactory: Actor Factory created Maptry_BoxBrush119
+[2016.10.14-21.39.58:377][583]LogActorFactory: Actor Factory created Maptry_BoxBrush12
+[2016.10.14-21.39.58:378][583]LogActorFactory: Actor Factory created Maptry_BoxBrush120
+[2016.10.14-21.39.58:379][583]LogActorFactory: Actor Factory created Maptry_BoxBrush121
+[2016.10.14-21.39.58:380][583]LogActorFactory: Actor Factory created Maptry_BoxBrush13
+[2016.10.14-21.39.58:381][583]LogActorFactory: Actor Factory created Maptry_BoxBrush14
+[2016.10.14-21.39.58:382][583]LogActorFactory: Actor Factory created Maptry_BoxBrush15
+[2016.10.14-21.39.58:383][583]LogActorFactory: Actor Factory created Maptry_BoxBrush16
+[2016.10.14-21.39.58:384][583]LogActorFactory: Actor Factory created Maptry_BoxBrush17
+[2016.10.14-21.39.58:385][583]LogActorFactory: Actor Factory created Maptry_BoxBrush18
+[2016.10.14-21.39.58:386][583]LogActorFactory: Actor Factory created Maptry_BoxBrush19
+[2016.10.14-21.39.58:387][583]LogActorFactory: Actor Factory created Maptry_BoxBrush2
+[2016.10.14-21.39.58:388][583]LogActorFactory: Actor Factory created Maptry_BoxBrush20
+[2016.10.14-21.39.58:389][583]LogActorFactory: Actor Factory created Maptry_BoxBrush21
+[2016.10.14-21.39.58:390][583]LogActorFactory: Actor Factory created Maptry_BoxBrush22
+[2016.10.14-21.39.58:391][583]LogActorFactory: Actor Factory created Maptry_BoxBrush23
+[2016.10.14-21.39.58:392][583]LogActorFactory: Actor Factory created Maptry_BoxBrush24
+[2016.10.14-21.39.58:392][583]LogActorFactory: Actor Factory created Maptry_BoxBrush25
+[2016.10.14-21.39.58:393][583]LogActorFactory: Actor Factory created Maptry_BoxBrush26
+[2016.10.14-21.39.58:394][583]LogActorFactory: Actor Factory created Maptry_BoxBrush27
+[2016.10.14-21.39.58:395][583]LogActorFactory: Actor Factory created Maptry_BoxBrush28
+[2016.10.14-21.39.58:396][583]LogActorFactory: Actor Factory created Maptry_BoxBrush29
+[2016.10.14-21.39.58:397][583]LogActorFactory: Actor Factory created Maptry_BoxBrush3
+[2016.10.14-21.39.58:398][583]LogActorFactory: Actor Factory created Maptry_BoxBrush34
+[2016.10.14-21.39.58:399][583]LogActorFactory: Actor Factory created Maptry_BoxBrush35
+[2016.10.14-21.39.58:400][583]LogActorFactory: Actor Factory created Maptry_BoxBrush36
+[2016.10.14-21.39.58:401][583]LogActorFactory: Actor Factory created Maptry_BoxBrush37
+[2016.10.14-21.39.58:402][583]LogActorFactory: Actor Factory created Maptry_BoxBrush38
+[2016.10.14-21.39.58:403][583]LogActorFactory: Actor Factory created Maptry_BoxBrush39
+[2016.10.14-21.39.58:404][583]LogActorFactory: Actor Factory created Maptry_BoxBrush4
+[2016.10.14-21.39.58:405][583]LogActorFactory: Actor Factory created Maptry_BoxBrush40
+[2016.10.14-21.39.58:406][583]LogActorFactory: Actor Factory created Maptry_BoxBrush41
+[2016.10.14-21.39.58:407][583]LogActorFactory: Actor Factory created Maptry_BoxBrush42_51
+[2016.10.14-21.39.58:408][583]LogActorFactory: Actor Factory created Maptry_BoxBrush43_65
+[2016.10.14-21.39.58:409][583]LogActorFactory: Actor Factory created Maptry_BoxBrush44
+[2016.10.14-21.39.58:410][583]LogActorFactory: Actor Factory created Maptry_BoxBrush45
+[2016.10.14-21.39.58:411][583]LogActorFactory: Actor Factory created Maptry_BoxBrush46
+[2016.10.14-21.39.58:412][583]LogActorFactory: Actor Factory created Maptry_BoxBrush47
+[2016.10.14-21.39.58:412][583]LogActorFactory: Actor Factory created Maptry_BoxBrush48
+[2016.10.14-21.39.58:413][583]LogActorFactory: Actor Factory created Maptry_BoxBrush49
+[2016.10.14-21.39.58:414][583]LogActorFactory: Actor Factory created Maptry_BoxBrush5
+[2016.10.14-21.39.58:488][583]LogActorFactory: Actor Factory created Maptry_BoxBrush50
+[2016.10.14-21.39.58:490][583]LogActorFactory: Actor Factory created Maptry_BoxBrush51
+[2016.10.14-21.39.58:491][583]LogActorFactory: Actor Factory created Maptry_BoxBrush52
+[2016.10.14-21.39.58:492][583]LogActorFactory: Actor Factory created Maptry_BoxBrush53
+[2016.10.14-21.39.58:493][583]LogActorFactory: Actor Factory created Maptry_BoxBrush54
+[2016.10.14-21.39.58:495][583]LogActorFactory: Actor Factory created Maptry_BoxBrush55
+[2016.10.14-21.39.58:496][583]LogActorFactory: Actor Factory created Maptry_BoxBrush56
+[2016.10.14-21.39.58:497][583]LogActorFactory: Actor Factory created Maptry_BoxBrush57
+[2016.10.14-21.39.58:498][583]LogActorFactory: Actor Factory created Maptry_BoxBrush58
+[2016.10.14-21.39.58:499][583]LogActorFactory: Actor Factory created Maptry_BoxBrush59
+[2016.10.14-21.39.58:500][583]LogActorFactory: Actor Factory created Maptry_BoxBrush6
+[2016.10.14-21.39.58:502][583]LogActorFactory: Actor Factory created Maptry_BoxBrush60
+[2016.10.14-21.39.58:503][583]LogActorFactory: Actor Factory created Maptry_BoxBrush61
+[2016.10.14-21.39.58:504][583]LogActorFactory: Actor Factory created Maptry_BoxBrush62
+[2016.10.14-21.39.58:506][583]LogActorFactory: Actor Factory created Maptry_BoxBrush63
+[2016.10.14-21.39.58:507][583]LogActorFactory: Actor Factory created Maptry_BoxBrush64
+[2016.10.14-21.39.58:508][583]LogActorFactory: Actor Factory created Maptry_BoxBrush65
+[2016.10.14-21.39.58:509][583]LogActorFactory: Actor Factory created Maptry_BoxBrush66
+[2016.10.14-21.39.58:510][583]LogActorFactory: Actor Factory created Maptry_BoxBrush67
+[2016.10.14-21.39.58:511][583]LogActorFactory: Actor Factory created Maptry_BoxBrush68
+[2016.10.14-21.39.58:513][583]LogActorFactory: Actor Factory created Maptry_BoxBrush69
+[2016.10.14-21.39.58:514][583]LogActorFactory: Actor Factory created Maptry_BoxBrush7
+[2016.10.14-21.39.58:515][583]LogActorFactory: Actor Factory created Maptry_BoxBrush70_104
+[2016.10.14-21.39.58:516][583]LogActorFactory: Actor Factory created Maptry_BoxBrush71
+[2016.10.14-21.39.58:517][583]LogActorFactory: Actor Factory created Maptry_BoxBrush72
+[2016.10.14-21.39.58:519][583]LogActorFactory: Actor Factory created Maptry_BoxBrush73
+[2016.10.14-21.39.58:520][583]LogActorFactory: Actor Factory created Maptry_BoxBrush74
+[2016.10.14-21.39.58:521][583]LogActorFactory: Actor Factory created Maptry_BoxBrush75
+[2016.10.14-21.39.58:522][583]LogActorFactory: Actor Factory created Maptry_BoxBrush76
+[2016.10.14-21.39.58:523][583]LogActorFactory: Actor Factory created Maptry_BoxBrush77
+[2016.10.14-21.39.58:524][583]LogActorFactory: Actor Factory created Maptry_BoxBrush78
+[2016.10.14-21.39.58:525][583]LogActorFactory: Actor Factory created Maptry_BoxBrush79
+[2016.10.14-21.39.58:526][583]LogActorFactory: Actor Factory created Maptry_BoxBrush8
+[2016.10.14-21.39.58:528][583]LogActorFactory: Actor Factory created Maptry_BoxBrush80
+[2016.10.14-21.39.58:529][583]LogActorFactory: Actor Factory created Maptry_BoxBrush81
+[2016.10.14-21.39.58:530][583]LogActorFactory: Actor Factory created Maptry_BoxBrush82
+[2016.10.14-21.39.58:531][583]LogActorFactory: Actor Factory created Maptry_BoxBrush83
+[2016.10.14-21.39.58:532][583]LogActorFactory: Actor Factory created Maptry_BoxBrush84
+[2016.10.14-21.39.58:533][583]LogActorFactory: Actor Factory created Maptry_BoxBrush85
+[2016.10.14-21.39.58:535][583]LogActorFactory: Actor Factory created Maptry_BoxBrush86
+[2016.10.14-21.39.58:536][583]LogActorFactory: Actor Factory created Maptry_BoxBrush87
+[2016.10.14-21.39.58:537][583]LogActorFactory: Actor Factory created Maptry_BoxBrush88_118
+[2016.10.14-21.39.58:538][583]LogActorFactory: Actor Factory created Maptry_BoxBrush89
+[2016.10.14-21.39.58:539][583]LogActorFactory: Actor Factory created Maptry_BoxBrush9
+[2016.10.14-21.39.58:540][583]LogActorFactory: Actor Factory created Maptry_BoxBrush90
+[2016.10.14-21.39.58:541][583]LogActorFactory: Actor Factory created Maptry_BoxBrush91
+[2016.10.14-21.39.58:542][583]LogActorFactory: Actor Factory created Maptry_BoxBrush92
+[2016.10.14-21.39.58:543][583]LogActorFactory: Actor Factory created Maptry_BoxBrush93_122
+[2016.10.14-21.39.58:545][583]LogActorFactory: Actor Factory created Maptry_BoxBrush94
+[2016.10.14-21.39.58:546][583]LogActorFactory: Actor Factory created Maptry_BoxBrush95
+[2016.10.14-21.39.58:547][583]LogActorFactory: Actor Factory created Maptry_BoxBrush96
+[2016.10.14-21.39.58:548][583]LogActorFactory: Actor Factory created Maptry_BoxBrush97
+[2016.10.14-21.39.58:549][583]LogActorFactory: Actor Factory created Maptry_BoxBrush98_129
+[2016.10.14-21.39.59:656][638]LogActorFactory: Actor Factory created Maptry_BoxBrush99
+[2016.10.14-21.39.59:675][638]LogActorFactory: Actor Factory created Maptry_BoxBrush
+[2016.10.14-21.39.59:690][638]LogActorFactory: Actor Factory created Maptry_BoxBrush10
+[2016.10.14-21.39.59:706][638]LogActorFactory: Actor Factory created Maptry_BoxBrush100
+[2016.10.14-21.39.59:721][638]LogActorFactory: Actor Factory created Maptry_BoxBrush101
+[2016.10.14-21.39.59:737][638]LogActorFactory: Actor Factory created Maptry_BoxBrush102
+[2016.10.14-21.39.59:752][638]LogActorFactory: Actor Factory created Maptry_BoxBrush103
+[2016.10.14-21.39.59:768][638]LogActorFactory: Actor Factory created Maptry_BoxBrush104
+[2016.10.14-21.39.59:787][638]LogActorFactory: Actor Factory created Maptry_BoxBrush105
+[2016.10.14-21.39.59:803][638]LogActorFactory: Actor Factory created Maptry_BoxBrush106
+[2016.10.14-21.39.59:819][638]LogActorFactory: Actor Factory created Maptry_BoxBrush107
+[2016.10.14-21.39.59:834][638]LogActorFactory: Actor Factory created Maptry_BoxBrush108
+[2016.10.14-21.39.59:850][638]LogActorFactory: Actor Factory created Maptry_BoxBrush109
+[2016.10.14-21.39.59:866][638]LogActorFactory: Actor Factory created Maptry_BoxBrush11
+[2016.10.14-21.39.59:882][638]LogActorFactory: Actor Factory created Maptry_BoxBrush110
+[2016.10.14-21.39.59:898][638]LogActorFactory: Actor Factory created Maptry_BoxBrush111
+[2016.10.14-21.39.59:914][638]LogActorFactory: Actor Factory created Maptry_BoxBrush112
+[2016.10.14-21.39.59:929][638]LogActorFactory: Actor Factory created Maptry_BoxBrush113
+[2016.10.14-21.39.59:945][638]LogActorFactory: Actor Factory created Maptry_BoxBrush114
+[2016.10.14-21.39.59:961][638]LogActorFactory: Actor Factory created Maptry_BoxBrush115
+[2016.10.14-21.39.59:976][638]LogActorFactory: Actor Factory created Maptry_BoxBrush116
+[2016.10.14-21.39.59:993][638]LogActorFactory: Actor Factory created Maptry_BoxBrush117
+[2016.10.14-21.40.00:009][638]LogActorFactory: Actor Factory created Maptry_BoxBrush118
+[2016.10.14-21.40.00:025][638]LogActorFactory: Actor Factory created Maptry_BoxBrush119
+[2016.10.14-21.40.00:042][638]LogActorFactory: Actor Factory created Maptry_BoxBrush12
+[2016.10.14-21.40.00:058][638]LogActorFactory: Actor Factory created Maptry_BoxBrush120
+[2016.10.14-21.40.00:074][638]LogActorFactory: Actor Factory created Maptry_BoxBrush121
+[2016.10.14-21.40.00:089][638]LogActorFactory: Actor Factory created Maptry_BoxBrush13
+[2016.10.14-21.40.00:105][638]LogActorFactory: Actor Factory created Maptry_BoxBrush14
+[2016.10.14-21.40.00:121][638]LogActorFactory: Actor Factory created Maptry_BoxBrush15
+[2016.10.14-21.40.00:136][638]LogActorFactory: Actor Factory created Maptry_BoxBrush16
+[2016.10.14-21.40.00:152][638]LogActorFactory: Actor Factory created Maptry_BoxBrush17
+[2016.10.14-21.40.00:167][638]LogActorFactory: Actor Factory created Maptry_BoxBrush18
+[2016.10.14-21.40.00:182][638]LogActorFactory: Actor Factory created Maptry_BoxBrush19
+[2016.10.14-21.40.00:198][638]LogActorFactory: Actor Factory created Maptry_BoxBrush2
+[2016.10.14-21.40.00:213][638]LogActorFactory: Actor Factory created Maptry_BoxBrush20
+[2016.10.14-21.40.00:229][638]LogActorFactory: Actor Factory created Maptry_BoxBrush21
+[2016.10.14-21.40.00:245][638]LogActorFactory: Actor Factory created Maptry_BoxBrush22
+[2016.10.14-21.40.00:260][638]LogActorFactory: Actor Factory created Maptry_BoxBrush23
+[2016.10.14-21.40.00:276][638]LogActorFactory: Actor Factory created Maptry_BoxBrush24
+[2016.10.14-21.40.00:291][638]LogActorFactory: Actor Factory created Maptry_BoxBrush25
+[2016.10.14-21.40.00:307][638]LogActorFactory: Actor Factory created Maptry_BoxBrush26
+[2016.10.14-21.40.00:322][638]LogActorFactory: Actor Factory created Maptry_BoxBrush27
+[2016.10.14-21.40.00:338][638]LogActorFactory: Actor Factory created Maptry_BoxBrush28
+[2016.10.14-21.40.00:353][638]LogActorFactory: Actor Factory created Maptry_BoxBrush29
+[2016.10.14-21.40.00:369][638]LogActorFactory: Actor Factory created Maptry_BoxBrush3
+[2016.10.14-21.40.00:384][638]LogActorFactory: Actor Factory created Maptry_BoxBrush34
+[2016.10.14-21.40.00:400][638]LogActorFactory: Actor Factory created Maptry_BoxBrush35
+[2016.10.14-21.40.00:415][638]LogActorFactory: Actor Factory created Maptry_BoxBrush36
+[2016.10.14-21.40.00:431][638]LogActorFactory: Actor Factory created Maptry_BoxBrush37
+[2016.10.14-21.40.00:447][638]LogActorFactory: Actor Factory created Maptry_BoxBrush38
+[2016.10.14-21.40.00:463][638]LogActorFactory: Actor Factory created Maptry_BoxBrush39
+[2016.10.14-21.40.00:479][638]LogActorFactory: Actor Factory created Maptry_BoxBrush4
+[2016.10.14-21.40.00:494][638]LogActorFactory: Actor Factory created Maptry_BoxBrush40
+[2016.10.14-21.40.00:510][638]LogActorFactory: Actor Factory created Maptry_BoxBrush41
+[2016.10.14-21.40.00:526][638]LogActorFactory: Actor Factory created Maptry_BoxBrush42_51
+[2016.10.14-21.40.00:541][638]LogActorFactory: Actor Factory created Maptry_BoxBrush43_65
+[2016.10.14-21.40.00:556][638]LogActorFactory: Actor Factory created Maptry_BoxBrush44
+[2016.10.14-21.40.00:572][638]LogActorFactory: Actor Factory created Maptry_BoxBrush45
+[2016.10.14-21.40.00:588][638]LogActorFactory: Actor Factory created Maptry_BoxBrush46
+[2016.10.14-21.40.00:603][638]LogActorFactory: Actor Factory created Maptry_BoxBrush47
+[2016.10.14-21.40.00:619][638]LogActorFactory: Actor Factory created Maptry_BoxBrush48
+[2016.10.14-21.40.00:635][638]LogActorFactory: Actor Factory created Maptry_BoxBrush49
+[2016.10.14-21.40.00:651][638]LogActorFactory: Actor Factory created Maptry_BoxBrush5
+[2016.10.14-21.40.00:667][638]LogActorFactory: Actor Factory created Maptry_BoxBrush50
+[2016.10.14-21.40.00:682][638]LogActorFactory: Actor Factory created Maptry_BoxBrush51
+[2016.10.14-21.40.00:697][638]LogActorFactory: Actor Factory created Maptry_BoxBrush52
+[2016.10.14-21.40.00:713][638]LogActorFactory: Actor Factory created Maptry_BoxBrush53
+[2016.10.14-21.40.00:729][638]LogActorFactory: Actor Factory created Maptry_BoxBrush54
+[2016.10.14-21.40.00:744][638]LogActorFactory: Actor Factory created Maptry_BoxBrush55
+[2016.10.14-21.40.00:760][638]LogActorFactory: Actor Factory created Maptry_BoxBrush56
+[2016.10.14-21.40.00:775][638]LogActorFactory: Actor Factory created Maptry_BoxBrush57
+[2016.10.14-21.40.00:797][638]LogActorFactory: Actor Factory created Maptry_BoxBrush58
+[2016.10.14-21.40.00:814][638]LogActorFactory: Actor Factory created Maptry_BoxBrush59
+[2016.10.14-21.40.00:829][638]LogActorFactory: Actor Factory created Maptry_BoxBrush6
+[2016.10.14-21.40.00:845][638]LogActorFactory: Actor Factory created Maptry_BoxBrush60
+[2016.10.14-21.40.00:860][638]LogActorFactory: Actor Factory created Maptry_BoxBrush61
+[2016.10.14-21.40.00:875][638]LogActorFactory: Actor Factory created Maptry_BoxBrush62
+[2016.10.14-21.40.00:890][638]LogActorFactory: Actor Factory created Maptry_BoxBrush63
+[2016.10.14-21.40.00:906][638]LogActorFactory: Actor Factory created Maptry_BoxBrush64
+[2016.10.14-21.40.00:922][638]LogActorFactory: Actor Factory created Maptry_BoxBrush65
+[2016.10.14-21.40.00:937][638]LogActorFactory: Actor Factory created Maptry_BoxBrush66
+[2016.10.14-21.40.00:952][638]LogActorFactory: Actor Factory created Maptry_BoxBrush67
+[2016.10.14-21.40.00:968][638]LogActorFactory: Actor Factory created Maptry_BoxBrush68
+[2016.10.14-21.40.00:983][638]LogActorFactory: Actor Factory created Maptry_BoxBrush69
+[2016.10.14-21.40.00:999][638]LogActorFactory: Actor Factory created Maptry_BoxBrush7
+[2016.10.14-21.40.01:015][638]LogActorFactory: Actor Factory created Maptry_BoxBrush70_104
+[2016.10.14-21.40.01:030][638]LogActorFactory: Actor Factory created Maptry_BoxBrush71
+[2016.10.14-21.40.01:046][638]LogActorFactory: Actor Factory created Maptry_BoxBrush72
+[2016.10.14-21.40.01:062][638]LogActorFactory: Actor Factory created Maptry_BoxBrush73
+[2016.10.14-21.40.01:077][638]LogActorFactory: Actor Factory created Maptry_BoxBrush74
+[2016.10.14-21.40.01:092][638]LogActorFactory: Actor Factory created Maptry_BoxBrush75
+[2016.10.14-21.40.01:109][638]LogActorFactory: Actor Factory created Maptry_BoxBrush76
+[2016.10.14-21.40.01:124][638]LogActorFactory: Actor Factory created Maptry_BoxBrush77
+[2016.10.14-21.40.01:139][638]LogActorFactory: Actor Factory created Maptry_BoxBrush78
+[2016.10.14-21.40.01:155][638]LogActorFactory: Actor Factory created Maptry_BoxBrush79
+[2016.10.14-21.40.01:171][638]LogActorFactory: Actor Factory created Maptry_BoxBrush8
+[2016.10.14-21.40.01:186][638]LogActorFactory: Actor Factory created Maptry_BoxBrush80
+[2016.10.14-21.40.01:202][638]LogActorFactory: Actor Factory created Maptry_BoxBrush81
+[2016.10.14-21.40.01:217][638]LogActorFactory: Actor Factory created Maptry_BoxBrush82
+[2016.10.14-21.40.01:233][638]LogActorFactory: Actor Factory created Maptry_BoxBrush83
+[2016.10.14-21.40.01:248][638]LogActorFactory: Actor Factory created Maptry_BoxBrush84
+[2016.10.14-21.40.01:264][638]LogActorFactory: Actor Factory created Maptry_BoxBrush85
+[2016.10.14-21.40.01:280][638]LogActorFactory: Actor Factory created Maptry_BoxBrush86
+[2016.10.14-21.40.01:296][638]LogActorFactory: Actor Factory created Maptry_BoxBrush87
+[2016.10.14-21.40.01:312][638]LogActorFactory: Actor Factory created Maptry_BoxBrush88_118
+[2016.10.14-21.40.01:328][638]LogActorFactory: Actor Factory created Maptry_BoxBrush89
+[2016.10.14-21.40.01:344][638]LogActorFactory: Actor Factory created Maptry_BoxBrush9
+[2016.10.14-21.40.01:359][638]LogActorFactory: Actor Factory created Maptry_BoxBrush90
+[2016.10.14-21.40.01:375][638]LogActorFactory: Actor Factory created Maptry_BoxBrush91
+[2016.10.14-21.40.01:391][638]LogActorFactory: Actor Factory created Maptry_BoxBrush92
+[2016.10.14-21.40.01:406][638]LogActorFactory: Actor Factory created Maptry_BoxBrush93_122
+[2016.10.14-21.40.01:422][638]LogActorFactory: Actor Factory created Maptry_BoxBrush94
+[2016.10.14-21.40.01:438][638]LogActorFactory: Actor Factory created Maptry_BoxBrush95
+[2016.10.14-21.40.01:453][638]LogActorFactory: Actor Factory created Maptry_BoxBrush96
+[2016.10.14-21.40.01:469][638]LogActorFactory: Actor Factory created Maptry_BoxBrush97
+[2016.10.14-21.40.01:485][638]LogActorFactory: Actor Factory created Maptry_BoxBrush98_129
+[2016.10.14-21.40.34:383][758]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.10.14-21.41.07:597][252]LogActorFactory: Actor Factory created Cube
+[2016.10.14-21.41.08:050][280]LogActorFactory: Actor Factory created Cube
+[2016.10.14-21.41.25:024][ 19]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Maptry_BoxBrush14)
+[2016.10.14-21.41.26:231][156]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Maptry_BoxBrush15)
+[2016.10.14-21.41.39:214][641]Cmd: TRANSACTION UNDO
+[2016.10.14-21.41.39:214][641]LogEditorTransaction: Undo Move Actors
+[2016.10.14-21.41.41:328][868]Cmd: TRANSACTION UNDO
+[2016.10.14-21.41.41:328][868]LogEditorTransaction: Undo Move Actors
+[2016.10.14-21.41.41:900][936]Cmd: TRANSACTION UNDO
+[2016.10.14-21.41.41:900][936]LogEditorTransaction: Undo Move Actors
+[2016.10.14-21.41.42:380][993]Cmd: TRANSACTION UNDO
+[2016.10.14-21.41.42:380][993]LogEditorTransaction: Undo Move Actors
+[2016.10.14-21.41.43:027][ 70]Cmd: TRANSACTION UNDO
+[2016.10.14-21.41.43:027][ 70]LogEditorTransaction: Undo Move Actors
+[2016.10.14-21.42.09:065][108]LogEditorViewport: Clicking on Actor (LMB): ThirdPersonCharacter_C (ThirdPersonCharacter)
+[2016.10.14-21.42.10:534][224]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0012 seconds. Added 111 classes and 0 folders.
+[2016.10.14-21.42.45:405][166]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2016.10.14-21.42.45:554][166]BlueprintEditorCompileResults: Info [0348.50] Compile of ThirdPersonCharacter successful! [in 149 ms] (/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter)
+[2016.10.14-21.42.46:109][205]LogSavePackage: Save=50.37ms
+[2016.10.14-21.42.46:109][205]LogSavePackage: Moving '../../../../../../Z Documents/Unreal Projects/TFB_Test/Saved/ThirdPersonCharacter03518B174AEC8E11207E5C98072547A8.tmp' to '../../../../../../Z Documents/Unreal Projects/TFB_Test/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2016.10.14-21.42.46:156][205]LogSavePackage:Display: Finished SavePackage ../../../../../../Z Documents/Unreal Projects/TFB_Test/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2016.10.14-21.42.48:408][425]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.10.14-21.42.48:408][425]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.14-21.42.48:408][425]LogApp: UseVRFocus has changed to 1
+[2016.10.14-21.42.48:408][425]LogApp: HasVRFocus has changed to 1
+[2016.10.14-21.42.48:408][425]LogApp: UseVRFocus has changed to 0
+[2016.10.14-21.42.48:408][425]LogApp: HasVRFocus has changed to 0
+[2016.10.14-21.42.48:408][425]PIE: New page: PIE session: ThirdPersonExampleMap (Oct 14, 2016, 12:42:48 PM)
+[2016.10.14-21.42.48:408][425]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2016.10.14-21.42.48:428][425]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020202s)
+[2016.10.14-21.42.48:429][425]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.10.14-21.42.48:429][425]LogPlayLevel: PIE: World Init took: (0.000812s)
+[2016.10.14-21.42.48:429][425]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.021275s)
+[2016.10.14-21.42.48:467][425]LogApp: UseVRFocus has changed to 1
+[2016.10.14-21.42.48:467][425]LogApp: HasVRFocus has changed to 1
+[2016.10.14-21.42.48:467][425]LogApp: UseVRFocus has changed to 0
+[2016.10.14-21.42.48:467][425]LogApp: HasVRFocus has changed to 0
+[2016.10.14-21.42.48:473][425]LogInit: XAudio2 using 'Speakers (Logitech Wireless Headset)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.10.14-21.42.48:481][425]LogInit: FAudioDevice initialized.
+[2016.10.14-21.42.48:556][425]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.10.14-21.42.48:567][425]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2016.10.14-17.42.48
+[2016.10.14-21.42.48:568][425]LogWorld: Bringing up level for play took: 0.010610
+[2016.10.14-21.42.48:572][425]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 11 classes and 0 folders.
+[2016.10.14-21.42.48:573][425]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.461
+[2016.10.14-21.42.48:573][425]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.10.14-21.42.49:114][477]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Hello
+[2016.10.14-21.42.49:725][550]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Hello
+[2016.10.14-21.42.49:992][582]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Hello
+[2016.10.14-21.42.50:217][609]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Hello
+[2016.10.14-21.42.51:100][715]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Hello
+[2016.10.14-21.42.51:900][811]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Hello
+[2016.10.14-21.42.52:825][922]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Hello
+[2016.10.14-21.42.53:167][963]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Hello
+[2016.10.14-21.42.55:426][234]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.10.14-21.42.55:506][234]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.10.14-21.43.40:793][636]Cmd: QUIT_EDITOR
+[2016.10.14-21.43.40:996][636]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.10.14-21.43.41:023][636]LogExit: Preparing to exit.
+[2016.10.14-21.43.41:828][636]LogExit: Editor shut down
+[2016.10.14-21.43.41:829][636]LogExit: Transaction tracking system shut down
+[2016.10.14-21.43.41:984][636]LogObj: Freed 0b from 0 cluster array pools.
+[2016.10.14-21.43.41:984][636]LogExit: Object subsystem successfully closed.
+[2016.10.14-21.43.42:001][636]LogD3D11RHI: Shutdown
+[2016.10.14-21.43.42:001][636]LogD3D11RHI: CleanupD3DDevice
+[2016.10.14-21.43.42:093][636]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.10.14-21.43.42:124][636]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (216)
+[2016.10.14-21.43.42:124][636]LogModuleManager: Shutting down and abandoning module BlueprintGraph (215)
+[2016.10.14-21.43.42:124][636]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (214)
+[2016.10.14-21.43.42:124][636]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (213)
+[2016.10.14-21.43.42:124][636]LogModuleManager: Shutting down and abandoning module CrashTracker (212)
+[2016.10.14-21.43.42:124][636]LogModuleManager: Shutting down and abandoning module SceneOutliner (211)
+[2016.10.14-21.43.42:124][636]LogModuleManager: Shutting down and abandoning module WidgetCarousel (210)
+[2016.10.14-21.43.42:124][636]LogModuleManager: Shutting down and abandoning module AddContentDialog (209)
+[2016.10.14-21.43.42:130][636]LogModuleManager: Shutting down and abandoning module GameplayTags (208)
+[2016.10.14-21.43.42:130][636]LogModuleManager: Shutting down and abandoning module EditorWidgets (207)
+[2016.10.14-21.43.42:130][636]LogModuleManager: Shutting down and abandoning module CollectionManager (206)
+[2016.10.14-21.43.42:130][636]LogModuleManager: Shutting down and abandoning module StatsViewer (205)
+[2016.10.14-21.43.42:130][636]LogModuleManager: Shutting down and abandoning module FoliageEdit (204)
+[2016.10.14-21.43.42:130][636]LogModuleManager: Shutting down and abandoning module LandscapeEditor (203)
+[2016.10.14-21.43.42:130][636]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (202)
+[2016.10.14-21.43.42:130][636]LogModuleManager: Shutting down and abandoning module ActorPickerMode (201)
+[2016.10.14-21.43.42:130][636]LogModuleManager: Shutting down and abandoning module GeometryMode (200)
+[2016.10.14-21.43.42:130][636]LogModuleManager: Shutting down and abandoning module TextureAlignMode (199)
+[2016.10.14-21.43.42:130][636]LogModuleManager: Shutting down and abandoning module BspMode (198)
+[2016.10.14-21.43.42:130][636]LogModuleManager: Shutting down and abandoning module HardwareSurvey (197)
+[2016.10.14-21.43.42:130][636]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (196)
+[2016.10.14-21.43.42:130][636]LogModuleManager: Shutting down and abandoning module SequenceRecorder (195)
+[2016.10.14-21.43.42:130][636]LogModuleManager: Shutting down and abandoning module AutomationWorker (194)
+[2016.10.14-21.43.42:130][636]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (193)
+[2016.10.14-21.43.42:130][636]LogModuleManager: Shutting down and abandoning module PlacementMode (192)
+[2016.10.14-21.43.42:131][636]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (191)
+[2016.10.14-21.43.42:131][636]LogModuleManager: Shutting down and abandoning module CharacterAI (190)
+[2016.10.14-21.43.42:131][636]LogModuleManager: Shutting down and abandoning module SmartSnapping (189)
+[2016.10.14-21.43.42:131][636]LogModuleManager: Shutting down and abandoning module SessionServices (188)
+[2016.10.14-21.43.42:131][636]LogModuleManager: Shutting down and abandoning module ViewportSnapping (187)
+[2016.10.14-21.43.42:131][636]LogModuleManager: Shutting down and abandoning module LogVisualizer (186)
+[2016.10.14-21.43.42:131][636]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (185)
+[2016.10.14-21.43.42:131][636]LogModuleManager: Shutting down and abandoning module IntroTutorials (184)
+[2016.10.14-21.43.42:131][636]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (183)
+[2016.10.14-21.43.42:131][636]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (182)
+[2016.10.14-21.43.42:131][636]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (181)
+[2016.10.14-21.43.42:131][636]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (180)
+[2016.10.14-21.43.42:467][636]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (179)
+[2016.10.14-21.43.42:467][636]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (178)
+[2016.10.14-21.43.42:467][636]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (177)
+[2016.10.14-21.43.42:467][636]LogModuleManager: Shutting down and abandoning module MergeActors (176)
+[2016.10.14-21.43.42:467][636]LogModuleManager: Shutting down and abandoning module SizeMap (175)
+[2016.10.14-21.43.42:467][636]LogModuleManager: Shutting down and abandoning module TreeMap (174)
+[2016.10.14-21.43.42:467][636]LogModuleManager: Shutting down and abandoning module ReferenceViewer (173)
+[2016.10.14-21.43.42:467][636]LogModuleManager: Shutting down and abandoning module LocalizationService (172)
+[2016.10.14-21.43.42:467][636]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (171)
+[2016.10.14-21.43.42:467][636]LogModuleManager: Shutting down and abandoning module HardwareTargeting (170)
+[2016.10.14-21.43.42:467][636]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (169)
+[2016.10.14-21.43.42:467][636]LogModuleManager: Shutting down and abandoning module UndoHistory (168)
+[2016.10.14-21.43.42:467][636]LogModuleManager: Shutting down and abandoning module UserFeedback (167)
+[2016.10.14-21.43.42:467][636]LogModuleManager: Shutting down and abandoning module XmlParser (166)
+[2016.10.14-21.43.42:467][636]LogModuleManager: Shutting down and abandoning module Blutility (165)
+[2016.10.14-21.43.42:467][636]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (164)
+[2016.10.14-21.43.42:468][636]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (163)
+[2016.10.14-21.43.42:468][636]LogModuleManager: Shutting down and abandoning module InputBindingEditor (162)
+[2016.10.14-21.43.42:468][636]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (161)
+[2016.10.14-21.43.42:468][636]LogModuleManager: Shutting down and abandoning module SettingsEditor (160)
+[2016.10.14-21.43.42:468][636]LogModuleManager: Shutting down and abandoning module ProjectLauncher (159)
+[2016.10.14-21.43.42:468][636]LogModuleManager: Shutting down and abandoning module SessionFrontend (158)
+[2016.10.14-21.43.42:468][636]LogModuleManager: Shutting down and abandoning module ProfilerClient (157)
+[2016.10.14-21.43.42:468][636]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (156)
+[2016.10.14-21.43.42:468][636]LogModuleManager: Shutting down and abandoning module DeviceManager (155)
+[2016.10.14-21.43.42:521][636]LogModuleManager: Shutting down and abandoning module AutomationController (154)
+[2016.10.14-21.43.42:521][636]LogModuleManager: Shutting down and abandoning module AutomationWindow (153)
+[2016.10.14-21.43.42:521][636]LogModuleManager: Shutting down and abandoning module Layers (152)
+[2016.10.14-21.43.42:521][636]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (151)
+[2016.10.14-21.43.42:521][636]LogModuleManager: Shutting down and abandoning module DetailCustomizations (150)
+[2016.10.14-21.43.42:521][636]LogModuleManager: Shutting down and abandoning module PackagesDialog (149)
+[2016.10.14-21.43.42:522][636]LogModuleManager: Shutting down and abandoning module Persona (148)
+[2016.10.14-21.43.42:522][636]LogModuleManager: Shutting down and abandoning module Kismet (147)
+[2016.10.14-21.43.42:522][636]LogModuleManager: Shutting down and abandoning module GraphEditor (146)
+[2016.10.14-21.43.42:522][636]LogModuleManager: Shutting down and abandoning module ClassViewer (145)
+[2016.10.14-21.43.42:522][636]LogModuleManager: Shutting down and abandoning module Toolbox (144)
+[2016.10.14-21.43.42:522][636]LogModuleManager: Shutting down and abandoning module ModuleUI (143)
+[2016.10.14-21.43.42:522][636]LogModuleManager: Shutting down and abandoning module MovieSceneTools (142)
+[2016.10.14-21.43.42:522][636]LogModuleManager: Shutting down and abandoning module OutputLog (141)
+[2016.10.14-21.43.42:522][636]LogModuleManager: Shutting down and abandoning module GammaUI (140)
+[2016.10.14-21.43.42:522][636]LogModuleManager: Shutting down and abandoning module Documentation (139)
+[2016.10.14-21.43.42:522][636]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (138)
+[2016.10.14-21.43.42:522][636]LogModuleManager: Shutting down and abandoning module AnalyticsET (137)
+[2016.10.14-21.43.42:522][636]LogModuleManager: Shutting down and abandoning module Analytics (136)
+[2016.10.14-21.43.42:522][636]LogModuleManager: Shutting down and abandoning module PortalServices (135)
+[2016.10.14-21.43.42:522][636]LogModuleManager: Shutting down and abandoning module PortalRpc (134)
+[2016.10.14-21.43.42:522][636]LogModuleManager: Shutting down and abandoning module MessagingRpc (133)
+[2016.10.14-21.43.42:522][636]LogModuleManager: Shutting down and abandoning module GameplayDebugger (132)
+[2016.10.14-21.43.42:522][636]LogModuleManager: Shutting down and abandoning module AITestSuite (131)
+[2016.10.14-21.43.42:522][636]LogModuleManager: Shutting down and abandoning module AIModule (130)
+[2016.10.14-21.43.42:522][636]LogModuleManager: Shutting down and abandoning module ProfilerService (129)
+[2016.10.14-21.43.42:723][636]LogModuleManager: Shutting down and abandoning module TaskGraph (128)
+[2016.10.14-21.43.42:723][636]LogModuleManager: Shutting down and abandoning module SlateRemote (127)
+[2016.10.14-21.43.42:723][636]LogModuleManager: Shutting down and abandoning module SteamVRController (126)
+[2016.10.14-21.43.42:723][636]LogModuleManager: Shutting down and abandoning module SteamVR (125)
+[2016.10.14-21.43.42:723][636]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (124)
+[2016.10.14-21.43.42:723][636]LogModuleManager: Shutting down and abandoning module OculusLibrary (123)
+[2016.10.14-21.43.42:723][636]LogModuleManager: Shutting down and abandoning module OculusInput (122)
+[2016.10.14-21.43.42:723][636]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (121)
+[2016.10.14-21.43.42:723][636]LogModuleManager: Shutting down and abandoning module CableComponent (120)
+[2016.10.14-21.43.42:723][636]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (119)
+[2016.10.14-21.43.42:723][636]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (118)
+[2016.10.14-21.43.42:723][636]LogModuleManager: Shutting down and abandoning module HTML5Networking (117)
+[2016.10.14-21.43.42:723][636]LogModuleManager: Shutting down and abandoning module SuperSearch (116)
+[2016.10.14-21.43.42:723][636]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (115)
+[2016.10.14-21.43.42:723][636]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (114)
+[2016.10.14-21.43.42:723][636]LogModuleManager: Shutting down and abandoning module PluginBrowser (113)
+[2016.10.14-21.43.42:723][636]LogModuleManager: Shutting down and abandoning module EpicSurvey (112)
+[2016.10.14-21.43.42:723][636]LogModuleManager: Shutting down and abandoning module DesktopPlatform (111)
+[2016.10.14-21.43.42:723][636]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (110)
+[2016.10.14-21.43.42:723][636]LogModuleManager: Shutting down and abandoning module UObjectPlugin (109)
+[2016.10.14-21.43.42:723][636]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (108)
+[2016.10.14-21.43.42:723][636]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (107)
+[2016.10.14-21.43.42:724][636]LogModuleManager: Shutting down and abandoning module SourceControl (106)
+[2016.10.14-21.43.42:724][636]LogModuleManager: Shutting down and abandoning module GitSourceControl (105)
+[2016.10.14-21.43.42:724][636]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (104)
+[2016.10.14-21.43.42:724][636]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (103)
+[2016.10.14-21.43.42:724][636]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (102)
+[2016.10.14-21.43.42:724][636]LogModuleManager: Shutting down and abandoning module MeshPaint (101)
+[2016.10.14-21.43.42:724][636]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (100)
+[2016.10.14-21.43.42:724][636]LogModuleManager: Shutting down and abandoning module HotReload (99)
+[2016.10.14-21.43.42:724][636]LogModuleManager: Shutting down and abandoning module MainFrame (98)
+[2016.10.14-21.43.42:724][636]LogModuleManager: Shutting down and abandoning module LevelEditor (97)
+[2016.10.14-21.43.42:725][636]LogModuleManager: Shutting down and abandoning module ContentBrowser (96)
+[2016.10.14-21.43.42:726][636]LogModuleManager: Shutting down and abandoning module Paper2DEditor (95)
+[2016.10.14-21.43.42:726][636]LogModuleManager: Shutting down and abandoning module UdpMessaging (94)
+[2016.10.14-21.43.42:826][636]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (93)
+[2016.10.14-21.43.42:826][636]LogModuleManager: Shutting down and abandoning module Paper2D (92)
+[2016.10.14-21.43.42:826][636]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (91)
+[2016.10.14-21.43.42:826][636]LogModuleManager: Shutting down and abandoning module Media (90)
+[2016.10.14-21.43.42:826][636]LogModuleManager: Shutting down and abandoning module WmfMedia (89)
+[2016.10.14-21.43.42:826][636]LogModuleManager: Shutting down and abandoning module MediaAssets (88)
+[2016.10.14-21.43.42:826][636]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (87)
+[2016.10.14-21.43.42:826][636]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (86)
+[2016.10.14-21.43.42:826][636]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (85)
+[2016.10.14-21.43.42:826][636]LogModuleManager: Shutting down and abandoning module VREditor (84)
+[2016.10.14-21.43.42:826][636]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (83)
+[2016.10.14-21.43.42:826][636]LogModuleManager: Shutting down and abandoning module PropertyEditor (82)
+[2016.10.14-21.43.42:826][636]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (81)
+[2016.10.14-21.43.42:827][636]LogModuleManager: Shutting down and abandoning module FunctionalTesting (80)
+[2016.10.14-21.43.42:827][636]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (79)
+[2016.10.14-21.43.42:827][636]LogModuleManager: Shutting down and abandoning module Sequencer (78)
+[2016.10.14-21.43.42:827][636]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (77)
+[2016.10.14-21.43.42:827][636]LogModuleManager: Shutting down and abandoning module MessageLog (76)
+[2016.10.14-21.43.42:827][636]LogModuleManager: Shutting down and abandoning module AssetTools (75)
+[2016.10.14-21.43.42:827][636]LogModuleManager: Shutting down and abandoning module UMGEditor (74)
+[2016.10.14-21.43.42:827][636]LogModuleManager: Shutting down and abandoning module UMG (73)
+[2016.10.14-21.43.42:827][636]LogModuleManager: Shutting down and abandoning module SlateReflector (72)
+[2016.10.14-21.43.42:827][636]LogModuleManager: Shutting down and abandoning module Slate (71)
+[2016.10.14-21.43.42:827][636]LogModuleManager: Shutting down and abandoning module EditorStyle (70)
+[2016.10.14-21.43.42:830][636]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (69)
+[2016.10.14-21.43.42:830][636]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (68)
+[2016.10.14-21.43.42:830][636]LogModuleManager: Shutting down and abandoning module XAudio2 (67)
+[2016.10.14-21.43.42:830][636]LogModuleManager: Shutting down and abandoning module Networking (65)
+[2016.10.14-21.43.42:831][636]LogModuleManager: Shutting down and abandoning module Core (64)
+[2016.10.14-21.43.42:831][636]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (63)
+[2016.10.14-21.43.42:835][636]LogModuleManager: Shutting down and abandoning module AssetRegistry (62)
+[2016.10.14-21.43.42:962][636]LogModuleManager: Shutting down and abandoning module KismetCompiler (61)
+[2016.10.14-21.43.42:962][636]LogModuleManager: Shutting down and abandoning module PhysXFormats (60)
+[2016.10.14-21.43.42:962][636]LogModuleManager: Shutting down and abandoning module MeshUtilities (59)
+[2016.10.14-21.43.42:962][636]LogModuleManager: Shutting down and abandoning module DerivedDataCache (58)
+[2016.10.14-21.43.42:964][636]LogDerivedDataCache: Shutdown
+[2016.10.14-21.43.42:964][636]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (57)
+[2016.10.14-21.43.42:964][636]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (56)
+[2016.10.14-21.43.42:964][636]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (55)
+[2016.10.14-21.43.42:964][636]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (54)
+[2016.10.14-21.43.42:964][636]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (53)
+[2016.10.14-21.43.42:964][636]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (52)
+[2016.10.14-21.43.42:964][636]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (51)
+[2016.10.14-21.43.42:964][636]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (50)
+[2016.10.14-21.43.42:964][636]LogModuleManager: Shutting down and abandoning module ImageWrapper (49)
+[2016.10.14-21.43.42:964][636]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (48)
+[2016.10.14-21.43.42:964][636]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (47)
+[2016.10.14-21.43.42:964][636]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (46)
+[2016.10.14-21.43.42:964][636]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (45)
+[2016.10.14-21.43.42:964][636]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (44)
+[2016.10.14-21.43.42:964][636]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (43)
+[2016.10.14-21.43.42:964][636]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (42)
+[2016.10.14-21.43.42:964][636]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (41)
+[2016.10.14-21.43.42:965][636]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (40)
+[2016.10.14-21.43.42:965][636]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.10.14-21.43.42:965][636]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.10.14-21.43.42:965][636]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.10.14-21.43.42:965][636]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.10.14-21.43.42:965][636]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.10.14-21.43.42:965][636]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.10.14-21.43.42:965][636]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.10.14-21.43.42:965][636]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.10.14-21.43.42:965][636]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.10.14-21.43.42:965][636]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.10.14-21.43.42:965][636]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.10.14-21.43.42:965][636]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.10.14-21.43.42:965][636]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.10.14-21.43.42:965][636]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.10.14-21.43.42:965][636]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.10.14-21.43.42:965][636]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.10.14-21.43.42:965][636]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.10.14-21.43.42:965][636]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.10.14-21.43.42:965][636]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.10.14-21.43.42:965][636]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.10.14-21.43.42:965][636]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.10.14-21.43.44:467][636]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.10.14-21.43.44:467][636]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.10.14-21.43.44:468][636]LogHMD: Oculus shutdown.
+[2016.10.14-21.43.44:468][636]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.10.14-21.43.44:468][636]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.10.14-21.43.44:468][636]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.10.14-21.43.44:468][636]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.10.14-21.43.44:468][636]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.10.14-21.43.44:471][636]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.10.14-21.43.44:471][636]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.10.14-21.43.44:472][636]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.10.14-21.43.44:472][636]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.10.14-21.43.44:472][636]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.10.14-21.43.44:472][636]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.10.14-21.43.44:472][636]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.10.14-21.43.44:472][636]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.10.14-21.43.44:472][636]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.10.14-21.43.44:472][636]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.10.14-21.43.44:473][636]LogExit: Exiting.
+[2016.10.14-21.43.44:483][636]Log file closed, 10/14/16 17:43:44
