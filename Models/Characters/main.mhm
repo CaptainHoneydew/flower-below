@@ -1,0 +1,36 @@
+# Written by MakeHuman 1.1.0
+version v1.1.0
+tags main
+camera 355.5 355.0 0.0523329462703 0.74342845717 0.34851117209 2.7875
+modifier eyes/l-eye-trans-down|up -0.606000
+modifier armslegs/r-foot-scale-decr|incr -0.360000
+modifier macrodetails-universal/Muscle 0.000000
+modifier macrodetails/African 0.000000
+modifier macrodetails-proportions/BodyProportions 0.361000
+modifier macrodetails/Gender 1.000000
+modifier macrodetails-height/Height 0.150000
+modifier breast/BreastSize 0.500000
+modifier armslegs/l-foot-scale-decr|incr -0.360000
+modifier torso/torso-trans-down|up -0.184000
+modifier macrodetails/Age 0.163000
+modifier eyes/l-eye-bag-height-decr|incr 1.000000
+modifier breast/BreastFirmness 0.500000
+modifier macrodetails/Asian 0.000000
+modifier head/head-fat-decr|incr -0.374000
+modifier head/head-age-decr|incr -0.482000
+modifier macrodetails/Caucasian 1.000000
+modifier torso/torso-scale-depth-decr|incr -0.756000
+modifier eyes/r-eye-bag-height-decr|incr 1.000000
+modifier macrodetails-universal/Weight 0.333000
+modifier eyes/r-eye-trans-down|up -0.606000
+tongue tongue01 52ad91a3-caad-4e50-8c38-67634e5e789c
+teeth Teeth_Base 0a5ec82a-0d5f-43ce-a765-8f076f95692d
+hair short01 766436e9-63ed-4f6a-afa9-99f3acff70a8
+eyelashes Eyelashes01 d533836f-13ad-4836-8b65-051108253cd2
+eyebrows eyebrow008 79ea307f-a942-40dd-bf50-bbaa41f02034
+eyes Low-Poly 1cc97a30-85a1-42e6-a9f7-b3e753732baa
+clothesHideFaces True
+skinMaterial skins/young_caucasian_male/young_caucasian_male.mhmat
+material short01 766436e9-63ed-4f6a-afa9-99f3acff70a8 short01.mhmat
+material Low-Poly 1cc97a30-85a1-42e6-a9f7-b3e753732baa eyes/materials/brownlight.mhmat
+subdivide False
